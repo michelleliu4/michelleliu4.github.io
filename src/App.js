@@ -8,7 +8,7 @@ import {
   leadership,
   skills,
   getInTouch,
-  experiences
+  experience,
 } from "./editable-stuff/config.js";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
@@ -21,6 +21,7 @@ import Skills from "./components/home/Skills";
 import GetInTouch from "./components/home/GetInTouch.jsx";
 import Leadership from "./components/home/Leadership.jsx";
 
+// import OldExperience from "./components/home/oldExperience";
 import Experience from "./components/home/Experience";
 
 const Home = React.forwardRef((props, ref) => {
@@ -43,9 +44,7 @@ const Home = React.forwardRef((props, ref) => {
         />
       )}
       {
-        experiences.show && (
-          <Experience experiences={experiences}/>
-        )
+        experience.show && Experience(experience)
       }
       {repos.show && (
         <Project
