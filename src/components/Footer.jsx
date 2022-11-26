@@ -20,7 +20,7 @@ const Footer = (props) => {
         using <i className="fab fa-react" />
         <p>
           <small className="text-muted">
-            Project code is open source and forked from template by hashirshoaeb on Github.
+            Project code is open source and forked from template by <a href="https://github.com/hashirshoaeb/home">Hashir Shoaib</a>.
           </small>
         </p>
       </Container>

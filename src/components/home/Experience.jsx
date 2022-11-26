@@ -1,5 +1,5 @@
 // https://mui.com/material-ui/react-tabs/
-import * as React from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
@@ -53,16 +53,17 @@ export default function Experience(experiences) {
   return (
     <section className="section">
       <TabContainer>
-        <Jumbotron className="bg-white">
+        <Jumbotron id="experience" className="bg-white">
           <h2 className="display-4 mb-5 text-center">
             {experiences.heading}
           </h2>
           <Box
-            sx={{ flexGrow: 1, bgcolor: 'background.paper', display: 'flex', height: 224 }}
+            sx={{ flexGrow: 1, bgcolor: 'background.paper', display: 'flex', height: 300}} //orig heigh: 224
           >
             <Tabs
               orientation="vertical"
               variant="scrollable"
+              scrollbuttons="auto"
               value={value}
               onChange={handleChange}
               aria-label="Vertical tabs example"
@@ -78,10 +79,10 @@ export default function Experience(experiences) {
             {
               experiences.data.map((data, index) => {
                 return <TabPanel value={value} index={index}>
-                    <div style={{fontSize: '20px', marginBottom: '3px'}}>
-                      {data.role} <strong>@ {data.company}</strong>
+                    <div style={{fontSize: '20px', marginBottom: '2px'}}>
+                      <strong>{data.company}</strong> - {data.role}
                     </div>
-                    <div style={{fontSize: '15px', marginBottom: '15px'}}>
+                    <div style={{fontSize: '14px', marginBottom: '13px'}}>
                       {data.date}
                     </div>
                     <div style={{}}>

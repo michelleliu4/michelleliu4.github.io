@@ -88,13 +88,13 @@ const leadership = {
   ],
   imageSize: {
     width:"615", //orig: 615
-    height:"615" //orig: 450
+    height:"450" //orig: 450
   }
 };
 
 // SKILLS SECTION
 const skills = {
-  show: false,
+  show: true,
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 90 },
