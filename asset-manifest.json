@@ -1,17 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.778eeed7.css",
-    "main.js": "/static/js/main.71e2b26e.js",
+    "main.js": "/static/js/main.0d454b1d.js",
     "static/js/787.362d50fc.chunk.js": "/static/js/787.362d50fc.chunk.js",
     "static/media/michelleheadshot.jpg": "/static/media/michelleheadshot.abdded4e1137890ca825.jpg",
-    "static/media/resume.pdf": "/static/media/resume.60c8a5e6ac610737d17c.pdf",
+    "static/media/resume.pdf": "/static/media/resume.5244a1eaaf0c48728fa7.pdf",
+    "static/media/matplotlib_logo.png": "/static/media/matplotlib_logo.1f3cb36363d0eb2c163f.png",
+    "static/media/python_logo.png": "/static/media/python_logo.dea924d737bb84eb9ce3.png",
+    "static/media/react_logo.png": "/static/media/react_logo.73dbb5bcec516da82694.png",
+    "static/media/tensorflow_logo.png": "/static/media/tensorflow_logo.42ff285e754b23972de0.png",
+    "static/media/figma_logo.png": "/static/media/figma_logo.3a82106b9f5a6c7efaee.png",
     "index.html": "/index.html",
     "main.778eeed7.css.map": "/static/css/main.778eeed7.css.map",
-    "main.71e2b26e.js.map": "/static/js/main.71e2b26e.js.map",
+    "main.0d454b1d.js.map": "/static/js/main.0d454b1d.js.map",
     "787.362d50fc.chunk.js.map": "/static/js/787.362d50fc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.778eeed7.css",
-    "static/js/main.71e2b26e.js"
+    "static/js/main.0d454b1d.js"
   ]
 }
