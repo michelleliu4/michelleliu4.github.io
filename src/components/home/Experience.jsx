@@ -58,7 +58,7 @@ export default function Experience(experiences) {
             {experiences.heading}
           </h2>
           <Box
-            sx={{ flexGrow: 1, bgcolor: 'background.paper', display: 'flex', height: 300}} //orig heigh: 224
+            sx={{ flexGrow: 1, bgcolor: 'background.paper', display: 'flex', height: 300}} //orig height: 224
           >
             <Tabs
               orientation="vertical"

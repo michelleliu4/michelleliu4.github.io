@@ -7,7 +7,7 @@ import { Jumbotron } from "./migration";
 import { Container } from "react-bootstrap";
 import { useScrollPosition } from "../../hooks/useScrollPosition";
 
-const Skills = React.forwardRef(({ heading, hardSkills, softSkills }, ref) => {
+const Skills = React.forwardRef(({ heading, languages, librariesFrameworks, otherSkills }, ref) => {
   const skillsTabRef = React.useRef(null);
   const [isScrolled, setIsScrolled] = React.useState(false);
   //const navbarDimensions = useResizeObserver(navbarMenuRef);
@@ -27,26 +27,37 @@ const Skills = React.forwardRef(({ heading, hardSkills, softSkills }, ref) => {
         </h2>
         <Tabs
           className="skills-tabs"
-          defaultActiveKey="hard-skills"
+          defaultActiveKey="languages-skills"
           id="skills-tabs"
           fill
         >
           <Tab
             tabClassName="skills-tab lead"
-            eventKey="hard-skills"
-            title="Technical Skills"
+            eventKey="languages-skills"
+            title="Languages"
           >
             <Row className="pt-3 px-1">
-              <SkillsTab skills={hardSkills} isScrolled={isScrolled} />
+              <SkillsTab skills={languages} isScrolled={isScrolled} />
             </Row>
           </Tab>
+
           <Tab
             tabClassName="skills-tab lead"
-            eventKey="soft-skills"
-            title="Soft Skills"
+            eventKey="libraries-skills"
+            title="Libraries & Frameworks"
           >
             <Row className="pt-3 px-1">
-              <SkillsTab skills={softSkills} isScrolled={isScrolled} />
+              <SkillsTab skills={librariesFrameworks} isScrolled={isScrolled} />
+            </Row>
+          </Tab>
+
+          <Tab
+            tabClassName="skills-tab lead"
+            eventKey="other-skills"
+            title="Other Skills"
+          >
+            <Row className="pt-3 px-1">
+              <SkillsTab skills={otherSkills} isScrolled={isScrolled} />
             </Row>
           </Tab>
         </Tabs>

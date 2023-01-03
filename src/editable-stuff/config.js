@@ -96,25 +96,19 @@ const leadership = {
 const skills = {
   show: true,
   heading: "Skills",
-  hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+  languages: [
+    { name: "Python", value: require("../assets/img/python_logo.png") },
+    { name: "ReasonML", value: require("../assets/img/reasonml_logo.png") },
+    { name: "JavaScript", value: require("../assets/img/javascript_logo.png") },
   ],
-  softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+  librariesFrameworks: [
+    { name: "React", value: require("../assets/img/react_logo.png") },
+    { name: "NumPy", value: require("../assets/img/numpy_logo.png") },
+    { name: "Matplotlib", value: require("../assets/img/matplotlib_logo.png") },
+    { name: "Tensorflow", value: require("../assets/img/tensorflow_logo.png") },
+  ],
+  otherSkills: [
+    { name: "Figma", value: require("../assets/img/figma_logo.png") },
   ],
 };
 
@@ -127,18 +121,8 @@ const getInTouch = {
   email: "michelle_h_liu@brown.edu",
 };
 
-// const oldExperience = {
-//   show: false,
-//   heading: "Experiences",
-//   data: [
-//     {
-//       role: 'Software Engineer',// Here Add Company Name
-//       companylogo: require('../assets/img/dell.png'),
-//       date: 'June 2018 – Present',
-//     },
-//   ]
-// };
 
+// EXPERIENCES
 const experience = {
   show: true,
   heading: "Experiences",
@@ -158,7 +142,7 @@ const experience = {
       role: 'Undergraduate Teaching Assistant',
       company: 'Brown University',
       companylogo: '',
-      date: 'Aug 2022 – Present',
+      date: 'Aug 2022 – Dec 2022',
       description: 
         <ul>
           <li>Teaching assistant for CSCI 170, a functional programming course taught in Racket and ReasonML</li>
