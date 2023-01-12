@@ -1,15 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import {
-  navBar,
-  mainBody,
-  about,
-  repos,
-  leadership,
-  skills,
-  getInTouch,
-  experience,
-} from "./editable-stuff/config.js";
+import { navBar, mainBody, about, experience, leadership, repos, awards, skills, getInTouch } from "./editable-stuff/config.js";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
 import Project from "./components/home/Project";
@@ -19,10 +10,9 @@ import Skills from "./components/home/Skills";
 // import { Blog } from "./components/blog/Blog";
 // import BlogPost from "./components/blog/BlogPost";
 import GetInTouch from "./components/home/GetInTouch.jsx";
-import Leadership from "./components/home/Leadership.jsx";
-
-// import OldExperience from "./components/home/oldExperience";
+import Awards from "./components/home/Awards.jsx";
 import Experience from "./components/home/Experience";
+import Leadership from "./components/home/Leadership";
 
 const Home = React.forwardRef((props, ref) => {
   return (
@@ -46,6 +36,9 @@ const Home = React.forwardRef((props, ref) => {
       {
         experience.show && Experience(experience)
       }
+      {
+        leadership.show && Leadership(leadership)
+      }
       {repos.show && (
         <Project
           heading={repos.heading}
@@ -54,12 +47,12 @@ const Home = React.forwardRef((props, ref) => {
           specfic={repos.specificRepos}
         />
       )}
-      {leadership.show && (
-        <Leadership
-          heading={leadership.heading}
-          message={leadership.message}
-          img={leadership.images}
-          imageSize={leadership.imageSize}
+      {awards.show && (
+        <Awards
+          heading={awards.heading}
+          message={awards.message}
+          img={awards.images}
+          imageSize={awards.imageSize}
         />
       )}
       {skills.show && (

@@ -1,45 +1,98 @@
-import React from "react";
-import Carousel from "react-bootstrap/Carousel";
-import { Jumbotron } from "./migration";
+// https://mui.com/material-ui/react-tabs/
+import React from 'react';
+import PropTypes from 'prop-types';
+import Tabs from '@mui/material/Tabs';
+import Tab from '@mui/material/Tab';
+import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
+import { TabContainer } from 'react-bootstrap';
 
-const Leadership = ({ heading, message, img, imageSize }) => {
+import { Jumbotron } from './migration';
+
+
+function TabPanel(props) {
+  const { children, value, index, ...other } = props;
+
   return (
-    <Jumbotron
-      id="leadership"
-      className="m-0"
-      style={{ backgroundColor: "white" }}
+    <div
+      role="tabpanel"
+      hidden={value !== index}
+      id={`vertical-tabpanel-${index}`}
+      aria-labelledby={`vertical-tab-${index}`}
+      {...other}
     >
-      <h2 className="display-4 pb-5 text-center">{heading}</h2>
-      <div className="row">
-        <div className="col-md-8"> 
-          <p className="lead">{message}</p>
-        </div>
-        <div className="col-md-4">
-          <Carousel>
-            {img.map((value, index) => {
-              return (
-                <Carousel.Item key={index}>
-                  <img
-                    className="d-block w-100" /* orig: "d-block w-100" */
-                    src={value.img}
-                    alt="First slide"
-                    width={imageSize.width}
-                    height={imageSize.height}
-                  />
-                  <Carousel.Caption>
-                    <h3>{value.label}</h3>
-                    <p>
-                      {value.paragraph}
-                    </p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-              );
-            })}
-          </Carousel>
-        </div>
-      </div>
-    </Jumbotron>
+      {value === index && (
+        <Box sx={{ p: 3 }}>
+          <Typography>{children}</Typography>
+        </Box>
+      )}
+    </div>
   );
+}
+
+TabPanel.propTypes = {
+  children: PropTypes.node,
+  index: PropTypes.number.isRequired,
+  value: PropTypes.number.isRequired,
 };
 
-export default Leadership;
+function a11yProps(index) {
+  return {
+    id: `vertical-tab-${index}`,
+    'aria-controls': `vertical-tabpanel-${index}`,
+  };
+}
+
+export default function Leadership(leadership) {
+  const [value, setValue] = React.useState(0);
+
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
+
+  return (
+    <section className="section">
+        <Jumbotron id="leadership" className="bg-white">
+          <h2 className="display-4 mb-5 text-center">
+            {leadership.heading}
+          </h2>
+          <TabContainer>
+            <Box
+              sx={{ width:'75%', height:'200%', alignItems:'center', justifyContent:'center', margin:'auto', flexGrow: 1, bgcolor: 'background.paper', display: 'flex', flexDirection: 'row'}} //orig height: 224
+            >
+              <Tabs
+                orientation="vertical"
+                variant="scrollable"
+                scrollbuttons="auto"
+                value={value}
+                onChange={handleChange}
+                aria-label="Vertical tabs"
+                sx={{ borderRight: 1, borderColor: 'divider' }}
+              >
+              {
+                leadership.data.map((data, index) => {
+                  return <Tab label={data.company} {...a11yProps(index)} />
+                })
+              }
+              </Tabs>
+              {
+                leadership.data.map((data, index) => {
+                  return <TabPanel value={value} index={index}>
+                      <div style={{fontSize: '20px', marginBottom: '2px'}}>
+                        <strong>{data.company}</strong> - {data.role}
+                      </div>
+                      <div style={{fontSize: '14px', marginBottom: '13px'}}>
+                        {data.date}
+                      </div>
+                      <div style={{}}>
+                        {data.description}
+                      </div>
+                  </TabPanel>
+                })
+              }
+            </Box>
+          </TabContainer>
+        </Jumbotron>
+    </section>
+  );
+}

@@ -52,48 +52,47 @@ export default function Experience(experiences) {
 
   return (
     <section className="section">
-      <TabContainer>
         <Jumbotron id="experience" className="bg-white">
           <h2 className="display-4 mb-5 text-center">
             {experiences.heading}
           </h2>
-          <Box
-            sx={{ flexGrow: 1, bgcolor: 'background.paper', display: 'flex', height: 300}} //orig height: 224
-          >
-            <Tabs
-              orientation="vertical"
-              variant="scrollable"
-              scrollbuttons="auto"
-              value={value}
-              onChange={handleChange}
-              aria-label="Vertical tabs example"
-              sx={{ borderRight: 1, borderColor: 'divider' }}
-              centered
+          <TabContainer>
+            <Box
+              sx={{ width:'75%', height:'200%', alignItems:'center', justifyContent:'center', margin:'auto', flexGrow: 1, bgcolor: 'background.paper', display: 'flex', flexDirection: 'row'}} //orig height: 224
             >
-            {
-              experiences.data.map((data, index) => {
-                return <Tab label={data.company} {...a11yProps(index)} />
-              })
-            }
-            </Tabs>
-            {
-              experiences.data.map((data, index) => {
-                return <TabPanel value={value} index={index}>
-                    <div style={{fontSize: '20px', marginBottom: '2px'}}>
-                      <strong>{data.company}</strong> - {data.role}
-                    </div>
-                    <div style={{fontSize: '14px', marginBottom: '13px'}}>
-                      {data.date}
-                    </div>
-                    <div style={{}}>
-                      {data.description}
-                    </div>
-                </TabPanel>
-              })
-            }
-          </Box>
+              <Tabs
+                orientation="vertical"
+                variant="scrollable"
+                scrollbuttons="auto"
+                value={value}
+                onChange={handleChange}
+                aria-label="Vertical tabs"
+                sx={{ borderRight: 1, borderColor: 'divider' }}
+              >
+              {
+                experiences.data.map((data, index) => {
+                  return <Tab label={data.company} {...a11yProps(index)} />
+                })
+              }
+              </Tabs>
+              {
+                experiences.data.map((data, index) => {
+                  return <TabPanel value={value} index={index}>
+                      <div style={{fontSize: '20px', marginBottom: '2px'}}>
+                        <strong>{data.company}</strong> - {data.role}
+                      </div>
+                      <div style={{fontSize: '14px', marginBottom: '13px'}}>
+                        {data.date}
+                      </div>
+                      <div style={{}}>
+                        {data.description}
+                      </div>
+                  </TabPanel>
+                })
+              }
+            </Box>
+          </TabContainer>
         </Jumbotron>
-      </TabContainer>
     </section>
   );
 }
