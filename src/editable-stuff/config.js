@@ -11,7 +11,7 @@ const mainBody = {
   firstName: "Michelle",
   middleName: "",
   lastName: "Liu",
-  message: " Applied math and computer science student at Brown University ",
+  message: "Applied math and computer science student at Brown University",
   icons: [
     {
       image: "fa-github",
@@ -62,6 +62,16 @@ const experience = {
   show: true,
   heading: "Experience",
   data: [
+    {
+      role: 'Incoming Software Engineer Intern',
+      company: 'JP Morgan & Chase',
+      companylogo: '', //require('../assets/img/dell.png')
+      date: 'May 2023 – Aug 2023',
+      description: 
+        <ul>
+          <li>Incoming software engineer intern at JP Morgan & Chase for summer 2023</li>
+        </ul>,
+    },
     {
       role: 'Research Assistant',
       company: 'Visual Prosthesis Lab',
@@ -114,7 +124,7 @@ const experience = {
   ]
 };
 
-// EXPERIENCES SECTION
+// LEADERSHIP SECTION
 const leadership = {
   show: true,
   heading: "Activities & Leadership",
@@ -123,7 +133,7 @@ const leadership = {
       role: 'Executive Board',
       company: 'Machine Intelligence Community',
       companylogo: '',
-      date: 'Oct 2022 - Present',
+      date: 'Oct 2022 – Present',
       description: 
         <ul>
           <li>Design machine learning projects such as MNIST, Flappy Bird, NLP, and neuro style transfer</li>
@@ -131,10 +141,20 @@ const leadership = {
         </ul>,
     },
     {
+      role: 'Tech Fellow',
+      company: 'Harvard WECode',
+      companylogo: '',
+      date: 'Nov 2022 – Present',
+      description: 
+        <ul>
+          <li>Organize and promote Harvard's WECode conference, the largest student-run women in tech conference in the world.</li>
+        </ul>,
+    },
+    {
       role: 'Executive Board',
       company: 'Applied Math Dept. Undergraduate Group',
       companylogo: '',
-      date: 'Mar 2022 - Present',
+      date: 'Mar 2022 – Present',
       description: 
         <ul>
           <li>Collaborate with board members to lead club of over 200 students and create website (brownamdug.wordpress.com)</li>
@@ -145,7 +165,7 @@ const leadership = {
       role: 'Mathematics Instructor',
       company: 'Cambridge Math Circle',
       companylogo: '',
-      date: 'Apr 2020 - Present',
+      date: 'Apr 2020 – Present',
       description: 
         <ul>
           <li>Teach online math classes and explain challenging concepts for 1st-8th grade students in the Cambridge area</li>
@@ -156,7 +176,7 @@ const leadership = {
       role: 'Founder, Co-President',
       company: 'Anime Video Game Ensemble',
       companylogo: '',
-      date: 'Sep 2021 - Present',
+      date: 'Sep 2021 – Present',
       description: 
         <ul>
           <li>Founded club and recruited over 40 members to arrange and perform anime and video game music in biannual concerts</li>
@@ -167,7 +187,7 @@ const leadership = {
       role: 'Executive Board',
       company: 'Ensemble Theatre',
       companylogo: '',
-      date: 'Feb 2022 - Present',
+      date: 'Feb 2022 – Present',
       description: 
         <ul>
           <li>Manage social media accounts and design graphics for posts reaching over 600 followers</li>
@@ -210,7 +230,7 @@ const awards = {
       </ul>
     <b>National Science Bowl Top 32 (2021)</b>
       <ul>
-        <li>Nevada team at the Science Bowl National Competition, sponsored by the DOE</li>
+        <li>Member of the Nevada team at the National Science Bowl Competition, sponsored by the DOE</li>
       </ul>
     <b>Doyle Foundation Scholarship (2021, 2022)</b>
       <ul>
@@ -256,6 +276,7 @@ const skills = {
     { name: "PostgreSQL", value: require("../assets/img/logo_postgresql.png") },
   ],
   otherSkills: [
+    { name: "Git", value: require("../assets/img/logo_git.png") },
     { name: "Figma", value: require("../assets/img/logo_figma.png") },
     { name: "WordPress", value: require("../assets/img/logo_wordpress.png") },
   ],

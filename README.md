@@ -5,7 +5,7 @@
 
   <p align="center">
     This is a personal portfolio website hosted with GitHub Pages. It is forked from 
-    <a href="Hashir Shoaeb's Template">hashirshoaeb.github.io/home</a>
+    <a href="Hashir Shoaeb's Template">https://github.com/hashirshoaeb/home</a>
   </p>
 </p>
 
@@ -14,6 +14,8 @@
 [![GitHub license](https://img.shields.io/github/license/hashirshoaeb/home?style=for-the-badge)](https://github.com/hashirshoaeb/home/blob/master/LICENSE)
 [![Node Version](https://img.shields.io/static/v1?label=Node&message=v16.16.0&color=026e00&style=for-the-badge)](https://nodejs.org)
 [![npm Version](https://img.shields.io/static/v1?label=npm&message=8.11.0&color=cb0000&style=for-the-badge)](https://nodejs.org)
+
+[![Site preview](/public/social-image.png)](https://michelleliu4.github.io/home)
 
 ## Table of Contents
 
