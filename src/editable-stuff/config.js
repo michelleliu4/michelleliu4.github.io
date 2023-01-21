@@ -85,7 +85,7 @@ const experience = {
     },
     {
       role: 'Undergraduate Teaching Assistant',
-      company: 'Brown University',
+      company: 'Brown University Teaching',
       companylogo: '',
       date: 'Aug 2022 – Present',
       description: 
