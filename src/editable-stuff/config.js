@@ -147,7 +147,7 @@ const leadership = {
       date: 'Nov 2022 – Present',
       description: 
         <ul>
-          <li>Organize and promote Harvard's WECode conference, the largest student-run women in tech conference in the world.</li>
+          <li>Organize and promote Harvard's WECode conference, the largest student-run women in tech conference in the world</li>
         </ul>,
     },
     {
@@ -157,8 +157,9 @@ const leadership = {
       date: 'Mar 2022 – Present',
       description: 
         <ul>
-          <li>Collaborate with board members to lead club of over 200 students and create website (brownamdug.wordpress.com)</li>
-          <li>Organize and coordinate social outreach for events such as the Applied Math Mixer and Advising Event</li>
+          <li>Collaborate with board members to lead club of over 200 students and create website <a href="brownamdug.wordpress.com">website</a></li>
+          <li>Manage over $600 budget and organize events such as the Applied Math Mixer and Advising Event</li>
+          <li>Coordinate with applied math department and clubs such as SIAM to host joint events and panels</li>        
         </ul>,
     },
     {
