@@ -152,12 +152,12 @@ const leadership = {
     },
     {
       role: 'Executive Board',
-      company: 'Applied Math Dept. Undergraduate Group',
+      company: 'Applied Math DUG',
       companylogo: '',
       date: 'Mar 2022 – Present',
       description: 
         <ul>
-          <li>Collaborate with board members to lead club of over 200 students and create website <a href="brownamdug.wordpress.com">website</a></li>
+          <li>Collaborate with Applied Math Dept. Undergraduate Group board members to lead club of over 200 students and create website <a href="brownamdug.wordpress.com">website</a></li>
           <li>Manage over $600 budget and organize events such as the Applied Math Mixer and Advising Event</li>
           <li>Coordinate with applied math department and clubs such as SIAM to host joint events and panels</li>        
         </ul>,
@@ -182,6 +182,7 @@ const leadership = {
         <ul>
           <li>Founded club and recruited over 40 members to arrange and perform anime and video game music in biannual concerts</li>
           <li>Orchestrate weekly rehearsals, email and social media outreach, and club management</li>
+          <li>Performances can be found on our <a href="https://www.youtube.com/@brownavge">Youtube</a></li>
         </ul>,
     },
     {
@@ -194,6 +195,17 @@ const leadership = {
           <li>Manage social media accounts and design graphics for posts reaching over 600 followers</li>
           <li>Executive producer for Hair (musical), coordinating the production team and acting as a liaison between Ensemble board and show</li>
           <li>Coordinate with other performance and theatre groups to organize shows and scheduling in advisory board</li>
+        </ul>,
+    },
+    {
+      role: 'Full Stack Developer',
+      company: 'Full Stack at Brown',
+      companylogo: '',
+      date: 'Feb 2022 – May 2022',
+      description: 
+        <ul>
+          <li>Developed the backend for KeebWorld, an aggregate website for mechanical keyboard parts</li>
+          <li>Utilized Python and Beautiful Soup to web scrape off vendor websites and organize data into Firebase</li>
         </ul>,
     },
   ]
@@ -224,7 +236,7 @@ const awards = {
       <ul>
         <li>Two-time AIME qualifier, scoring in the top 5% of all AMC 12 exam takers worldwide, as well as a Math Prize for Girls participant</li>
       </ul>
-    <b>Hackathon for Social Good Bronze Award (2021)</b>
+    <b>Hackathon for Social Good Bronze Award (2022)</b>
       <ul>
         <li>Built <a href="https://github.com/michelleliu4/goodbot-slack">Goodbot</a>, a Slack bot for workplace satisfaction</li>
         <li><a href="https://robinhood.engineering/robinhoods-hackathon-for-social-good-92c91a5726c3">Robinhood blog post</a> about the hackathon</li>
@@ -267,12 +279,12 @@ const skills = {
     { name: "ReasonML", value: require("../assets/img/logo_reasonml.png") },
     { name: "Racket", value: require("../assets/img/logo_racket.png") },
     { name: "Java", value: require("../assets/img/logo_java.jpg") },
+    { name: "C", value: require("../assets/img/logo_c.png") },
   ],
   librariesFrameworks: [
     { name: "NumPy", value: require("../assets/img/logo_numpy.png") },
     { name: "Matplotlib", value: require("../assets/img/logo_matplotlib.png") },
     { name: "Tensorflow", value: require("../assets/img/logo_tensorflow.png") },
-    
     { name: "React", value: require("../assets/img/logo_react.png") },
     { name: "PostgreSQL", value: require("../assets/img/logo_postgresql.png") },
   ],

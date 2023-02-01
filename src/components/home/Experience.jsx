@@ -58,7 +58,7 @@ export default function Experience(experiences) {
           </h2>
           <TabContainer>
             <Box
-              sx={{ width:'90%', height:'200%', alignItems:'center', justifyContent:'center', margin:'auto', flexGrow: 1, bgcolor: 'background.paper', display: 'flex', flexDirection: 'row'}} //orig height: 224
+              sx={{ width:'80%', height:'200%', alignItems:'center', justifyContent:'center', margin:'auto', flexGrow: 1, bgcolor: 'background.paper', display: 'flex', flexDirection: 'row'}} //orig height: 224
             >
               <Tabs
                 orientation="vertical"
