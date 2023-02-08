@@ -57,7 +57,7 @@ const about = {
   education:
     <div>
     <p style={{fontSize:20, marginBottom:0}}><b>Brown University</b></p>
-    <p>Sc.B. Applied Math and Computer Science, Sep 2021 – May 2025</p>
+    <p>Sc.B. Applied Math and Computer Science, Sep 2021 – </p>
 
     <p style={{fontSize:20, marginBottom:0}}><b>University of Nevada Reno</b></p>
     <p>Middle/High School Dual Enrollment, Aug 2015 – May 2021</p>
