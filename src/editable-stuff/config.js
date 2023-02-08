@@ -54,6 +54,15 @@ const about = {
   message:
     "Hi! I am a second-year undergraduate student at Brown University studying Applied Mathematics and Computer Science. I am a software engineer and an avid learner with many interests, especially in machine learning and entrepreneurship. ",
   resume: require("../editable-stuff/resume.pdf"),
+  education:
+    <div>
+    <p style={{fontSize:20, marginBottom:0}}><b>Brown University</b></p>
+    <p>Sc.B. Applied Math and Computer Science, Sep 2021 – May 2025</p>
+
+    <p style={{fontSize:20, marginBottom:0}}><b>University of Nevada Reno</b></p>
+    <p>Middle/High School Dual Enrollment, Aug 2015 – May 2021</p>
+
+    </div>,
 };
 
 
@@ -93,7 +102,7 @@ const experience = {
           <li>DATA 2060: Machine Learning (Spring 2023)</li>
           <li>APMA 1650: Statistical Inference (Spring 2023)</li>
           <li>CSCI 170: Functional Programming (Fall 2022)</li>
-          <li>Develop assignments, workshops, and projects as well as assist over 150 students in office hours</li>
+          <li>Develop assignments, workshops, and projects as well as assist over 300 students in office hours</li>
           <li>Lead and organize collaborative workshops to reinforce conceptual ideas and discuss challenging problems</li>
         </ul>,
     },
@@ -231,25 +240,25 @@ const awards = {
   show: true,
   heading: "Awards",
   message:
-  <p>
-    <b>AIME Qualifier (2018, 2021)</b>
+  <div>
+    <p style={{fontSize:20, marginBottom:0}}><b>AIME Qualifier (2018, 2021)</b></p>
       <ul>
         <li>Two-time AIME qualifier, scoring in the top 5% of all AMC 12 exam takers worldwide, as well as a Math Prize for Girls participant</li>
       </ul>
-    <b>Hackathon for Social Good Bronze Award (2022)</b>
+      <p style={{fontSize:20, marginBottom:0}}><b>Hackathon for Social Good Bronze Award (2022)</b></p>
       <ul>
         <li>Built <a href="https://github.com/michelleliu4/goodbot-slack">Goodbot</a>, a Slack bot for workplace satisfaction</li>
         <li><a href="https://robinhood.engineering/robinhoods-hackathon-for-social-good-92c91a5726c3">Robinhood blog post</a> about the hackathon</li>
       </ul>
-    <b>National Science Bowl Top 32 (2021)</b>
+      <p style={{fontSize:20, marginBottom:0}}><b>National Science Bowl Top 32 (2021)</b></p>
       <ul>
         <li>Member of the Nevada team at the National Science Bowl Competition, sponsored by the DOE</li>
       </ul>
-    <b>Doyle Foundation Scholarship (2021, 2022)</b>
+      <p style={{fontSize:20, marginBottom:0}}><b>Doyle Foundation Scholarship (2021, 2022)</b></p>
       <ul>
         <li>Two-time recipient of the <a href="https://doylefound.org/">Doyle Foundation</a> Scholarship</li>
       </ul>
-  </p>,
+  </div>,
   images: [
     { 
       img: require("../assets/img/awards_robinhood.png"), 
