@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.778eeed7.css",
-    "main.js": "/static/js/main.89d1b338.js",
+    "main.js": "/static/js/main.4ef2d7e3.js",
     "static/js/787.4b24f717.chunk.js": "/static/js/787.4b24f717.chunk.js",
     "static/media/headshot.jpg": "/static/media/headshot.abdded4e1137890ca825.jpg",
-    "static/media/resume.pdf": "/static/media/resume.a5dd7ebcd39e443577f1.pdf",
+    "static/media/resume.pdf": "/static/media/resume.9fd120bf84099de0ae27.pdf",
     "static/media/logo_matplotlib.png": "/static/media/logo_matplotlib.1f3cb36363d0eb2c163f.png",
+    "static/media/logo_python.png": "/static/media/logo_python.3b33e236a97b9048b336.png",
     "static/media/logo_wordpress.png": "/static/media/logo_wordpress.558ce8b2efb7b495b402.png",
     "static/media/logo_java.jpg": "/static/media/logo_java.0e68e31bf2a38709e71c.jpg",
-    "static/media/logo_python.png": "/static/media/logo_python.dea924d737bb84eb9ce3.png",
     "static/media/logo_react.png": "/static/media/logo_react.73dbb5bcec516da82694.png",
     "static/media/logo_racket.png": "/static/media/logo_racket.a56b68ebf6625dbf0ac3.png",
     "static/media/logo_c.png": "/static/media/logo_c.837a49116fe3c020f47d.png",
@@ -19,11 +19,11 @@
     "static/media/awards_nsb.png": "/static/media/awards_nsb.8871babdbb2d1eeaabdd.png",
     "index.html": "/index.html",
     "main.778eeed7.css.map": "/static/css/main.778eeed7.css.map",
-    "main.89d1b338.js.map": "/static/js/main.89d1b338.js.map",
+    "main.4ef2d7e3.js.map": "/static/js/main.4ef2d7e3.js.map",
     "787.4b24f717.chunk.js.map": "/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.778eeed7.css",
-    "static/js/main.89d1b338.js"
+    "static/js/main.4ef2d7e3.js"
   ]
 }
