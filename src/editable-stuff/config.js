@@ -56,12 +56,23 @@ const about = {
   resume: require("../editable-stuff/resume.pdf"),
   education:
     <div>
-    <p style={{fontSize:20, marginBottom:0}}><b>Brown University</b></p>
-    <p>Sc.B. Applied Math and Computer Science, Sep 2021 – </p>
+    <p style={{fontSize:22, marginBottom:0}}><b>Brown University</b></p>
+    <p style={{fontSize:18, marginBottom:0}}>Sc.B. Applied Math and Computer Science, Sep 2021 – TBD </p>
+    <ul>
+      <li>CS Courses: Machine Learning, Deep Learning, Computer Systems,
+        Data Structures & Algorithms, Functional Programming</li>
+      <li>Math Courses:
+        Numerical Methods for PDEs, Operations Research: Deterministic Models,
+        Honors Statistics, Applied PDEs, Abstract Algebra, Graph Theory
+      </li>
+    </ul>
 
-    <p style={{fontSize:20, marginBottom:0}}><b>University of Nevada Reno</b></p>
-    <p>Middle/High School Dual Enrollment, Aug 2015 – May 2021</p>
-
+    <p style={{fontSize:22, marginBottom:0}}><b>University of Nevada Reno</b></p>
+    <p style={{fontSize:18, marginBottom:0}}>Middle/High School Dual Enrollment, Aug 2015 – May 2021</p>
+    <ul>
+      <li>Courses: Game Theory, Topology, Real Analysis, Number Theory,
+        Calculus III, Linear Algebra, Microeconomics</li>
+    </ul>
     </div>,
 };
 
@@ -132,6 +143,7 @@ const experience = {
     },
   ]
 };
+
 
 // LEADERSHIP SECTION
 const leadership = {
@@ -284,7 +296,9 @@ const skills = {
   heading: "Skills",
   languages: [
     { name: "Python", value: require("../assets/img/logo_python.png") },
-    { name: "JavaScript", value: require("../assets/img/logo_javascript.png") },
+    { name: "JavaScript/HTML/CSS", value: require("../assets/img/logo_javascript.png") },
+    //{ name: "HTML", value: require("../assets/img/logo_html.png") },
+    //{ name: "CSS", value: require("../assets/img/logo_css.png") },
     { name: "ReasonML", value: require("../assets/img/logo_reasonml.png") },
     { name: "Racket", value: require("../assets/img/logo_racket.png") },
     { name: "Java", value: require("../assets/img/logo_java.jpg") },
