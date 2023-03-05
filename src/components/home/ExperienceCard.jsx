@@ -3,38 +3,26 @@ import Col from "react-bootstrap/Col";
 
 const ExperienceCard = ({ value }) => {
   const {
-    CompanyName,
-    Address,
-    Title,
-    Time,
-    Descriptions,
-    TechStack,
+    company,
+    location,
+    role,
+    date,
+    description,
   } = value;
   return (
       <Col md="12">
-      < div className="p-3 mb-2">
-          <h5>{CompanyName} - <span className="text-muted text-secondary">{Address}</span>  </h5>
+      < div className="p-3 mb-0">
+          <h5>{company} - <span className="text-muted text-secondary">{location}</span>  </h5>
 
           <div className="card-text">
-              <div>{Title} - <span className="text-secondary">{Time}</span></div>          
+              <div>{role} - <span className="text-secondary">{date}</span></div>          
               <div className="my-2"> {
-                Descriptions.map((description, index) => (
+                description.map((description, index) => (
                     <p className="lead"
-                    key={`experience-description-${index}`}
+                    key={`experience-description-${index}`} style={{fontSize: '18px'}}
                     >{description}</p>
                 )) 
               }</div>
-              {TechStack.length? (
-                    <div className="lead text-muted"  >
-                        TechStack: {
-                        TechStack.map((tech, index) => (
-                            <span className="lead text-muted mr-2"
-                            key={`experience-tech-${index}`}
-                            >{tech}</span>
-                        )) 
-                    } 
-                    </div>):<div/>
-            }
          </div>
          <hr />
        </div>

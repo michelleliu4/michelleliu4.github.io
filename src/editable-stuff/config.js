@@ -3,7 +3,6 @@ const navBar = {
   show: true,
 };
 
-
 // MAIN BODY SECTION
 // https://fontawesome.com/v4/icons/
 const mainBody = {
@@ -19,7 +18,7 @@ const mainBody = {
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/michelleliu-4/",
+      url: "https://www.linkedin.com/in/michelleliu-4",
     },
     // {
     //   image: "fa-facebook",
@@ -27,11 +26,10 @@ const mainBody = {
     // },
     {
       image: "fa-instagram",
-      url: "https://www.instagram.com/michelle.liu.4/",
+      url: "https://www.instagram.com/michelle.liu.4",
     },
   ],
 };
-
 
 // ABOUT SECTION
 // If you want the About Section to show a profile picture you can fill the profilePictureLink either with:
@@ -52,7 +50,7 @@ const about = {
   imageLink: require("../editable-stuff/headshot.jpg"),
   imageSize: 375,
   message:
-    "Hi! I am a second-year undergraduate student at Brown University studying Applied Mathematics and Computer Science. I am a software engineer and an avid learner with many interests, especially in machine learning and entrepreneurship. ",
+    "Hi! I am a second-year undergraduate student at Brown University studying Applied Mathematics and Computer Science. I am passionate about using tech to improve the world and an avid learner with many interests, especially in machine learning and entrepreneurship.",
   resume: require("../editable-stuff/resume.pdf"),
   education:
     <div>
@@ -73,31 +71,37 @@ const about = {
       <li>Courses: Game Theory, Topology, Real Analysis, Number Theory,
         Calculus III, Linear Algebra, Microeconomics</li>
     </ul>
+
+    <p style={{fontSize:22, marginBottom:0}}><b>Davidson Academy</b></p>
+    <p style={{fontSize:18, marginBottom:0}}>Middle/High School, Aug 2015 – May 2021</p>
+    <ul>
+      <li>ACT: 36 (composite), Math: 36, Science: 35, English: 36, Reading: 35, Writing: 10</li>
+    </ul>
     </div>,
 };
 
-
-// EXPERIENCES SECTION
+// EXPERIENCE SECTION
 const experience = {
   show: true,
   heading: "Experience",
-  data: [
+  lists: [
     {
-      role: 'Incoming Software Engineer Intern',
-      company: 'JP Morgan & Chase',
-      companylogo: '', //require('../assets/img/dell.png')
-      date: 'May 2023 – Aug 2023',
-      description: 
+      company: "JP Morgan & Chase",
+      location: "Chicago, IL",
+      role: "Incoming Software Engineer Intern",
+      date: "starting May 2023",
+      description: [
         <ul>
           <li>Incoming software engineer intern at JP Morgan & Chase for summer 2023</li>
-        </ul>,
+        </ul>
+      ],
     },
     {
-      role: 'Undergraduate Teaching Assistant',
       company: 'Brown University TA',
-      companylogo: '',
+      location: "Providence, RI",
+      role: 'Undergraduate Teaching Assistant',
       date: 'Aug 2022 – Present',
-      description: 
+      description: [
         <ul>
           <li>DATA 2060: Machine Learning (Spring 2023)</li>
           <li>APMA 1650: Statistical Inference (Spring 2023)</li>
@@ -105,133 +109,59 @@ const experience = {
           <li>Develop assignments, workshops, and projects as well as assist over 300 students in office hours</li>
           <li>Lead and organize collaborative workshops to reinforce conceptual ideas and discuss challenging problems</li>
         </ul>,
+      ],
     },
     {
-      role: 'Research Assistant',
-      company: 'Visual Prosthesis Lab',
-      companylogo: '',
-      date: 'Sep 2022 – Dec 2022',
-      description: 
-        <ul>
-          <li>Research and implement computer vision frameworks in Python to assist visually impaired individuals with navigation</li>
-          <li>Develop visual prosthetic devices with object localization utilizing YoloV5, grasping utilizing Text2Voice, and OCR utilizing pytesseract</li>
-        </ul>,
-    },
-    {
-      role: 'Mathematics Instructor',
-      company: 'Cambridge Math Circle',
-      companylogo: '',
-      date: 'Apr 2020 – Present',
-      description: 
-        <ul>
-          <li>Teach online math classes and explain challenging concepts for 1st-8th grade students in the Cambridge area</li>
-          <li>Construct advanced Beast Academy and AoPS lesson plans used by over 150 students</li>
-        </ul>,
-    },
-    {
-      role: 'Software Development Engineer Intern',
       company: 'Western Digital',
-      companylogo: '',
+      location: "Milpitas, CA",
+      role: 'Software Development Engineer Intern',
       date: 'May 2022 – Aug 2022',
-      description: 
+      description: [
         <ul>
           <li>Designed test prioritization algorithm using Python and machine learning, increasing cycle efficiency by 50%</li>
           <li>Created regression, random forest, and neural network models to predict failures with 95% accuracy</li>
           <li>Utilized FastAPI and SQL queries to access and post algorithm performances on Elasticsearch</li>
           <li>Studied natural language processing to create code coverage maps</li>
         </ul>,
+      ],
     },
     {
-      role: 'First-Year Trading and Technology (FTTP) and INSIGHT Fellow',
+      company: 'Visual Prosthesis Lab',
+      location: "Providence, RI",
+      role: 'Research Assistant',
+      date: 'Sep 2022 – Dec 2022',
+      description: [
+        <ul>
+          <li>Research and implement computer vision frameworks in Python to assist visually impaired individuals with navigation</li>
+          <li>Develop visual prosthetic devices with object localization utilizing YoloV5, grasping utilizing Text2Voice, and OCR utilizing pytesseract</li>
+        </ul>,
+      ],
+    },
+    {
+      company: 'SIG',
+      location: "Bala Cynwyd, PA",
+      role: 'Sophomore Trading Discovery Day Fellow',
+      date: 'Feb 2023',
+      description: [
+        <ul>
+          <li>Selected as one of 30 students for this competitive program to learn about quantitative trading at SIG</li>
+        </ul>,
+      ],
+    },
+    {
       company: 'Jane Street',
-      companylogo: '',
+      location: "New York, NY",
+      role: 'First-Year Trading and Technology (FTTP) and INSIGHT Fellow',
       date: 'Mar 2022, Aug 2022',
-      description: 
+      description: [
         <ul>
           <li>Selected as one of 60 students for FTTP and one of 40 students for INSIGHT, both highly competitive program to learn market-making and algorithmic trading</li>
           <li>Programmed trading bot in Python placing 3rd in electronic trading competition</li>
         </ul>,
-    },
-    {
-      role: 'Sophomore Trading Discovery Day Fellow',
-      company: 'SIG',
-      companylogo: '',
-      date: 'Mar 2022',
-      description: 
-        <ul>
-          <li>Selected as one of 30 students for this competitive program to learn about quantitative trading at SIG</li>
-        </ul>,
+      ],
     },
   ]
 };
-
-const experience2 = {
-  show: true,
-  heading: "Career",
-  lists: [
-    {
-      CompanyName: "Maestro Health",
-      Address: "Chicago, IL",
-      Title: "Senior Software Engineer",
-      Time: "April, 2016 - Present",
-      Descriptions: [
-        "Revamped and delivered products in the insurance and benefits admin domain; built responsive SPAs using Vue Js, TypeScript and Rest APIs; ensured quality code through strong typing and extensive test coverage (about 95%) and code reviews; employed modern web techniques such as code splitting and tree shaking to ensure fast application start and response time; maintained and improved legacy systems using Angular Js and DJango Rest Framework"
-      ],
-      TechStack: ["Vue Js, TypeScript, .net core"]
-    },
-    {
-      CompanyName: "Cision Inc.",
-      Address: "Chicago, IL",
-      Title: "Senior Software Engineer",
-      Time: "2015 - 2016",
-      Descriptions: [
-        "Helped build CPRE (Cision Public Relations Enterprise) using Angular Js and Asp .net framework"
-      ],
-      TechStack: ["ASP .net Framework, jQuery, Angular Js 1.x"]
-    },
-    {
-      CompanyName: "comScore",
-      Address: "Chicago, IL",
-      Title: "Junior / Senior / Staff Software Engieer",
-      Time: "2009 - 2015",
-      Descriptions: [
-        "UI lead of multiple web applications, including comScore Direct, AdEffx (Advertising Effectiveness Web App) and XMedia (a web tool for audience        measurement across TV and digital medias); technologies used include Asp.net MVC, Ext js MVC framework; led a small team of front-end engineers"
-      ],
-      TechStack: ["ASP .net web forms, ASP .net MVC, Sencha Ext Js Framework, JavaScript"]
-    },
-    {
-      CompanyName: "Gibson Consulting LLC",
-      Address: "Chicago, IL",
-      Title: "Senior Web Developer",
-      Time: "2008 - 2009",
-      Descriptions: [
-        "Developed a survey engine using Asp .net and a set of web solutions, including a RFI and RFQ website for Dover Global Metals using jQuery and vanilla JavaScript"
-      ],
-      TechStack: ["ASP .net web forms, JavaScript, jQuery"]
-    },
-    {
-      CompanyName: "DotnetSlackers",
-      Address: "Canada",
-      Title: "Moderator / Contributor",
-      Time: "2008 - 2009",
-      Descriptions: [
-        "Moderated and contributed to DotNetSlackers website, a website for .NET news and articles, blogs and .NET forums"
-      ],
-      TechStack: []
-    },
-    {
-      CompanyName: "Metro Chicago Information Center (MCIC)",
-      Address: "Chicago, IL",
-      Title: "Web developer / Data Analyst / GIS Programmer",
-      Time: "2003 - 2008",
-      Descriptions: [
-        "Built and maintained MCIC’s official websites and intranet; developed systems for the city of Chicago using ASP pages and ESRI technologies."
-      ],
-      TechStack: ["ASP, JavaScript, ESRI technologies"]
-    }
-  ]
-};
-
 
 // LEADERSHIP SECTION
 const leadership = {
@@ -260,6 +190,16 @@ const leadership = {
           <li>Lead club of over 200 students and collaborate with board members to organize events such as industry panels, course advising, and social mixers</li>
           <li>Manage over $600 budget and organize social outreach as well as <a href="brownamdug.wordpress.com">website</a></li>
           <li>Coordinate with applied math department and clubs like SIAM to host and promote events and modeling competitions</li>
+        </ul>,
+    },
+    {
+      company: 'Cambridge Math Circle',
+      role: 'Mathematics Instructor',
+      date: 'Apr 2020 – Present',
+      description:
+        <ul>
+          <li>Teach online math classes and explain challenging concepts for 1st-8th grade students in the Cambridge area</li>
+          <li>Construct advanced Beast Academy and AoPS lesson plans used by over 150 students</li>
         </ul>,
     },
     {
@@ -309,7 +249,6 @@ const leadership = {
   ]
 };
 
-
 // PROJECTS SECTION
 // Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
 //      i.e: reposLength: 0,
@@ -322,7 +261,6 @@ const repos = {
   reposLength: 3,
   specificRepos: ['Server-Time-Discord-Bot', 'Jreamboard', 'goodbot-slack'],
 };
-
 
 // AWARDS SECTION
 const awards = {
@@ -366,7 +304,6 @@ const awards = {
   }
 };
 
-
 // SKILLS SECTION
 const skills = {
   show: true,
@@ -394,7 +331,6 @@ const skills = {
   ],
 };
 
-
 // GET IN TOUCH SECTION
 const getInTouch = {
   show: true,
@@ -404,10 +340,9 @@ const getInTouch = {
   email: "michelle_h_liu@brown.edu",
 };
 
-
 // BLOG SECTION
 // const blog = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, experience, experience2, leadership, repos, awards, skills, getInTouch };
+export { navBar, mainBody, about, experience, leadership, repos, awards, skills, getInTouch };

@@ -6,8 +6,7 @@ const Awards = ({ heading, message, img, imageSize }) => {
   return (
     <Jumbotron
       id="awards"
-      className="m-0"
-      style={{ backgroundColor: "white" }}
+      className="bg-light m-0"
     >
       <h2 className="display-4 pb-5 text-center">{heading}</h2>
       <div className="row">

@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { navBar, mainBody, about, experience, experience2, leadership, repos, awards, skills, getInTouch,} from "./editable-stuff/config.js";
+import { navBar, mainBody, about, experience, leadership, repos, awards, skills, getInTouch,} from "./editable-stuff/config.js";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
 import Project from "./components/home/Project";
@@ -11,8 +11,7 @@ import Skills from "./components/home/Skills";
 // import BlogPost from "./components/blog/BlogPost";
 import GetInTouch from "./components/home/GetInTouch.jsx";
 import Awards from "./components/home/Awards.jsx";
-// import Experience from "./components/home/Experience";
-import Experience2 from "./components/home/Experience2";
+import Experience from "./components/home/Experience";
 import Leadership from "./components/home/Leadership";
 
 const Home = React.forwardRef((props, ref) => {
@@ -35,13 +34,10 @@ const Home = React.forwardRef((props, ref) => {
           education={about.education}
         />
       )}
-      {/* {
-        experience.show && Experience(experience)
-      } */}
-      {experience2.show && (
-        <Experience2
-          heading={experience2.heading}
-          experienceList={experience2.lists}
+      {experience.show && (
+        <Experience
+          heading={experience.heading}
+          experienceList={experience.lists}
         />
       )}
       {
@@ -55,14 +51,6 @@ const Home = React.forwardRef((props, ref) => {
           specfic={repos.specificRepos}
         />
       )}
-      {awards.show && (
-        <Awards
-          heading={awards.heading}
-          message={awards.message}
-          img={awards.images}
-          imageSize={awards.imageSize}
-        />
-      )}
       {skills.show && (
         <Skills
           heading={skills.heading}
@@ -71,7 +59,14 @@ const Home = React.forwardRef((props, ref) => {
           otherSkills={skills.otherSkills}
         />
       )}
-      
+      {awards.show && (
+        <Awards
+          heading={awards.heading}
+          message={awards.message}
+          img={awards.images}
+          imageSize={awards.imageSize}
+        />
+      )}
     </>
   );
 });
