@@ -93,19 +93,8 @@ const experience = {
         </ul>,
     },
     {
-      role: 'Research Assistant',
-      company: 'Visual Prosthesis Lab',
-      companylogo: '', //require('../assets/img/dell.png')
-      date: 'Sep 2022 – Present',
-      description: 
-        <ul>
-          <li>Research and implement computer vision frameworks in Python to assist visually impaired individuals with navigation</li>
-          <li>Develop visual prosthetic devices with object localization utilizing YoloV5, grasping utilizing Text2Voice, and OCR utilizing pytesseract</li>
-        </ul>,
-    },
-    {
       role: 'Undergraduate Teaching Assistant',
-      company: 'Brown University Teaching',
+      company: 'Brown University TA',
       companylogo: '',
       date: 'Aug 2022 – Present',
       description: 
@@ -115,6 +104,28 @@ const experience = {
           <li>CSCI 170: Functional Programming (Fall 2022)</li>
           <li>Develop assignments, workshops, and projects as well as assist over 300 students in office hours</li>
           <li>Lead and organize collaborative workshops to reinforce conceptual ideas and discuss challenging problems</li>
+        </ul>,
+    },
+    {
+      role: 'Research Assistant',
+      company: 'Visual Prosthesis Lab',
+      companylogo: '',
+      date: 'Sep 2022 – Dec 2022',
+      description: 
+        <ul>
+          <li>Research and implement computer vision frameworks in Python to assist visually impaired individuals with navigation</li>
+          <li>Develop visual prosthetic devices with object localization utilizing YoloV5, grasping utilizing Text2Voice, and OCR utilizing pytesseract</li>
+        </ul>,
+    },
+    {
+      role: 'Mathematics Instructor',
+      company: 'Cambridge Math Circle',
+      companylogo: '',
+      date: 'Apr 2020 – Present',
+      description: 
+        <ul>
+          <li>Teach online math classes and explain challenging concepts for 1st-8th grade students in the Cambridge area</li>
+          <li>Construct advanced Beast Academy and AoPS lesson plans used by over 150 students</li>
         </ul>,
     },
     {
@@ -131,16 +142,93 @@ const experience = {
         </ul>,
     },
     {
-      role: 'First-Year Trading and Technology (FTTP) Fellow',
+      role: 'First-Year Trading and Technology (FTTP) and INSIGHT Fellow',
       company: 'Jane Street',
+      companylogo: '',
+      date: 'Mar 2022, Aug 2022',
+      description: 
+        <ul>
+          <li>Selected as one of 60 students for FTTP and one of 40 students for INSIGHT, both highly competitive program to learn market-making and algorithmic trading</li>
+          <li>Programmed trading bot in Python placing 3rd in electronic trading competition</li>
+        </ul>,
+    },
+    {
+      role: 'Sophomore Trading Discovery Day Fellow',
+      company: 'SIG',
       companylogo: '',
       date: 'Mar 2022',
       description: 
         <ul>
-          <li>Selected as one of 60 students for this highly competitive program to learn market-making and algorithmic trading</li>
-          <li>Programmed trading bot in Python placing 3rd in electronic trading competition</li>
+          <li>Selected as one of 30 students for this competitive program to learn about quantitative trading at SIG</li>
         </ul>,
     },
+  ]
+};
+
+const experience2 = {
+  show: true,
+  heading: "Career",
+  lists: [
+    {
+      CompanyName: "Maestro Health",
+      Address: "Chicago, IL",
+      Title: "Senior Software Engineer",
+      Time: "April, 2016 - Present",
+      Descriptions: [
+        "Revamped and delivered products in the insurance and benefits admin domain; built responsive SPAs using Vue Js, TypeScript and Rest APIs; ensured quality code through strong typing and extensive test coverage (about 95%) and code reviews; employed modern web techniques such as code splitting and tree shaking to ensure fast application start and response time; maintained and improved legacy systems using Angular Js and DJango Rest Framework"
+      ],
+      TechStack: ["Vue Js, TypeScript, .net core"]
+    },
+    {
+      CompanyName: "Cision Inc.",
+      Address: "Chicago, IL",
+      Title: "Senior Software Engineer",
+      Time: "2015 - 2016",
+      Descriptions: [
+        "Helped build CPRE (Cision Public Relations Enterprise) using Angular Js and Asp .net framework"
+      ],
+      TechStack: ["ASP .net Framework, jQuery, Angular Js 1.x"]
+    },
+    {
+      CompanyName: "comScore",
+      Address: "Chicago, IL",
+      Title: "Junior / Senior / Staff Software Engieer",
+      Time: "2009 - 2015",
+      Descriptions: [
+        "UI lead of multiple web applications, including comScore Direct, AdEffx (Advertising Effectiveness Web App) and XMedia (a web tool for audience        measurement across TV and digital medias); technologies used include Asp.net MVC, Ext js MVC framework; led a small team of front-end engineers"
+      ],
+      TechStack: ["ASP .net web forms, ASP .net MVC, Sencha Ext Js Framework, JavaScript"]
+    },
+    {
+      CompanyName: "Gibson Consulting LLC",
+      Address: "Chicago, IL",
+      Title: "Senior Web Developer",
+      Time: "2008 - 2009",
+      Descriptions: [
+        "Developed a survey engine using Asp .net and a set of web solutions, including a RFI and RFQ website for Dover Global Metals using jQuery and vanilla JavaScript"
+      ],
+      TechStack: ["ASP .net web forms, JavaScript, jQuery"]
+    },
+    {
+      CompanyName: "DotnetSlackers",
+      Address: "Canada",
+      Title: "Moderator / Contributor",
+      Time: "2008 - 2009",
+      Descriptions: [
+        "Moderated and contributed to DotNetSlackers website, a website for .NET news and articles, blogs and .NET forums"
+      ],
+      TechStack: []
+    },
+    {
+      CompanyName: "Metro Chicago Information Center (MCIC)",
+      Address: "Chicago, IL",
+      Title: "Web developer / Data Analyst / GIS Programmer",
+      Time: "2003 - 2008",
+      Descriptions: [
+        "Built and maintained MCIC’s official websites and intranet; developed systems for the city of Chicago using ASP pages and ESRI technologies."
+      ],
+      TechStack: ["ASP, JavaScript, ESRI technologies"]
+    }
   ]
 };
 
@@ -157,41 +245,21 @@ const leadership = {
       date: 'Oct 2022 – Present',
       description: 
         <ul>
-          <li>Design machine learning projects such as MNIST, Flappy Bird, NLP, and neuro style transfer</li>
-          <li>Lead conceptual workshops and assist students in coding workshops based on the projects</li>
+          <li>Build and lead machine learning workshops such as song generation with GPT-2, MNIST, and neuro style transfer</li>
+          <li>Lead conceptual workshops for over 70 students and assist students in coding machine learning projects</li>
+          <li>Organize industry panels, guest speakers, and social events</li>
         </ul>,
     },
     {
-      role: 'Tech Fellow',
-      company: 'Harvard WECode',
-      companylogo: '',
-      date: 'Nov 2022 – Present',
-      description: 
-        <ul>
-          <li>Organize and promote Harvard's WECode conference, the largest student-run women in tech conference in the world</li>
-        </ul>,
-    },
-    {
-      role: 'Executive Board',
+      role: 'President',
       company: 'Applied Math DUG',
       companylogo: '',
       date: 'Mar 2022 – Present',
       description: 
         <ul>
-          <li>Collaborate with Applied Math Dept. Undergraduate Group board members to lead club of over 200 students and create website <a href="brownamdug.wordpress.com">website</a></li>
-          <li>Manage over $600 budget and organize events such as the Applied Math Mixer and Advising Event</li>
-          <li>Coordinate with applied math department and clubs such as SIAM to host joint events and panels</li>        
-        </ul>,
-    },
-    {
-      role: 'Mathematics Instructor',
-      company: 'Cambridge Math Circle',
-      companylogo: '',
-      date: 'Apr 2020 – Present',
-      description: 
-        <ul>
-          <li>Teach online math classes and explain challenging concepts for 1st-8th grade students in the Cambridge area</li>
-          <li>Construct advanced Beast Academy and AoPS lesson plans used by over 150 students</li>
+          <li>Lead club of over 200 students and collaborate with board members to organize events such as industry panels, course advising, and social mixers</li>
+          <li>Manage over $600 budget and organize social outreach as well as <a href="brownamdug.wordpress.com">website</a></li>
+          <li>Coordinate with applied math department and clubs like SIAM to host and promote events and modeling competitions</li>
         </ul>,
     },
     {
@@ -201,9 +269,8 @@ const leadership = {
       date: 'Sep 2021 – Present',
       description: 
         <ul>
-          <li>Founded club and recruited over 40 members to arrange and perform anime and video game music in biannual concerts</li>
-          <li>Orchestrate weekly rehearsals, email and social media outreach, and club management</li>
-          <li>Performances can be found on our <a href="https://www.youtube.com/@brownavge">Youtube</a></li>
+          <li>Founded club and recruited over 70 members to arrange and perform anime and video game music in biannual concerts</li>
+          <li>Orchestrate club management, weekly rehearsals, and email and social media outreach including <a href="https://www.youtube.com/@brownavge">Youtube channel</a> with over 4k views</li>
         </ul>,
     },
     {
@@ -216,6 +283,16 @@ const leadership = {
           <li>Manage social media accounts and design graphics for posts reaching over 600 followers</li>
           <li>Executive producer for Hair (musical), coordinating the production team and acting as a liaison between Ensemble board and show</li>
           <li>Coordinate with other performance and theatre groups to organize shows and scheduling in advisory board</li>
+        </ul>,
+    },
+    {
+      role: 'Tech Fellow',
+      company: 'Harvard WECode',
+      companylogo: '',
+      date: 'Nov 2022 – Feb 2023',
+      description: 
+        <ul>
+          <li>Perform club outreach and host events to promote Harvard's WECode conference, the largest student-run women in tech conference in the world</li>
         </ul>,
     },
     {
@@ -242,8 +319,8 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "michelleliu4",
-  reposLength: 6,
-  specificRepos: [],
+  reposLength: 3,
+  specificRepos: ['Server-Time-Discord-Bot', 'Jreamboard', 'goodbot-slack'],
 };
 
 
@@ -301,7 +378,6 @@ const skills = {
     //{ name: "CSS", value: require("../assets/img/logo_css.png") },
     { name: "ReasonML", value: require("../assets/img/logo_reasonml.png") },
     { name: "Racket", value: require("../assets/img/logo_racket.png") },
-    { name: "Java", value: require("../assets/img/logo_java.jpg") },
     { name: "C", value: require("../assets/img/logo_c.png") },
   ],
   librariesFrameworks: [
@@ -334,4 +410,4 @@ const getInTouch = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, experience, leadership, repos, awards, skills, getInTouch };
+export { navBar, mainBody, about, experience, experience2, leadership, repos, awards, skills, getInTouch };
