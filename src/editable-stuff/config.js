@@ -87,7 +87,7 @@ const experience = {
   data: [
     {
       company: "JP Morgan & Chase",
-      location: "Chicago, IL",
+      location: "New York, NY",
       role: "Incoming Software Engineer Intern",
       date: "starting May 2023",
       description: [
