@@ -7,6 +7,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Container from "react-bootstrap/Container";
 import { TabContainer } from 'react-bootstrap';
+
 import { Jumbotron } from './migration';
 
 
@@ -76,6 +77,17 @@ export default function Leadership({ heading, leadershipList }) {
             </Tabs>
             {
               leadershipList.map((data, index) => {
+                // return <TabPanel value={value} index={index}>
+                //     <div style={{fontSize: '20px', marginBottom: '2px'}}>
+                //       <strong>{data.company}</strong> - {data.role}
+                //     </div>
+                //     <div style={{fontSize: '14px', marginBottom: '13px'}}>
+                //       {data.date}
+                //     </div>
+                //     <div style={{}}>
+                //       {data.description}
+                //     </div>
+                // </TabPanel>
                 return <TabPanel value={value} index={index}>
                     <div style={{fontSize: '20px', marginBottom: '2px'}}>
                       <strong>{data.company}</strong> - {data.role}
@@ -94,3 +106,5 @@ export default function Leadership({ heading, leadershipList }) {
     </Jumbotron>
   );
 }
+
+//  export default Leadership;

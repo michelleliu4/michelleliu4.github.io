@@ -84,7 +84,7 @@ const about = {
 const experience = {
   show: true,
   heading: "Experience",
-  lists: [
+  data: [
     {
       company: "JP Morgan & Chase",
       location: "Chicago, IL",
@@ -169,23 +169,21 @@ const leadership = {
   heading: "Activities & Leadership",
   data: [
     {
-      role: 'Executive Board',
       company: 'Machine Intelligence Community',
-      companylogo: '',
+      role: 'Executive Board',
       date: 'Oct 2022 – Present',
-      description: 
+      description:
         <ul>
           <li>Build and lead machine learning workshops such as song generation with GPT-2, MNIST, and neuro style transfer</li>
           <li>Lead conceptual workshops for over 70 students and assist students in coding machine learning projects</li>
           <li>Organize industry panels, guest speakers, and social events</li>
-        </ul>,
+        </ul>
     },
     {
-      role: 'President',
       company: 'Applied Math DUG',
-      companylogo: '',
+      role: 'President',
       date: 'Mar 2022 – Present',
-      description: 
+      description:
         <ul>
           <li>Lead club of over 200 students and collaborate with board members to organize events such as industry panels, course advising, and social mixers</li>
           <li>Manage over $600 budget and organize social outreach as well as <a href="brownamdug.wordpress.com">website</a></li>
@@ -203,20 +201,18 @@ const leadership = {
         </ul>,
     },
     {
-      role: 'Founder, Co-President',
       company: 'Anime Video Game Ensemble',
-      companylogo: '',
+      role: 'Founder, Co-President',
       date: 'Sep 2021 – Present',
       description: 
         <ul>
           <li>Founded club and recruited over 70 members to arrange and perform anime and video game music in biannual concerts</li>
-          <li>Orchestrate club management, weekly rehearsals, and email and social media outreach including <a href="https://www.youtube.com/@brownavge">Youtube channel</a> with over 4k views</li>
+          <li>Orchestrate club management, weekly rehearsals, and email and social media outreach including <a href="https://www.youtube.com/@brownavge">Youtube channel</a> with over 5k views</li>
         </ul>,
     },
     {
-      role: 'Executive Board',
       company: 'Ensemble Theatre',
-      companylogo: '',
+      role: 'Executive Board',
       date: 'Feb 2022 – Present',
       description: 
         <ul>
@@ -226,9 +222,8 @@ const leadership = {
         </ul>,
     },
     {
-      role: 'Tech Fellow',
       company: 'Harvard WECode',
-      companylogo: '',
+      role: 'Tech Fellow',
       date: 'Nov 2022 – Feb 2023',
       description: 
         <ul>
@@ -236,9 +231,8 @@ const leadership = {
         </ul>,
     },
     {
-      role: 'Full Stack Developer',
       company: 'Full Stack at Brown',
-      companylogo: '',
+      role: 'Full Stack Developer',
       date: 'Feb 2022 – May 2022',
       description: 
         <ul>
