@@ -186,8 +186,8 @@ const leadership = {
       description:
         <ul>
           <li>Lead club of over 200 students and collaborate with board members to organize events such as industry panels, course advising, and social mixers</li>
-          <li>Manage over $600 budget and organize social outreach as well as <a href="brownamdug.wordpress.com">website</a></li>
-          <li>Coordinate with applied math department and clubs like SIAM to host and promote events and modeling competitions</li>
+          <li>Manage over $700 budget and organize social outreach as well as <a href="brownamdug.wordpress.com">website</a></li>
+          <li>Coordinate with applied math department and clubs like SIAM and Association of Women in Mathematics to host and promote events and modeling competitions</li>
         </ul>,
     },
     {
@@ -207,7 +207,7 @@ const leadership = {
       description: 
         <ul>
           <li>Founded club and recruited over 70 members to arrange and perform anime and video game music in biannual concerts</li>
-          <li>Orchestrate club management, weekly rehearsals, and email and social media outreach including <a href="https://www.youtube.com/@brownavge">Youtube channel</a> with over 5k views</li>
+          <li>Orchestrate club management, weekly rehearsals, and email and social media outreach including <a href="https://www.youtube.com/@brownavge">Youtube channel</a> with over 7k views</li>
         </ul>,
     },
     {
