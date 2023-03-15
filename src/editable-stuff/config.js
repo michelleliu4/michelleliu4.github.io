@@ -97,17 +97,16 @@ const experience = {
       ],
     },
     {
-      company: 'Brown University TA',
+      company: 'Brown University',
       location: "Providence, RI",
       role: 'Undergraduate Teaching Assistant',
       date: 'Aug 2022 – Present',
       description: [
         <ul>
-          <li>DATA 2060: Machine Learning (Spring 2023)</li>
-          <li>APMA 1650: Statistical Inference (Spring 2023)</li>
-          <li>CSCI 170: Functional Programming (Fall 2022)</li>
-          <li>Develop assignments, workshops, and projects as well as assist over 300 students in office hours</li>
+          <li>Develop projects, homework, and exams as well as assist with grading of assignments</li>
           <li>Lead and organize collaborative workshops to reinforce conceptual ideas and discuss challenging problems</li>
+          <li>Support students by moderating online question forum and assisting over 300 students in office hours</li>
+          <li>Courses: Statistical Inference (Spring 2023), Graduate Machine Learning (Spring 2023), Functional Programming (Fall 2022)</li>
         </ul>,
       ],
     },
@@ -156,7 +155,7 @@ const experience = {
       description: [
         <ul>
           <li>Selected as one of 60 students for FTTP and one of 40 students for INSIGHT, both highly competitive program to learn market-making and algorithmic trading</li>
-          <li>Programmed trading bot in Python placing 3rd in electronic trading competition</li>
+          <li>Programmed trading bot in Python leveraging arbitrage and bond pricing to place 3rd in electronic trading competition</li>
         </ul>,
       ],
     },
@@ -187,7 +186,7 @@ const leadership = {
         <ul>
           <li>Lead club of over 200 students and collaborate with board members to organize events such as industry panels, course advising, and social mixers</li>
           <li>Manage over $700 budget and organize social outreach as well as <a href="brownamdug.wordpress.com">website</a></li>
-          <li>Coordinate with applied math department and clubs like SIAM and Association of Women in Mathematics to host and promote events and modeling competitions</li>
+          <li>Coordinate with applied math department and clubs like SIAM and Association of Women in Mathematics to host events such as Pi Day, peer and faculty advising, and math talks</li>
         </ul>,
     },
     {
@@ -207,7 +206,7 @@ const leadership = {
       description: 
         <ul>
           <li>Founded club and recruited over 70 members to arrange and perform anime and video game music in biannual concerts</li>
-          <li>Orchestrate club management, weekly rehearsals, and email and social media outreach including <a href="https://www.youtube.com/@brownavge">Youtube channel</a> with over 7k views</li>
+          <li>Orchestrate club management, weekly rehearsals, and email and social media outreach including <a href="https://www.youtube.com/@brownavge">Youtube channel</a> with over 15k views</li>
         </ul>,
     },
     {
@@ -314,7 +313,7 @@ const skills = {
   librariesFrameworks: [
     { name: "NumPy", value: require("../assets/img/logo_numpy.png") },
     { name: "Matplotlib", value: require("../assets/img/logo_matplotlib.png") },
-    { name: "Tensorflow", value: require("../assets/img/logo_tensorflow.png") },
+    { name: "TensorFlow", value: require("../assets/img/logo_tensorflow.png") },
     { name: "React", value: require("../assets/img/logo_react.png") },
     { name: "PostgreSQL", value: require("../assets/img/logo_postgresql.png") },
   ],
