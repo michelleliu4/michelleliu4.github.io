@@ -20,10 +20,10 @@ const mainBody = {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/michelleliu-4",
     },
-    // {
-    //   image: "fa-facebook",
-    //   url: "https://www.facebook.com/michelle.liu.4",
-    // },
+    {
+      image: "fa-facebook",
+      url: "https://www.facebook.com/michelle.liu.4",
+    },
     {
       image: "fa-instagram",
       url: "https://www.instagram.com/michelle.liu.4",
@@ -89,7 +89,7 @@ const experience = {
       company: "JP Morgan & Chase",
       location: "New York, NY",
       role: "Incoming Software Engineer Intern",
-      date: "starting May 2023",
+      date: "June 2023 – Aug 2023",
       description: [
         <ul>
           <li>Incoming software engineer intern at JP Morgan & Chase for summer 2023</li>
@@ -133,6 +133,19 @@ const experience = {
         <ul>
           <li>Research and implement computer vision frameworks in Python to assist visually impaired individuals with navigation</li>
           <li>Develop visual prosthetic devices with object localization utilizing YoloV5, grasping utilizing Text2Voice, and OCR utilizing pytesseract</li>
+        </ul>,
+      ],
+    },
+    {
+      company: 'Citadel',
+      location: "New York, NY",
+      role: 'Discover Citadel & Citadel Securities Participant',
+      date: 'Apr 2023',
+      description: [
+        <ul>
+          <li>Discover Citadel & Citadel Securities Participant</li>
+          <li>Attended networking sessions with senior leaders to learn about company structure</li>
+          <li>Leveraged asset pricing and bidding to place 1st in a trading game</li>
         </ul>,
       ],
     },
@@ -185,7 +198,7 @@ const leadership = {
       description:
         <ul>
           <li>Lead club of over 200 students and collaborate with board members to organize events such as industry panels, course advising, and social mixers</li>
-          <li>Manage over $700 budget and organize social outreach as well as <a href="brownamdug.wordpress.com">website</a></li>
+          <li>Manage over $1000 budget and organize social outreach as well as <a href="brownamdug.wordpress.com">website</a></li>
           <li>Coordinate with applied math department and clubs like SIAM and Association of Women in Mathematics to host events such as Pi Day, peer and faculty advising, and math talks</li>
         </ul>,
     },
@@ -251,8 +264,8 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "michelleliu4",
-  reposLength: 3,
-  specificRepos: ['Server-Time-Discord-Bot', 'Jreamboard', 'goodbot-slack'],
+  reposLength: 4,
+  specificRepos: ['Jreamboard', 'goodbot-slack'],
 };
 
 // AWARDS SECTION
@@ -274,9 +287,9 @@ const awards = {
       <ul>
         <li>Member of the Nevada team at the National Science Bowl Competition, sponsored by the DOE</li>
       </ul>
-      <p style={{fontSize:20, marginBottom:0}}><b>Doyle Foundation Scholarship (2021, 2022)</b></p>
+      <p style={{fontSize:20, marginBottom:0}}><b>Doyle Foundation Scholarship (2021, 2022, 2023)</b></p>
       <ul>
-        <li>Two-time recipient of the <a href="https://doylefound.org/">Doyle Foundation</a> Scholarship</li>
+        <li>Three-time recipient of the <a href="https://doylefound.org/">Doyle Foundation</a> Scholarship</li>
       </ul>
   </div>,
   images: [
