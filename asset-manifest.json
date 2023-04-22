@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.778eeed7.css",
-    "main.js": "/static/js/main.bb5b38fc.js",
+    "main.js": "/static/js/main.ca38179f.js",
     "static/js/787.4b24f717.chunk.js": "/static/js/787.4b24f717.chunk.js",
     "static/media/headshot.jpg": "/static/media/headshot.abdded4e1137890ca825.jpg",
-    "static/media/resume.pdf": "/static/media/resume.0d9ca6ded34a6294c8a3.pdf",
+    "static/media/resume.pdf": "/static/media/resume.65a68c056b2286aa70e4.pdf",
     "static/media/logo_matplotlib.png": "/static/media/logo_matplotlib.1f3cb36363d0eb2c163f.png",
     "static/media/logo_python.png": "/static/media/logo_python.3b33e236a97b9048b336.png",
     "static/media/logo_wordpress.png": "/static/media/logo_wordpress.558ce8b2efb7b495b402.png",
@@ -18,11 +18,11 @@
     "static/media/awards_nsb.png": "/static/media/awards_nsb.8871babdbb2d1eeaabdd.png",
     "index.html": "/index.html",
     "main.778eeed7.css.map": "/static/css/main.778eeed7.css.map",
-    "main.bb5b38fc.js.map": "/static/js/main.bb5b38fc.js.map",
+    "main.ca38179f.js.map": "/static/js/main.ca38179f.js.map",
     "787.4b24f717.chunk.js.map": "/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.778eeed7.css",
-    "static/js/main.bb5b38fc.js"
+    "static/js/main.ca38179f.js"
   ]
 }
