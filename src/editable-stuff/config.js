@@ -198,7 +198,7 @@ const leadership = {
       description:
         <ul>
           <li>Lead club of over 200 students and collaborate with board members to organize events such as industry panels, course advising, and social mixers</li>
-          <li>Manage over $1000 budget and organize social outreach as well as <a href="brownamdug.wordpress.com">website</a></li>
+          <li>Manage over $1000 budget and organize social outreach as well as <a href="https://brownamdug.wordpress.com/">website</a></li>
           <li>Coordinate with applied math department and clubs like SIAM and Association of Women in Mathematics to host events such as Pi Day, peer and faculty advising, and math talks</li>
         </ul>,
     },
