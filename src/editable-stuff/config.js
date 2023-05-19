@@ -103,10 +103,10 @@ const experience = {
       date: 'Aug 2022 – Present',
       description: [
         <ul>
+          <li>Courses: Computational Linguistics (Fall 2023), Statistical Inference (Spring 2023), Graduate Machine Learning (Spring 2023), Functional Programming (Fall 2022)</li>
           <li>Develop projects, homework, and exams as well as assist with grading of assignments</li>
           <li>Lead and organize collaborative workshops to reinforce conceptual ideas and discuss challenging problems</li>
           <li>Support students by moderating online question forum and assisting over 300 students in office hours</li>
-          <li>Courses: Statistical Inference (Spring 2023), Graduate Machine Learning (Spring 2023), Functional Programming (Fall 2022)</li>
         </ul>,
       ],
     },
@@ -137,13 +137,25 @@ const experience = {
       ],
     },
     {
+      company: 'D.E. Shaw & Co.',
+      location: "New York, NY",
+      role: 'Discovery Fellowship Attendee',
+      date: 'May 2023',
+      description: [
+        <ul>
+          <li>Selected as one of 30 attendees for selective program to learn about roles at DE Shaw & Co</li>
+          <li>Studied financial market topics such as alpha and behavioral finance</li>
+        </ul>,
+      ],
+    },
+    {
       company: 'Citadel',
       location: "New York, NY",
       role: 'Discover Citadel & Citadel Securities Participant',
       date: 'Apr 2023',
       description: [
         <ul>
-          <li>Discover Citadel & Citadel Securities Participant</li>
+          <li>Selected as one of 120 out of over 2600 students to learn about quantitative roles at Citadel</li>
           <li>Attended networking sessions with senior leaders to learn about company structure</li>
           <li>Leveraged asset pricing and bidding to place 1st in a trading game</li>
         </ul>,
@@ -203,6 +215,16 @@ const leadership = {
         </ul>,
     },
     {
+      company: 'Anime Video Game Ensemble',
+      role: 'Founder, Co-President',
+      date: 'Sep 2021 – Present',
+      description: 
+        <ul>
+          <li>Founded club and recruited over 70 members to arrange and perform anime and video game music in biannual concerts</li>
+          <li>Orchestrate club management, weekly rehearsals, and email and social media outreach including <a href="https://www.youtube.com/@brownavge">Youtube channel</a> with over 40k views</li>
+        </ul>,
+    },
+    {
       company: 'Cambridge Math Circle',
       role: 'Mathematics Instructor',
       date: 'Apr 2020 – Present',
@@ -210,16 +232,6 @@ const leadership = {
         <ul>
           <li>Teach online math classes and explain challenging concepts for 1st-8th grade students in the Cambridge area</li>
           <li>Construct advanced Beast Academy and AoPS lesson plans used by over 150 students</li>
-        </ul>,
-    },
-    {
-      company: 'Anime Video Game Ensemble',
-      role: 'Founder, Co-President',
-      date: 'Sep 2021 – Present',
-      description: 
-        <ul>
-          <li>Founded club and recruited over 70 members to arrange and perform anime and video game music in biannual concerts</li>
-          <li>Orchestrate club management, weekly rehearsals, and email and social media outreach including <a href="https://www.youtube.com/@brownavge">Youtube channel</a> with over 15k views</li>
         </ul>,
     },
     {
