@@ -184,6 +184,18 @@ const experience = {
         </ul>,
       ],
     },
+    {
+      company: 'Jadepoint',
+      location: "Remote",
+      role: 'Consulting Intern',
+      date: 'Jan 2022',
+      description: [
+        <ul>
+          <li>Collaborated with the consulting team to design PowerPoint presentations and training tasks for clients in Aruba, effectively conveying performance psychology concepts</li>
+          <li>Conducted market research on the luxury hotel industry, providing valuable insights and recommendations to support strategic decision-making for the consulting projects</li>
+        </ul>,
+      ],
+    },
   ]
 };
 
