@@ -50,19 +50,19 @@ const about = {
   imageLink: require("../editable-stuff/headshot.jpg"),
   imageSize: 375,
   message:
-    "Hi! I am a second-year undergraduate student at Brown University studying Applied Mathematics and Computer Science. I am passionate about using tech to improve the world and an avid learner with many interests, especially in machine learning and entrepreneurship.",
+    "Hi! I am a rising junior at Brown University studying Applied Mathematics and Computer Science. I am passionate about using tech to improve the world and an avid learner with many interests, especially in machine learning and entrepreneurship.",
   resume: require("../editable-stuff/resume.pdf"),
   education:
     <div>
     <p style={{fontSize:22, marginBottom:0}}><b>Brown University</b></p>
-    <p style={{fontSize:18, marginBottom:0}}>Sc.B. Applied Math and Computer Science, Sep 2021 – TBD </p>
+    <p style={{fontSize:18, marginBottom:0}}>Sc.B. Applied Math and Computer Science, Sep 2021 – May 2025 </p>
     <ul>
       <li>CS Courses: Machine Learning, Deep Learning, Computer Systems,
         Data Structures & Algorithms, Functional Programming</li>
-      <li>Math Courses:
-        Numerical Methods for PDEs, Operations Research: Deterministic Models,
+      <li>Math Courses: Numerical Methods for PDEs, Operations Research: Deterministic Models,
         Honors Statistics, Applied PDEs, Abstract Algebra, Graph Theory
       </li>
+      <li>CodePath Courses: Intermediate Web Development</li>
     </ul>
 
     <p style={{fontSize:22, marginBottom:0}}><b>University of Nevada Reno</b></p>
@@ -88,11 +88,11 @@ const experience = {
     {
       company: "JP Morgan & Chase",
       location: "New York, NY",
-      role: "Incoming Software Engineer Intern",
+      role: "Software Engineer Intern",
       date: "June 2023 – Aug 2023",
       description: [
         <ul>
-          <li>Incoming software engineer intern at JP Morgan & Chase for summer 2023</li>
+          <li>Summer 2023</li>
         </ul>
       ],
     },
