@@ -89,10 +89,12 @@ const experience = {
       company: "JP Morgan & Chase",
       location: "New York, NY",
       role: "Software Engineer Intern",
-      date: "June 2023 – Aug 2023",
+      date: "June 2023 – Present",
       description: [
         <ul>
-          <li>Summer 2023</li>
+          <li>Create real-time dashboard utilizing React to visualize call center data, supporting over 50,000 users</li>
+          <li>Construct call data pipeline integrating Splunk and AWS to facilitate development of machine learning classification models</li>
+          <li>Achieved over 70% accuracy in predicting call failures using frameworks such as Tensorflow, scikit-learn, and matplotlib</li>
         </ul>
       ],
     },
@@ -105,8 +107,8 @@ const experience = {
         <ul>
           <li>Courses: Computational Linguistics (Fall 2023), Statistical Inference (Spring 2023), Graduate Machine Learning (Spring 2023), Functional Programming (Fall 2022)</li>
           <li>Develop projects, homework, and exams as well as assist with grading of assignments</li>
-          <li>Lead and organize collaborative workshops to reinforce conceptual ideas and discuss challenging problems</li>
-          <li>Support students by moderating online question forum and assisting over 300 students in office hours</li>
+          <li>Organize and lead collaborative workshops to reinforce conceptual ideas and address challenging problems</li>
+          <li>Support over 300 students through moderating online question forum and providing office hour assistance</li>
         </ul>,
       ],
     },
@@ -233,7 +235,7 @@ const leadership = {
       description: 
         <ul>
           <li>Founded club and recruited over 70 members to arrange and perform anime and video game music in biannual concerts</li>
-          <li>Orchestrate club management, weekly rehearsals, and email and social media outreach including <a href="https://www.youtube.com/@brownavge">Youtube channel</a> with over 40k views</li>
+          <li>Orchestrate club management, weekly rehearsals, and email and social media outreach including <a href="https://www.youtube.com/@brownavge">Youtube channel</a> with over 50k views</li>
         </ul>,
     },
     {
