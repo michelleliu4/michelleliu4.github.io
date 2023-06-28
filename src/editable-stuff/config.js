@@ -94,7 +94,7 @@ const experience = {
         <ul>
           <li>Create real-time dashboard utilizing React to visualize call center data, supporting over 50,000 users</li>
           <li>Construct call data pipeline integrating Splunk and AWS to facilitate development of machine learning classification models</li>
-          <li>Achieved over 70% accuracy in predicting call failures using frameworks such as Tensorflow, scikit-learn, and matplotlib</li>
+          <li>Achieved over 90% accuracy in predicting call failures using frameworks such as Tensorflow, scikit-learn, and matplotlib</li>
         </ul>
       ],
     },
@@ -342,11 +342,11 @@ const skills = {
   heading: "Skills",
   languages: [
     { name: "Python", value: require("../assets/img/logo_python.png") },
-    { name: "JavaScript/HTML/CSS", value: require("../assets/img/logo_javascript.png") },
-    //{ name: "HTML", value: require("../assets/img/logo_html.png") },
-    //{ name: "CSS", value: require("../assets/img/logo_css.png") },
+    { name: "JavaScript", value: require("../assets/img/logo_javascript.png") },
+    { name: "HTML/CSS", value: require("../assets/img/logo_html.png") },
+    // { name: "CSS", value: require("../assets/img/logo_css.png") },
     { name: "ReasonML", value: require("../assets/img/logo_reasonml.png") },
-    { name: "Racket", value: require("../assets/img/logo_racket.png") },
+    // { name: "Racket", value: require("../assets/img/logo_racket.png") },
     { name: "C", value: require("../assets/img/logo_c.png") },
   ],
   librariesFrameworks: [
@@ -360,6 +360,7 @@ const skills = {
     { name: "Git", value: require("../assets/img/logo_git.png") },
     { name: "Figma", value: require("../assets/img/logo_figma.png") },
     { name: "WordPress", value: require("../assets/img/logo_wordpress.png") },
+    { name: "Microsoft Office", value: require("../assets/img/logo_office.png") },
   ],
 };
 
