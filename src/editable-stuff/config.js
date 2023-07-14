@@ -50,7 +50,7 @@ const about = {
   imageLink: require("../editable-stuff/headshot.jpg"),
   imageSize: 375,
   message:
-    "Hi! I am a rising junior at Brown University studying Applied Mathematics and Computer Science. I am passionate about using tech to improve the world and an avid learner with many interests, especially in machine learning and entrepreneurship.",
+    "Hi! I am a junior at Brown University studying Applied Mathematics and Computer Science. I am passionate about using tech to improve the world and an avid learner with many interests, especially in machine learning and entrepreneurship.",
   resume: require("../editable-stuff/resume.pdf"),
   education:
     <div>
@@ -58,11 +58,10 @@ const about = {
     <p style={{fontSize:18, marginBottom:0}}>Sc.B. Applied Math and Computer Science, Sep 2021 – May 2025 </p>
     <ul>
       <li>CS Courses: Machine Learning, Deep Learning, Computer Systems,
-        Data Structures & Algorithms, Functional Programming</li>
+        Data Structures & Algorithms, Functional Programming, Web Development</li>
       <li>Math Courses: Numerical Methods for PDEs, Operations Research: Deterministic Models,
         Honors Statistics, Applied PDEs, Abstract Algebra, Graph Theory
       </li>
-      <li>CodePath Courses: Intermediate Web Development</li>
     </ul>
 
     <p style={{fontSize:22, marginBottom:0}}><b>University of Nevada Reno</b></p>
@@ -92,9 +91,9 @@ const experience = {
       date: "June 2023 – Present",
       description: [
         <ul>
-          <li>Create real-time dashboard utilizing React to visualize call center data, supporting over 50,000 users</li>
-          <li>Construct call data pipeline integrating Splunk and AWS to facilitate development of machine learning classification models</li>
-          <li>Achieved over 90% accuracy in predicting call failures using frameworks such as Tensorflow, scikit-learn, and matplotlib</li>
+          <li>Leveraged Splunk queries and AWS to construct a robust data pipeline for extracting and preprocessing call center log data</li>
+          <li>Developed and implemented outlier detection and classification models, achieving over 90% accuracy identifying irregular and bad calls</li>
+          <li>Created time series models to find general trends in problematic calls across various regions, supporting a user base of over 50,000 call specialists</li>
         </ul>
       ],
     },
@@ -106,9 +105,9 @@ const experience = {
       description: [
         <ul>
           <li>Courses: Computational Linguistics (Fall 2023), Statistical Inference (Spring 2023), Graduate Machine Learning (Spring 2023), Functional Programming (Fall 2022)</li>
-          <li>Develop projects, homework, and exams as well as assist with grading of assignments</li>
-          <li>Organize and lead collaborative workshops to reinforce conceptual ideas and address challenging problems</li>
-          <li>Support over 300 students through moderating online question forum and providing office hour assistance</li>
+          <li>Designed projects, homework, and exams as well as assisted with grading of assignments</li>
+          <li>Facilitated interactive workshops to foster collaboration, reinforce key concepts, and tackle challenging problem sets</li>
+          <li>Supported over 300 individuals by moderating an online question forum and providing guidance during office hours</li>
         </ul>,
       ],
     },
@@ -133,8 +132,8 @@ const experience = {
       date: 'Sep 2022 – Dec 2022',
       description: [
         <ul>
-          <li>Research and implement computer vision frameworks in Python to assist visually impaired individuals with navigation</li>
-          <li>Develop visual prosthetic devices with object localization utilizing YoloV5, grasping utilizing Text2Voice, and OCR utilizing pytesseract</li>
+          <li>Conducted research and implemented Python computer vision frameworks to aid visually impaired individuals in navigation</li>
+          <li>Developed visual prosthesis devices by leveraging YoloV5 for object localization, Text2Voice for intuitive grasping, and OCR for character recognition</li>
         </ul>,
       ],
     },
@@ -207,15 +206,14 @@ const leadership = {
   heading: "Activities & Leadership",
   data: [
     {
-      company: 'Machine Intelligence Community',
-      role: 'Executive Board',
-      date: 'Oct 2022 – Present',
-      description:
+      company: 'Anime Video Game Ensemble',
+      role: 'Founder, Co-President',
+      date: 'Sep 2021 – Present',
+      description: 
         <ul>
-          <li>Build and lead machine learning workshops such as song generation with GPT-2, MNIST, and neuro style transfer</li>
-          <li>Lead conceptual workshops for over 70 students and assist students in coding machine learning projects</li>
-          <li>Organize industry panels, guest speakers, and social events</li>
-        </ul>
+          <li>Founded club and recruited over 70 members to arrange and perform anime and video game music in biannual concerts</li>
+          <li>Orchestrated club operations, including weekly rehearsals and a <a href="https://www.youtube.com/@brownavge">Youtube channel</a> with over 50k views</li>
+        </ul>,
     },
     {
       company: 'Applied Math DUG',
@@ -223,20 +221,20 @@ const leadership = {
       date: 'Mar 2022 – Present',
       description:
         <ul>
-          <li>Lead club of over 200 students and collaborate with board members to organize events such as industry panels, course advising, and social mixers</li>
-          <li>Manage over $1000 budget and organize social outreach as well as <a href="https://brownamdug.wordpress.com/">website</a></li>
-          <li>Coordinate with applied math department and clubs like SIAM and Association of Women in Mathematics to host events such as Pi Day, peer and faculty advising, and math talks</li>
+          <li>Lead a club of over 200 students, collaborating with board members to plan events such as industry panels, course advising, and social mixers</li>
+          <li>Managed over $1000 budget, allocating reosurces for social outreach initiatives and overseeing the <a href="https://brownamdug.wordpress.com/">website</a></li>
+          <li>Coordinated with the applied math department and clubs like SIAM and Association of Women in Mathematics to host events such as Pi Day, peer and faculty advising, and math talks</li>
         </ul>,
     },
     {
-      company: 'Anime Video Game Ensemble',
-      role: 'Founder, Co-President',
-      date: 'Sep 2021 – Present',
-      description: 
+      company: 'Machine Intelligence Community',
+      role: 'Executive Board',
+      date: 'Oct 2022 – Present',
+      description:
         <ul>
-          <li>Founded club and recruited over 70 members to arrange and perform anime and video game music in biannual concerts</li>
-          <li>Orchestrate club management, weekly rehearsals, and email and social media outreach including <a href="https://www.youtube.com/@brownavge">Youtube channel</a> with over 50k views</li>
-        </ul>,
+          <li>Constructed educational machine learning workshops in song generation with GPT-2 and neuro style transfer</li>
+          <li>Lead conceptual sessions for over 70 individuals, assisting them in understanding and coding machine learning projects</li>
+        </ul>
     },
     {
       company: 'Cambridge Math Circle',
@@ -244,8 +242,8 @@ const leadership = {
       date: 'Apr 2020 – Present',
       description:
         <ul>
-          <li>Teach online math classes and explain challenging concepts for 1st-8th grade students in the Cambridge area</li>
-          <li>Construct advanced Beast Academy and AoPS lesson plans used by over 150 students</li>
+          <li>Taught online math classes and explained challenging concepts for 1st-8th grade students in the Cambridge area</li>
+          <li>Constructed advanced Beast Academy and AoPS lesson plans used by over 150 students</li>
         </ul>,
     },
     {
@@ -254,9 +252,9 @@ const leadership = {
       date: 'Feb 2022 – Present',
       description: 
         <ul>
-          <li>Manage social media accounts and design graphics for posts reaching over 600 followers</li>
-          <li>Executive producer for Hair (musical), coordinating the production team and acting as a liaison between Ensemble board and show</li>
-          <li>Coordinate with other performance and theatre groups to organize shows and scheduling in advisory board</li>
+          <li>Coordinated the production team and acted as a liaison between the board and and the show as an executive producer</li>
+          <li>Managed social media accounts and designed graphics for posts reaching over 600 followers</li>
+          <li>Coordinated with other performance and theatre groups to organize shows and scheduling in an advisory board</li>
         </ul>,
     },
     {
@@ -265,7 +263,7 @@ const leadership = {
       date: 'Nov 2022 – Feb 2023',
       description: 
         <ul>
-          <li>Perform club outreach and host events to promote Harvard's WECode conference, the largest student-run women in tech conference in the world</li>
+          <li>Performed club outreach and hosted events to promote Harvard's WECode conference, the largest student-run women in tech conference in the world</li>
         </ul>,
     },
     {
@@ -350,17 +348,21 @@ const skills = {
     { name: "C", value: require("../assets/img/logo_c.png") },
   ],
   librariesFrameworks: [
-    { name: "NumPy", value: require("../assets/img/logo_numpy.png") },
-    { name: "Matplotlib", value: require("../assets/img/logo_matplotlib.png") },
     { name: "TensorFlow", value: require("../assets/img/logo_tensorflow.png") },
+    { name: "NumPy", value: require("../assets/img/logo_numpy.png") },
+    { name: "pandas", value: require("../assets/img/logo_pandas.png") },
+    { name: "scikit-learn", value: require("../assets/img/logo_scikitlearn.png") },
+    { name: "Matplotlib", value: require("../assets/img/logo_matplotlib.png") },
     { name: "React", value: require("../assets/img/logo_react.png") },
     { name: "PostgreSQL", value: require("../assets/img/logo_postgresql.png") },
   ],
   otherSkills: [
     { name: "Git", value: require("../assets/img/logo_git.png") },
+    { name: "Docker", value: require("../assets/img/logo_docker.png") },
     { name: "Figma", value: require("../assets/img/logo_figma.png") },
     { name: "WordPress", value: require("../assets/img/logo_wordpress.png") },
-    { name: "Microsoft Office", value: require("../assets/img/logo_office.png") },
+    { name: "Agile", value: require("../assets/img/logo_agile.png") },
+    { name: "Jira", value: require("../assets/img/logo_jira.png") },
   ],
 };
 
