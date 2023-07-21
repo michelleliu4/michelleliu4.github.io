@@ -20,6 +20,10 @@ const mainBody = {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/michelleliu-4",
     },
+    // {
+    //   image: "fa-discord",
+    //   url: "https://discordapp.com/users/384794549412954113",
+    // },
     {
       image: "fa-facebook",
       url: "https://www.facebook.com/michelle.liu.4",
@@ -88,7 +92,7 @@ const experience = {
       company: "JPMorgan Chase & Co.",
       location: "Jersey City, NJ",
       role: "Software Engineer Intern",
-      date: "June 2023 – Present",
+      date: "Jun 2023 – Aug 2023",
       description: [
         <ul>
           <li>Leveraged Splunk queries and AWS to construct a robust data pipeline for extracting and preprocessing call center log data</li>
@@ -345,7 +349,7 @@ const skills = {
     // { name: "CSS", value: require("../assets/img/logo_css.png") },
     { name: "ReasonML", value: require("../assets/img/logo_reasonml.png") },
     // { name: "Racket", value: require("../assets/img/logo_racket.png") },
-    { name: "C", value: require("../assets/img/logo_c.png") },
+    { name: "C/C++", value: require("../assets/img/logo_c.png") },
   ],
   librariesFrameworks: [
     { name: "TensorFlow", value: require("../assets/img/logo_tensorflow.png") },

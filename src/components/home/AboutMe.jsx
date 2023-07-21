@@ -1,8 +1,6 @@
 import React from "react";
-
 import axios from "axios";
 import { Jumbotron } from "./migration";
-import { borderLeft } from "@mui/system";
 
 const pictureLinkRegex = new RegExp(
   /[(http(s)?):(www.)?a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_+.~#?&//=]*)/

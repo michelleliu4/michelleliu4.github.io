@@ -2,9 +2,14 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Typist from 'react-typist-component';
 import { Jumbotron } from "./migration";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
 
 const MainBody = React.forwardRef(
   ({ gradient, title, message, icons }, ref) => {
+    library.add(fab); // Add brand icon library
+
     return (
       <Jumbotron
         fluid
@@ -34,7 +39,8 @@ const MainBody = React.forwardRef(
                 href={icon.url}
                 aria-label={`My ${icon.image.split("-")[1]}`}
               >
-                <i className={`fab ${icon.image}  fa-3x socialicons`} />
+                {/* <i className={`fab ${icon.image}  fa-3x socialicons`} /> */}
+                <FontAwesomeIcon icon={['fab', `${icon.image}`]} className="socialicons" size="3x" />
               </a>
             ))}
           </div>
