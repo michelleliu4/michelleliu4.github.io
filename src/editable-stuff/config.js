@@ -89,19 +89,6 @@ const experience = {
   heading: "Experience",
   data: [
     {
-      company: "JPMorgan Chase & Co.",
-      location: "Jersey City, NJ",
-      role: "Software Engineer Intern",
-      date: "Jun 2023 – Aug 2023",
-      description: [
-        <ul>
-          <li>Leveraged Splunk queries and AWS to construct a robust data pipeline for extracting and preprocessing call center log data</li>
-          <li>Developed and implemented outlier detection and classification models, achieving over 90% accuracy identifying irregular and bad calls</li>
-          <li>Created time series models to find general trends in problematic calls across various regions, supporting a user base of over 50,000 call specialists</li>
-        </ul>
-      ],
-    },
-    {
       company: 'Brown University',
       location: "Providence, RI",
       role: 'Undergraduate Teaching Assistant',
@@ -113,6 +100,19 @@ const experience = {
           <li>Facilitated interactive workshops to foster collaboration, reinforce key concepts, and tackle challenging problem sets</li>
           <li>Supported over 300 individuals by moderating an online question forum and providing guidance during office hours</li>
         </ul>,
+      ],
+    },
+    {
+      company: "JPMorgan Chase & Co.",
+      location: "Jersey City, NJ",
+      role: "Software Engineer Intern",
+      date: "Jun 2023 – Aug 2023",
+      description: [
+        <ul>
+          <li>Leveraged Splunk queries and AWS to construct a robust data pipeline for extracting and preprocessing call center log data</li>
+          <li>Developed and implemented outlier detection and classification models, achieving over 90% accuracy identifying irregular and bad calls</li>
+          <li>Created time series models to find general trends in problematic calls across various regions, supporting a user base of over 50,000 call specialists</li>
+        </ul>
       ],
     },
     {
