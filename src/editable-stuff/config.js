@@ -62,9 +62,12 @@ const about = {
     <p style={{fontSize:18, marginBottom:0}}>Sc.B. Applied Math and Computer Science, Sep 2021 – May 2025 </p>
     <ul>
       <li>CS Courses: Machine Learning, Deep Learning, Computer Systems,
-        Data Structures & Algorithms, Functional Programming, Web Development</li>
-      <li>Math Courses: Numerical Methods for PDEs, Operations Research: Deterministic Models,
-        Honors Statistics, Applied PDEs, Abstract Algebra, Graph Theory
+        Theory of Computation, Data Structures & Algorithms,
+        Functional Programming, Web Development</li>
+      <li>Math Courses: Numerical Methods for Differential Equations,
+        Operations Research: Deterministic Models, Stochastic Calculus,
+        Honors Statistics, Applied Partial Differential Equations,
+        Abstract Algebra, Graph Theory
       </li>
     </ul>
 
