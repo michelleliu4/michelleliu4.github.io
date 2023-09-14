@@ -61,21 +61,31 @@ const about = {
     <p style={{fontSize:22, marginBottom:0}}><b>Brown University</b></p>
     <p style={{fontSize:18, marginBottom:0}}>Sc.B. Applied Math and Computer Science, Sep 2021 – May 2025 </p>
     <ul>
-      <li>CS Courses: Machine Learning, Deep Learning, Computer Systems,
-        Theory of Computation, Data Structures & Algorithms,
-        Functional Programming, Web Development</li>
-      <li>Math Courses: Numerical Methods for Differential Equations,
-        Operations Research: Deterministic Models, Stochastic Calculus,
-        Honors Statistics, Applied Partial Differential Equations,
-        Abstract Algebra, Graph Theory
+      <li>Computer Science Courses
+        <ul>
+          <li>Machine Learning, Deep Learning, NLP</li>
+          <li>Computer Systems, Web Development, Functional Programming</li>
+          <li>Theory of Computation, Data Structures & Algorithms</li>
+        </ul>
+      </li>
+      <li>Math Courses
+        <ul>
+          <li>Numerical Solutions of Differential Equations, Operations Research: Deterministic Models, Stochastic Calculus</li>
+          <li>Honors Statistics, Applied Partial Differential Equations</li>
+          <li>Abstract Algebra, Complex Analysis, Differential Geometry, Graph Theory</li>
+        </ul>
       </li>
     </ul>
 
     <p style={{fontSize:22, marginBottom:0}}><b>University of Nevada Reno</b></p>
     <p style={{fontSize:18, marginBottom:0}}>Middle/High School Dual Enrollment, Aug 2015 – May 2021</p>
     <ul>
-      <li>Courses: Game Theory, Topology, Real Analysis, Number Theory,
+      <li>Relevant Courses
+        <ul>
+          <li>Game Theory, Topology, Real Analysis, Number Theory,
         Calculus III, Linear Algebra, Microeconomics</li>
+        </ul>
+      </li>
     </ul>
 
     <p style={{fontSize:22, marginBottom:0}}><b>Davidson Academy</b></p>
@@ -92,13 +102,24 @@ const experience = {
   heading: "Experience",
   data: [
     {
+      company: 'SIG',
+      location: "New York, NY",
+      role: 'Quantitative Trading Intern',
+      date: 'Jun 2024 – Aug 2024',
+      description: [
+        <ul>
+          <li>Incoming for Summer 2024</li>
+        </ul>
+      ],
+    },
+    {
       company: 'Brown University',
       location: "Providence, RI",
       role: 'Undergraduate Teaching Assistant',
       date: 'Aug 2022 – Present',
       description: [
         <ul>
-          <li>Courses: Computational Linguistics (Fall 2023), Statistical Inference (Spring 2023), Graduate Machine Learning (Spring 2023), Functional Programming (Fall 2022)</li>
+          <li>Courses: Computational Linguistics (Fall 2023), Statistical Inference (Spring 2023), Machine Learning (Spring 2023), Functional Programming (Fall 2022)</li>
           <li>Designed projects, homework, and exams as well as assisted with grading of assignments</li>
           <li>Facilitated interactive workshops to foster collaboration, reinforce key concepts, and tackle challenging problem sets</li>
           <li>Supported over 300 individuals by moderating an online question forum and providing guidance during office hours</li>
@@ -170,17 +191,6 @@ const experience = {
       ],
     },
     {
-      company: 'SIG',
-      location: "Bala Cynwyd, PA",
-      role: 'Sophomore Trading Discovery Day Fellow',
-      date: 'Feb 2023',
-      description: [
-        <ul>
-          <li>Selected as one of 30 students for this competitive program to learn about quantitative trading at SIG</li>
-        </ul>,
-      ],
-    },
-    {
       company: 'Jane Street',
       location: "New York, NY",
       role: 'First-Year Trading and Technology (FTTP) and INSIGHT Fellow',
@@ -219,7 +229,7 @@ const leadership = {
       description: 
         <ul>
           <li>Founded club and recruited over 70 members to arrange and perform anime and video game music in biannual concerts</li>
-          <li>Orchestrated club operations, including weekly rehearsals and a <a href="https://www.youtube.com/@brownavge">Youtube channel</a> with over 50k views</li>
+          <li>Orchestrated club operations, including weekly rehearsals and a <a href="https://www.youtube.com/@brownavge">Youtube channel</a> with over 80k views</li>
         </ul>,
     },
     {
