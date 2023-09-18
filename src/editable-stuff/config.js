@@ -238,8 +238,8 @@ const leadership = {
       date: 'Mar 2022 – Present',
       description:
         <ul>
-          <li>Lead a club of over 200 students, collaborating with board members to plan events such as industry panels, course advising, and social mixers</li>
-          <li>Managed over $1000 budget, allocating reosurces for social outreach initiatives and overseeing the <a href="https://brownamdug.wordpress.com/">website</a></li>
+          <li>Lead a club of over 300 students, collaborating with board members to plan events such as industry panels, course advising, and social mixers</li>
+          <li>Managed over $1500 budget, allocating reosurces for social outreach initiatives and overseeing the <a href="https://brownamdug.wordpress.com/">website</a></li>
           <li>Coordinated with the applied math department and clubs like SIAM and Association of Women in Mathematics to host events such as Pi Day, peer and faculty advising, and math talks</li>
         </ul>,
     },
