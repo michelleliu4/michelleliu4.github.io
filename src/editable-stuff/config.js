@@ -140,6 +140,18 @@ const experience = {
       ],
     },
     {
+      company: 'Visual Prosthesis Lab',
+      location: "Providence, RI",
+      role: 'Research Assistant',
+      date: 'Sep 2022 – Dec 2022',
+      description: [
+        <ul>
+          <li>Conducted research and implemented Python computer vision frameworks to aid visually impaired individuals in navigation</li>
+          <li>Developed visual prosthesis devices by leveraging YoloV5 for object localization, Text2Voice for intuitive grasping, and OCR for character recognition</li>
+        </ul>,
+      ],
+    },
+    {
       company: 'Western Digital',
       location: "Milpitas, CA",
       role: 'Software Development Engineer Intern',
@@ -153,30 +165,18 @@ const experience = {
         </ul>,
       ],
     },
-    {
-      company: 'Visual Prosthesis Lab',
-      location: "Providence, RI",
-      role: 'Research Assistant',
-      date: 'Sep 2022 – Dec 2022',
-      description: [
-        <ul>
-          <li>Conducted research and implemented Python computer vision frameworks to aid visually impaired individuals in navigation</li>
-          <li>Developed visual prosthesis devices by leveraging YoloV5 for object localization, Text2Voice for intuitive grasping, and OCR for character recognition</li>
-        </ul>,
-      ],
-    },
-    {
-      company: 'D.E. Shaw & Co.',
-      location: "New York, NY",
-      role: 'Discovery Fellowship Attendee',
-      date: 'May 2023',
-      description: [
-        <ul>
-          <li>Selected as one of 30 attendees for selective program to learn about roles at DE Shaw & Co</li>
-          <li>Studied financial market topics such as alpha and behavioral finance</li>
-        </ul>,
-      ],
-    },
+    // {
+    //   company: 'D.E. Shaw & Co.',
+    //   location: "New York, NY",
+    //   role: 'Discovery Fellowship Attendee',
+    //   date: 'May 2023',
+    //   description: [
+    //     <ul>
+    //       <li>Selected as one of 30 attendees for selective program to learn about roles at DE Shaw & Co</li>
+    //       <li>Studied financial market topics such as alpha and behavioral finance</li>
+    //     </ul>,
+    //   ],
+    // },
     {
       company: 'Citadel',
       location: "New York, NY",
@@ -202,18 +202,18 @@ const experience = {
         </ul>,
       ],
     },
-    {
-      company: 'Jadepoint',
-      location: "Remote",
-      role: 'Consulting Intern',
-      date: 'Jan 2022',
-      description: [
-        <ul>
-          <li>Collaborated with the consulting team to design PowerPoint presentations and training tasks for clients in Aruba, effectively conveying performance psychology concepts</li>
-          <li>Conducted market research on the luxury hotel industry, providing valuable insights and recommendations to support strategic decision-making for the consulting projects</li>
-        </ul>,
-      ],
-    },
+    // {
+    //   company: 'Jadepoint',
+    //   location: "Remote",
+    //   role: 'Consulting Intern',
+    //   date: 'Jan 2022',
+    //   description: [
+    //     <ul>
+    //       <li>Collaborated with the consulting team to design PowerPoint presentations and training tasks for clients in Aruba, effectively conveying performance psychology concepts</li>
+    //       <li>Conducted market research on the luxury hotel industry, providing valuable insights and recommendations to support strategic decision-making for the consulting projects</li>
+    //     </ul>,
+    //   ],
+    // },
   ]
 };
 
@@ -244,16 +244,6 @@ const leadership = {
         </ul>,
     },
     {
-      company: 'Machine Intelligence Community',
-      role: 'Executive Board',
-      date: 'Oct 2022 – Present',
-      description:
-        <ul>
-          <li>Constructed educational machine learning workshops in song generation with GPT-2 and neuro style transfer</li>
-          <li>Lead conceptual sessions for over 70 individuals, assisting them in understanding and coding machine learning projects</li>
-        </ul>
-    },
-    {
       company: 'Cambridge Math Circle',
       role: 'Mathematics Instructor',
       date: 'Apr 2020 – Present',
@@ -275,6 +265,16 @@ const leadership = {
         </ul>,
     },
     {
+      company: 'Machine Intelligence Community',
+      role: 'Executive Board',
+      date: 'Oct 2022 – May 2023',
+      description:
+        <ul>
+          <li>Constructed educational machine learning workshops in song generation with GPT-2 and neuro style transfer</li>
+          <li>Lead conceptual sessions for over 70 individuals, assisting them in understanding and coding machine learning projects</li>
+        </ul>
+    },
+    {
       company: 'Harvard WECode',
       role: 'Tech Fellow',
       date: 'Nov 2022 – Feb 2023',
@@ -283,16 +283,16 @@ const leadership = {
           <li>Performed club outreach and hosted events to promote Harvard's WECode conference, the largest student-run women in tech conference in the world</li>
         </ul>,
     },
-    {
-      company: 'Full Stack at Brown',
-      role: 'Full Stack Developer',
-      date: 'Feb 2022 – May 2022',
-      description: 
-        <ul>
-          <li>Developed the backend for KeebWorld, an aggregate website for mechanical keyboard parts</li>
-          <li>Utilized Python and Beautiful Soup to web scrape off vendor websites and organize data into Firebase</li>
-        </ul>,
-    },
+    // {
+    //   company: 'Full Stack at Brown',
+    //   role: 'Full Stack Developer',
+    //   date: 'Feb 2022 – May 2022',
+    //   description: 
+    //     <ul>
+    //       <li>Developed the backend for KeebWorld, an aggregate website for mechanical keyboard parts</li>
+    //       <li>Utilized Python and Beautiful Soup to web scrape off vendor websites and organize data into Firebase</li>
+    //     </ul>,
+    // },
   ]
 };
 
