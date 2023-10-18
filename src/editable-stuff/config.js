@@ -105,10 +105,21 @@ const experience = {
       company: 'SIG',
       location: "New York, NY",
       role: 'Quantitative Trading Intern',
-      date: 'Jun 2024 – Aug 2024',
+      date: 'Summer 2024',
       description: [
         <ul>
           <li>Incoming for Summer 2024</li>
+        </ul>
+      ],
+    },
+    {
+      company: 'Lightspeed',
+      location: "Providence, RI",
+      role: 'Data Science Intern',
+      date: 'Spring 2024',
+      description: [
+        <ul>
+          <li>Incoming for Spring 2024</li>
         </ul>
       ],
     },
