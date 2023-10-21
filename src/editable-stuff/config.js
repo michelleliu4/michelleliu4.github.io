@@ -72,7 +72,7 @@ const about = {
         <ul>
           <li>Numerical Solutions of Differential Equations, Operations Research: Deterministic Models, Stochastic Calculus</li>
           <li>Honors Statistics, Applied Partial Differential Equations</li>
-          <li>Abstract Algebra, Complex Analysis, Differential Geometry, Graph Theory</li>
+          <li>Abstract Algebra, Complex Analysis, Graph Theory</li>
         </ul>
       </li>
     </ul>
