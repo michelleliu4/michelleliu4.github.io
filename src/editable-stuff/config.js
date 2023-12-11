@@ -235,7 +235,7 @@ const leadership = {
   data: [
     {
       company: 'Anime Video Game Ensemble',
-      role: 'Founder',
+      role: 'Co-Founder',
       date: 'Sep 2021 – Present',
       description: 
         <ul>
@@ -245,19 +245,19 @@ const leadership = {
     },
     {
       company: 'Applied Math DUG',
-      role: 'President',
+      role: 'President Emeritus, Executive Board',
       date: 'Mar 2022 – Present',
       description:
         <ul>
           <li>Lead a club of over 300 students, collaborating with board members to plan events such as industry panels, course advising, and social mixers</li>
-          <li>Managed over $1500 budget, allocating reosurces for social outreach initiatives and overseeing the <a href="https://brownamdug.wordpress.com/">website</a></li>
+          <li>Managed over $1800 budget, allocating reosurces for social outreach initiatives and overseeing the <a href="https://brownamdug.wordpress.com/">website</a></li>
           <li>Coordinated with the applied math department and clubs like SIAM and Association of Women in Mathematics to host events such as Pi Day, peer and faculty advising, and math talks</li>
         </ul>,
     },
     {
       company: 'Cambridge Math Circle',
       role: 'Mathematics Instructor',
-      date: 'Apr 2020 – Present',
+      date: 'Apr 2020 – Dec 2022',
       description:
         <ul>
           <li>Taught online math classes and explained challenging concepts for 1st-8th grade students in the Cambridge area</li>
