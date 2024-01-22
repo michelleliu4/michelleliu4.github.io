@@ -20,10 +20,10 @@ const mainBody = {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/michelleliu-4",
     },
-    // {
-    //   image: "fa-discord",
-    //   url: "https://discordapp.com/users/384794549412954113",
-    // },
+    {
+      image: "fa-discord",
+      url: "https://discordapp.com/users/384794549412954113",
+    },
     {
       image: "fa-facebook",
       url: "https://www.facebook.com/michelle.liu.4",
@@ -61,17 +61,11 @@ const about = {
     <p style={{fontSize:22, marginBottom:0}}><b>Brown University</b></p>
     <p style={{fontSize:18, marginBottom:0}}>Sc.B. Applied Math and Computer Science, Sep 2021 – May 2025 </p>
     <ul>
-      <li>Computer Science Courses
+      <li>Relevant Courses
         <ul>
-          <li>Machine Learning, Deep Learning, NLP</li>
-          <li>Computer Systems, Web Development, Functional Programming</li>
-          <li>Theory of Computation, Data Structures & Algorithms</li>
-        </ul>
-      </li>
-      <li>Math Courses
-        <ul>
-          <li>Numerical Solutions of Differential Equations, Operations Research: Deterministic Models, Stochastic Calculus</li>
-          <li>Honors Statistics, Applied Partial Differential Equations</li>
+          <li>Machine Learning, Deep Learning, NLP, Computer Vision</li>
+          <li>Computer Systems, Web Development, Theory of Computation</li>
+          <li>Stochastic Calculus, Honors Statistics, PDEs</li>
           <li>Abstract Algebra, Complex Analysis, Graph Theory</li>
         </ul>
       </li>
@@ -116,10 +110,10 @@ const experience = {
       company: 'Lightspeed',
       location: "Providence, RI",
       role: 'Data Science Intern',
-      date: 'Spring 2024',
+      date: 'Jan 2024 – Present',
       description: [
         <ul>
-          <li>Incoming for Spring 2024</li>
+          <li>Spring 2024</li>
         </ul>
       ],
     },
@@ -127,7 +121,7 @@ const experience = {
       company: 'Brown University',
       location: "Providence, RI",
       role: 'Undergraduate Teaching Assistant',
-      date: 'Aug 2022 – Present',
+      date: 'Aug 2022 – Dec 2023',
       description: [
         <ul>
           <li>Courses: Computational Linguistics (Fall 2023), Statistical Inference (Spring 2023), Machine Learning (Spring 2023), Functional Programming (Fall 2022)</li>
@@ -257,7 +251,7 @@ const leadership = {
     {
       company: 'Cambridge Math Circle',
       role: 'Mathematics Instructor',
-      date: 'Apr 2020 – Dec 2022',
+      date: 'Apr 2020 – Present',
       description:
         <ul>
           <li>Taught online math classes and explained challenging concepts for 1st-8th grade students in the Cambridge area</li>
