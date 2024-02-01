@@ -63,9 +63,9 @@ const about = {
     <ul>
       <li>Relevant Courses
         <ul>
-          <li>Machine Learning, Deep Learning, NLP, Computer Vision</li>
+          <li>Machine Learning, Deep Learning, Computational Linguistics, Reinforcement Learning</li>
           <li>Computer Systems, Web Development, Theory of Computation</li>
-          <li>Stochastic Calculus, Honors Statistics, PDEs</li>
+          <li>Stochastic Calculus, Honors Statistics, Operations Research, PDEs</li>
           <li>Abstract Algebra, Complex Analysis, Graph Theory</li>
         </ul>
       </li>
