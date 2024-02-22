@@ -184,31 +184,31 @@ const experience = {
     //     </ul>,
     //   ],
     // },
-    {
-      company: 'Citadel',
-      location: "New York, NY",
-      role: 'Discover Citadel & Citadel Securities Participant',
-      date: 'Apr 2023',
-      description: [
-        <ul>
-          <li>Selected as one of 120 out of over 2600 students to learn about quantitative roles at Citadel</li>
-          <li>Attended networking sessions with senior leaders to learn about company structure</li>
-          <li>Leveraged asset pricing and bidding to place 1st in a trading game</li>
-        </ul>,
-      ],
-    },
-    {
-      company: 'Jane Street',
-      location: "New York, NY",
-      role: 'First-Year Trading and Technology (FTTP) and INSIGHT Fellow',
-      date: 'Mar 2022, Aug 2022',
-      description: [
-        <ul>
-          <li>Selected as one of 60 students for FTTP and one of 40 students for INSIGHT, both highly competitive program to learn market-making and algorithmic trading</li>
-          <li>Programmed trading bot in Python leveraging arbitrage and bond pricing to place 3rd in electronic trading competition</li>
-        </ul>,
-      ],
-    },
+    // {
+    //   company: 'Citadel',
+    //   location: "New York, NY",
+    //   role: 'Discover Citadel & Citadel Securities Participant',
+    //   date: 'Apr 2023',
+    //   description: [
+    //     <ul>
+    //       <li>Selected as one of 120 out of over 2600 students to learn about quantitative roles at Citadel</li>
+    //       <li>Attended networking sessions with senior leaders to learn about company structure</li>
+    //       <li>Leveraged asset pricing and bidding to place 1st in a trading game</li>
+    //     </ul>,
+    //   ],
+    // },
+    // {
+    //   company: 'Jane Street',
+    //   location: "New York, NY",
+    //   role: 'First-Year Trading and Technology (FTTP) and INSIGHT Fellow',
+    //   date: 'Mar 2022, Aug 2022',
+    //   description: [
+    //     <ul>
+    //       <li>Selected as one of 60 students for FTTP and one of 40 students for INSIGHT, both highly competitive program to learn market-making and algorithmic trading</li>
+    //       <li>Programmed trading bot in Python leveraging arbitrage and bond pricing to place 3rd in electronic trading competition</li>
+    //     </ul>,
+    //   ],
+    // },
     // {
     //   company: 'Jadepoint',
     //   location: "Remote",
