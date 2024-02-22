@@ -113,7 +113,9 @@ const experience = {
       date: 'Jan 2024 – Present',
       description: [
         <ul>
-          <li>Spring 2024</li>
+          <li>Analyzed Easter trends in European restaurants, deriving insights on sales patterns with Google Cloud BigQuery and SQL</li>
+          <li>Spearheaded TEMPO initiative to optimize table service pacing, leveraging Python and data science libraries</li>
+          <li>Organized internal data science reading groups, focusing on seminal papers like “Attention is All You Need”</li>
         </ul>
       ],
     },
