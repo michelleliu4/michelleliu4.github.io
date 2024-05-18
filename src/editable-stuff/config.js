@@ -24,10 +24,10 @@ const mainBody = {
       image: "fa-discord",
       url: "https://discordapp.com/users/384794549412954113",
     },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/michelle.liu.4",
-    },
+    // {
+    //   image: "fa-facebook",
+    //   url: "https://www.facebook.com/michelle.liu.4",
+    // },
     {
       image: "fa-instagram",
       url: "https://www.instagram.com/michelle.liu.4",
@@ -63,9 +63,9 @@ const about = {
     <ul>
       <li>Relevant Courses
         <ul>
-          <li>Machine Learning, Deep Learning, Computational Linguistics, Reinforcement Learning</li>
+          <li>Machine Learning, Deep Learning, Natural Language Processing, Reinforcement Learning</li>
           <li>Computer Systems, Web Development, Theory of Computation</li>
-          <li>Stochastic Calculus, Statistics, Operations Research, PDEs</li>
+          <li>Stochastic Calculus, Statistics, Probabilistic Models, Numerical Methods of Differential Equations</li>
           <li>Abstract Algebra, Complex Analysis, Graph Theory</li>
         </ul>
       </li>
@@ -113,9 +113,9 @@ const experience = {
       date: 'Jan 2024 – Present',
       description: [
         <ul>
-          <li>Analyzed Easter trends in European restaurants, deriving insights on sales patterns with Google Cloud BigQuery and SQL</li>
-          <li>Spearheaded TEMPO initiative to optimize table service pacing, leveraging Python and data science libraries</li>
-          <li>Organized internal data science reading groups, focusing on seminal papers like “Attention is All You Need”</li>
+          <li>Analyzed Easter trends in restaurants, deriving sales pattern insights from over 10,000 transactions with BigQuery</li>
+          <li>Developed and sales and tip trend analyses using GCP Dataform and SQL, integrated with Looker for visualization</li>
+          <li>Led Tempo initiative to optimize table pacing, leveraging data science libraries in Python, reaching over 5,000 restaurants</li>
         </ul>
       ],
     },
@@ -172,43 +172,6 @@ const experience = {
         </ul>,
       ],
     },
-    // {
-    //   company: 'D.E. Shaw & Co.',
-    //   location: "New York, NY",
-    //   role: 'Discovery Fellowship Attendee',
-    //   date: 'May 2023',
-    //   description: [
-    //     <ul>
-    //       <li>Selected as one of 30 attendees for selective program to learn about roles at DE Shaw & Co</li>
-    //       <li>Studied financial market topics such as alpha and behavioral finance</li>
-    //     </ul>,
-    //   ],
-    // },
-    // {
-    //   company: 'Citadel',
-    //   location: "New York, NY",
-    //   role: 'Discover Citadel & Citadel Securities Participant',
-    //   date: 'Apr 2023',
-    //   description: [
-    //     <ul>
-    //       <li>Selected as one of 120 out of over 2600 students to learn about quantitative roles at Citadel</li>
-    //       <li>Attended networking sessions with senior leaders to learn about company structure</li>
-    //       <li>Leveraged asset pricing and bidding to place 1st in a trading game</li>
-    //     </ul>,
-    //   ],
-    // },
-    // {
-    //   company: 'Jane Street',
-    //   location: "New York, NY",
-    //   role: 'First-Year Trading and Technology (FTTP) and INSIGHT Fellow',
-    //   date: 'Mar 2022, Aug 2022',
-    //   description: [
-    //     <ul>
-    //       <li>Selected as one of 60 students for FTTP and one of 40 students for INSIGHT, both highly competitive program to learn market-making and algorithmic trading</li>
-    //       <li>Programmed trading bot in Python leveraging arbitrage and bond pricing to place 3rd in electronic trading competition</li>
-    //     </ul>,
-    //   ],
-    // },
     // {
     //   company: 'Jadepoint',
     //   location: "Remote",
@@ -271,16 +234,16 @@ const leadership = {
           <li>Coordinated with other performance and theatre groups to organize shows and scheduling in an advisory board</li>
         </ul>,
     },
-    {
-      company: 'Machine Intelligence Community',
-      role: 'Executive Board',
-      date: 'Oct 2022 – May 2023',
-      description:
-        <ul>
-          <li>Constructed educational machine learning workshops in song generation with GPT-2 and neuro style transfer</li>
-          <li>Lead conceptual sessions for over 70 individuals, assisting them in understanding and coding machine learning projects</li>
-        </ul>
-    },
+    // {
+    //   company: 'Machine Intelligence Community',
+    //   role: 'Executive Board',
+    //   date: 'Oct 2022 – May 2023',
+    //   description:
+    //     <ul>
+    //       <li>Constructed educational machine learning workshops in song generation with GPT-2 and neuro style transfer</li>
+    //       <li>Lead conceptual sessions for over 70 individuals, assisting them in understanding and coding machine learning projects</li>
+    //     </ul>
+    // },
     {
       company: 'Harvard WECode',
       role: 'Tech Fellow',
@@ -335,9 +298,9 @@ const awards = {
       <ul>
         <li>Member of the Nevada team at the National Science Bowl Competition, sponsored by the DOE</li>
       </ul>
-      <p style={{fontSize:20, marginBottom:0}}><b>Doyle Foundation Scholarship (2021, 2022, 2023)</b></p>
+      <p style={{fontSize:20, marginBottom:0}}><b>Doyle Foundation Scholarship (2021, 2022, 2023, 2024)</b></p>
       <ul>
-        <li>Three-time recipient of the <a href="https://doylefound.org/">Doyle Foundation</a> Scholarship</li>
+        <li>Four-time recipient of the <a href="https://doylefound.org/">Doyle Foundation</a> Scholarship</li>
       </ul>
   </div>,
   images: [
