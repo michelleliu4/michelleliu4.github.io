@@ -24,10 +24,10 @@ const mainBody = {
       image: "fa-discord",
       url: "https://discordapp.com/users/384794549412954113",
     },
-    // {
-    //   image: "fa-facebook",
-    //   url: "https://www.facebook.com/michelle.liu.4",
-    // },
+    {
+      image: "fa-facebook",
+      url: "https://www.facebook.com/michelle.liu.4",
+    },
     {
       image: "fa-instagram",
       url: "https://www.instagram.com/michelle.liu.4",
@@ -54,7 +54,7 @@ const about = {
   imageLink: require("../editable-stuff/headshot.jpg"),
   imageSize: 375,
   message:
-    "Hi! I am a junior at Brown University studying Applied Mathematics and Computer Science. I am passionate about using tech to improve the world and an avid learner with many interests, especially in machine learning and entrepreneurship.",
+    "Hi! I am a rising senior at Brown University studying Applied Mathematics and Computer Science. I am passionate about using tech to improve the world and an avid learner with many interests, especially in machine learning and entrepreneurship.",
   resume: require("../editable-stuff/resume.pdf"),
   education: (
     <div>
@@ -416,18 +416,21 @@ const awards = {
   heading: "Awards",
   message: (
     <div>
-      <p style={{ fontSize: 20, marginBottom: 0 }}>
-        <b>AIME Qualifier (2018, 2021)</b>
-      </p>
+      <b>AIME Qualifier (2018, 2021)</b>
       <ul>
         <li>
           Two-time AIME qualifier, scoring in the top 5% of all AMC 12 exam
           takers worldwide, as well as a Math Prize for Girls participant
         </li>
       </ul>
-      <p style={{ fontSize: 20, marginBottom: 0 }}>
-        <b>Hackathon for Social Good Bronze Award (2022)</b>
-      </p>
+
+      <b>Jane Street Electronic Trading Challenge 3rd Place (2022)</b>
+      <ul>
+        <li>Selected as one of 60 students for FTTP, a competitive program to learn about trading</li>
+        <li>Programmed trading bot in Python leveraging arbitrage and bond pricing to place 3rd</li>
+      </ul>
+
+      <b>Hackathon for Social Good Bronze (2022)</b>
       <ul>
         <li>
           Built{" "}
@@ -441,18 +444,16 @@ const awards = {
           about the hackathon
         </li>
       </ul>
-      <p style={{ fontSize: 20, marginBottom: 0 }}>
-        <b>National Science Bowl Top 32 (2021)</b>
-      </p>
+
+      <b>National Science Bowl Top 32 (2021)</b>
       <ul>
         <li>
           Member of the Nevada team at the National Science Bowl Competition,
           sponsored by the DOE
         </li>
       </ul>
-      <p style={{ fontSize: 20, marginBottom: 0 }}>
-        <b>Doyle Foundation Scholarship (2021, 2022, 2023, 2024)</b>
-      </p>
+
+      <b>Doyle Foundation Scholarship (2021, 2022, 2023, 2024)</b>
       <ul>
         <li>
           Four-time recipient of the{" "}
@@ -487,30 +488,24 @@ const skills = {
     { name: "Python", value: require("../assets/img/logo_python.png") },
     { name: "JavaScript", value: require("../assets/img/logo_javascript.png") },
     { name: "HTML/CSS", value: require("../assets/img/logo_html.png") },
-    // { name: "CSS", value: require("../assets/img/logo_css.png") },
     { name: "ReasonML", value: require("../assets/img/logo_reasonml.png") },
-    // { name: "Racket", value: require("../assets/img/logo_racket.png") },
     { name: "C/C++", value: require("../assets/img/logo_c.png") },
   ],
   librariesFrameworks: [
+    { name: "React", value: require("../assets/img/logo_react.png") },
     { name: "TensorFlow", value: require("../assets/img/logo_tensorflow.png") },
+    { name: "Pytorch", value: require("../assets/img/logo_pytorch.png") },
     { name: "NumPy", value: require("../assets/img/logo_numpy.png") },
     { name: "pandas", value: require("../assets/img/logo_pandas.png") },
-    {
-      name: "scikit-learn",
-      value: require("../assets/img/logo_scikitlearn.png"),
-    },
-    { name: "Matplotlib", value: require("../assets/img/logo_matplotlib.png") },
-    { name: "React", value: require("../assets/img/logo_react.png") },
     { name: "PostgreSQL", value: require("../assets/img/logo_postgresql.png") },
   ],
   otherSkills: [
+    { name: "Amazon Web Services", value: require("../assets/img/logo_aws.png") },
+    { name: "Google Cloud", value: require("../assets/img/logo_gcp.png") },
     { name: "Git", value: require("../assets/img/logo_git.png") },
     { name: "Docker", value: require("../assets/img/logo_docker.png") },
     { name: "Figma", value: require("../assets/img/logo_figma.png") },
     { name: "WordPress", value: require("../assets/img/logo_wordpress.png") },
-    { name: "Agile", value: require("../assets/img/logo_agile.png") },
-    { name: "Jira", value: require("../assets/img/logo_jira.png") },
   ],
 };
 
