@@ -7,63 +7,68 @@ import { Jumbotron } from "./migration";
 import { Container } from "react-bootstrap";
 import { useScrollPosition } from "../../hooks/useScrollPosition";
 
-const Skills = React.forwardRef(({ heading, languages, librariesFrameworks, otherSkills }, ref) => {
-  const skillsTabRef = React.useRef(null);
-  const [isScrolled, setIsScrolled] = React.useState(false);
-  //const navbarDimensions = useResizeObserver(navbarMenuRef);
+const Skills = React.forwardRef(
+  ({ heading, languages, librariesFrameworks, otherSkills }, ref) => {
+    const skillsTabRef = React.useRef(null);
+    const [isScrolled, setIsScrolled] = React.useState(false);
+    //const navbarDimensions = useResizeObserver(navbarMenuRef);
 
-  useScrollPosition(
-    ({ prevPos, currPos }) => {
-      if (!isScrolled && currPos.y - 400 < 0) setIsScrolled(true);
-    },
-    [],
-    skillsTabRef
-  );
-  return (
-    <Jumbotron ref={skillsTabRef} fluid className="bg-white m-0" id="skills">
-      <Container className="p-5 ">
-        <h2 ref={skillsTabRef} className="display-4 pb-5 text-center">
-          {heading}
-        </h2>
-        <Tabs
-          className="skills-tabs"
-          defaultActiveKey="languages-skills"
-          id="skills-tabs"
-          fill
-        >
-          <Tab
-            tabClassName="skills-tab lead"
-            eventKey="languages-skills"
-            title="Languages"
+    useScrollPosition(
+      ({ prevPos, currPos }) => {
+        if (!isScrolled && currPos.y - 400 < 0) setIsScrolled(true);
+      },
+      [],
+      skillsTabRef
+    );
+    return (
+      <Jumbotron ref={skillsTabRef} fluid className="bg-white m-0" id="skills">
+        <Container className="p-5 ">
+          <h2 ref={skillsTabRef} className="display-4 pb-5 text-center">
+            {heading}
+          </h2>
+          <Tabs
+            className="skills-tabs"
+            defaultActiveKey="languages-skills"
+            id="skills-tabs"
+            fill
           >
-            <Row className="pt-3 px-1">
-              <SkillsTab skills={languages} isScrolled={isScrolled} />
-            </Row>
-          </Tab>
+            <Tab
+              tabClassName="skills-tab lead"
+              eventKey="languages-skills"
+              title="Languages"
+            >
+              <Row className="pt-3 px-1">
+                <SkillsTab skills={languages} isScrolled={isScrolled} />
+              </Row>
+            </Tab>
 
-          <Tab
-            tabClassName="skills-tab lead"
-            eventKey="libraries-skills"
-            title="Libraries & Frameworks"
-          >
-            <Row className="pt-3 px-1">
-              <SkillsTab skills={librariesFrameworks} isScrolled={isScrolled} />
-            </Row>
-          </Tab>
+            <Tab
+              tabClassName="skills-tab lead"
+              eventKey="libraries-skills"
+              title="Libraries & Frameworks"
+            >
+              <Row className="pt-3 px-1">
+                <SkillsTab
+                  skills={librariesFrameworks}
+                  isScrolled={isScrolled}
+                />
+              </Row>
+            </Tab>
 
-          <Tab
-            tabClassName="skills-tab lead"
-            eventKey="other-skills"
-            title="Other Skills"
-          >
-            <Row className="pt-3 px-1">
-              <SkillsTab skills={otherSkills} isScrolled={isScrolled} />
-            </Row>
-          </Tab>
-        </Tabs>
-      </Container>
-    </Jumbotron>
-  );
-});
+            <Tab
+              tabClassName="skills-tab lead"
+              eventKey="other-skills"
+              title="Other Skills"
+            >
+              <Row className="pt-3 px-1">
+                <SkillsTab skills={otherSkills} isScrolled={isScrolled} />
+              </Row>
+            </Tab>
+          </Tabs>
+        </Container>
+      </Jumbotron>
+    );
+  }
+);
 
 export default Skills;

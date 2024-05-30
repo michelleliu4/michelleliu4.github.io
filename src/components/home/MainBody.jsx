@@ -1,10 +1,10 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import Typist from 'react-typist-component';
+import Typist from "react-typist-component";
 import { Jumbotron } from "./migration";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fab } from "@fortawesome/free-brands-svg-icons";
 
 const MainBody = React.forwardRef(
   ({ gradient, title, message, icons }, ref) => {
@@ -26,9 +26,7 @@ const MainBody = React.forwardRef(
             {title}
           </h1>
           <Typist>
-            <div className="lead typist">
-              {message}
-            </div>
+            <div className="lead typist">{message}</div>
           </Typist>
           <div className="p-5">
             {icons.map((icon, index) => (
@@ -40,7 +38,11 @@ const MainBody = React.forwardRef(
                 aria-label={`My ${icon.image.split("-")[1]}`}
               >
                 {/* <i className={`fab ${icon.image}  fa-3x socialicons`} /> */}
-                <FontAwesomeIcon icon={['fab', `${icon.image}`]} className="socialicons" size="3x" />
+                <FontAwesomeIcon
+                  icon={["fab", `${icon.image}`]}
+                  className="socialicons"
+                  size="3x"
+                />
               </a>
             ))}
           </div>

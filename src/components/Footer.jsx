@@ -13,14 +13,15 @@ const Footer = (props) => {
           rel="noopener"
           href="https://github.com/michelleliu4"
           aria-label="My GitHub"
-        > <span className="badge bg-dark">
-            Michelle Liu
-          </span>
+        >
+          {" "}
+          <span className="badge bg-dark">Michelle Liu</span>
         </a>{" "}
         using <i className="fab fa-react" />
         <p>
           <small className="text-muted">
-            Project code is open source and forked from template by <a href="https://github.com/hashirshoaeb/home">Hashir Shoaib</a>.
+            Project code is open source and forked from template by{" "}
+            <a href="https://github.com/hashirshoaeb/home">Hashir Shoaib</a>.
           </small>
         </p>
       </Container>

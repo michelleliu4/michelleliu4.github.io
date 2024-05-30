@@ -4,13 +4,10 @@ import { Jumbotron } from "./migration";
 
 const Awards = ({ heading, message, img, imageSize }) => {
   return (
-    <Jumbotron
-      id="awards"
-      className="bg-light m-0"
-    >
+    <Jumbotron id="awards" className="bg-light m-0">
       <h2 className="display-4 pb-5 text-center">{heading}</h2>
       <div className="row">
-        <div className="col-md-8"> 
+        <div className="col-md-8">
           <p className="lead">{message}</p>
         </div>
         <div className="col-md-4">
@@ -27,9 +24,7 @@ const Awards = ({ heading, message, img, imageSize }) => {
                   />
                   <Carousel.Caption>
                     <h3>{value.label}</h3>
-                    <p>
-                      {value.paragraph}
-                    </p>
+                    <p>{value.paragraph}</p>
                   </Carousel.Caption>
                 </Carousel.Item>
               );

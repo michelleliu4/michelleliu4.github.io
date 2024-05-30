@@ -18,7 +18,9 @@ const ProjectCard = ({ value }) => {
       <Card className="card shadow-lg p-3 mb-5 bg-white rounded">
         <Card.Body>
           <Card.Title as="h5">{name || <Skeleton />} </Card.Title>
-          <Card.Text>{(!description) ? "" : description || <Skeleton count={3} />} </Card.Text>
+          <Card.Text>
+            {!description ? "" : description || <Skeleton count={3} />}{" "}
+          </Card.Text>
           {svn_url ? <CardButtons svn_url={svn_url} /> : <Skeleton count={2} />}
           <hr />
           {languages_url ? (
@@ -27,7 +29,11 @@ const ProjectCard = ({ value }) => {
             <Skeleton count={3} />
           )}
           {value ? (
-            <CardFooter star_count={stargazers_count} repo_url={svn_url} pushed_at={pushed_at} />
+            <CardFooter
+              star_count={stargazers_count}
+              repo_url={svn_url}
+              pushed_at={pushed_at}
+            />
           ) : (
             <Skeleton />
           )}
@@ -46,7 +52,11 @@ const CardButtons = ({ svn_url }) => {
       >
         <i className="fab fa-github" /> Clone Project
       </a>
-      <a href={svn_url} target=" _blank" className="btn btn-outline-secondary mx-2">
+      <a
+        href={svn_url}
+        target=" _blank"
+        className="btn btn-outline-secondary mx-2"
+      >
         <i className="fab fa-github" /> Repo
       </a>
     </div>
@@ -81,20 +91,19 @@ const Language = ({ languages_url, repo_url }) => {
       Languages:{" "}
       {array.length
         ? array.map((language) => (
-          <a
-            key={language}
-            className="card-link"
-            href={repo_url + `/search?l=${language}`}
-            target=" _blank"
-            rel="noopener noreferrer"
-          >
-            <span className="badge bg-light text-dark">
-              {language}:{" "}
-              {Math.trunc((data[language] / total_count) * 1000) / 10} %
-            </span>
-          </a>
-
-        ))
+            <a
+              key={language}
+              className="card-link"
+              href={repo_url + `/search?l=${language}`}
+              target=" _blank"
+              rel="noopener noreferrer"
+            >
+              <span className="badge bg-light text-dark">
+                {language}:{" "}
+                {Math.trunc((data[language] / total_count) * 1000) / 10} %
+              </span>
+            </a>
+          ))
         : "code yet to be deployed."}
     </div>
   );

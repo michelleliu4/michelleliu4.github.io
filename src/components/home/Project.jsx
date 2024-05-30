@@ -61,19 +61,19 @@ const Project = ({ heading, username, length, specfic }) => {
         <Row>
           {projectsArray.length
             ? projectsArray.map((project, index) => (
-              <ProjectCard
-                key={`project-card-${index}`}
-                id={`project-card-${index}`}
-                value={project}
-              />
-            ))
+                <ProjectCard
+                  key={`project-card-${index}`}
+                  id={`project-card-${index}`}
+                  value={project}
+                />
+              ))
             : dummyProjectsArr.map((project, index) => (
-              <ProjectCard
-                key={`dummy-${index}`}
-                id={`dummy-${index}`}
-                value={project}
-              />
-            ))}
+                <ProjectCard
+                  key={`dummy-${index}`}
+                  id={`dummy-${index}`}
+                  value={project}
+                />
+              ))}
         </Row>
       </Container>
     </Jumbotron>

@@ -33,17 +33,14 @@ const AboutMe = ({ heading, message, link, imgSize, resume, education }) => {
   function showEducation() {
     // Toggles Education block
     var x = document.getElementById("education-box");
-    if (x.style.display === 'block') {
-      x.style.display = 'none';
-    }
-    else {
-      x.style.display = 'block';
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
     }
   }
 
-
   return (
-    
     <Jumbotron id="aboutme" className="m-0">
       <div className="container row">
         <div className="col-5 d-none d-lg-block align-self-center">
@@ -69,24 +66,23 @@ const AboutMe = ({ heading, message, link, imgSize, resume, education }) => {
                 rel="noreferrer noopener"
                 role="button"
                 aria-label="Resume/CV"
-                style={{width: 120, marginLeft: 10, marginRight: 10}}
+                style={{ width: 120, marginLeft: 10, marginRight: 10 }}
               >
                 Resume
               </a>
               <button
                 className="btn btn-outline-dark btn-lg"
                 aria-label="Education"
-                style={{width: 120, marginLeft: 10, marginRight: 10}}
+                style={{ width: 120, marginLeft: 10, marginRight: 10 }}
                 onClick={showEducation}
               >
                 Education
               </button>
             </p>
           )}
-          <div id="education-box" style={{display: 'none'}}>
+          <div id="education-box" style={{ display: "none" }}>
             <p className="lead text-left">{education}</p>
           </div>
-          
         </div>
       </div>
     </Jumbotron>
