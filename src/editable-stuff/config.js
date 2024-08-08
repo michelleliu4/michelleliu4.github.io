@@ -122,41 +122,10 @@ const experience = {
   heading: "Experience",
   data: [
     {
-      company: "SIG",
-      location: "New York, NY",
-      role: "Quantitative Trading Intern",
-      date: "Jun 2024 – Aug 2024",
-      description: [
-        <ul>
-          <li>Incoming for Summer 2024</li>
-        </ul>,
-      ],
-    },
-    {
-      company: "PEAK6",
-      location: "Chicago, Illinois",
-      role: "Trading Micro-Intern",
-      date: "May 2024 – May 2024",
-      description: [
-        <ul>
-          <li>
-            Studied options theory and fundamental research to develop stock
-            pitches for long-term volatility, short-term volatility, and
-            research-based trades using an in-house suite of trading tools
-          </li>
-          <li>
-            Conducted data analysis on open interest and its impact on implied
-            volatility using Python, in addition to utilizing tools to analyze
-            term structures and implied vs. realized volatilities
-          </li>
-        </ul>,
-      ],
-    },
-    {
       company: "Lightspeed",
       location: "Providence, RI",
       role: "Data Science Intern",
-      date: "Jan 2024 – May 2024",
+      date: "Jan 2024 – Current",
       description: [
         <ul>
           <li>
@@ -171,10 +140,51 @@ const experience = {
             Led Tempo initiative to optimize table pacing, leveraging data
             science libraries in Python, reaching over 5,000 restaurants
           </li>
-          <li>Returning Fall 2024</li>
+          <li><b>Returning Fall 2024</b></li>
         </ul>,
       ],
     },
+    {
+      company: "Susquehanna International Group",
+      location: "New York, NY",
+      role: "Quantitative Trading Intern",
+      date: "Jun 2024 – Aug 2024",
+      description: [
+        <ul>
+          <li>
+            Studied financial markets and instruments to understand trading strategies and market dynamics
+          </li>
+          <li>
+            Participated in simulated electronic mock trading sessions to
+            develop trading skills and apply them in real-time scenarios
+          </li>
+          <li>
+            Conducted a data-driven project with Python to analyze the attention effect on stock prices,
+            assessing trends leading up to earnings or significant events
+          </li>
+        </ul>,
+      ],
+    },
+    {
+      company: "PEAK6",
+      location: "Chicago, Illinois",
+      role: "Trading Micro-Intern",
+      date: "May 2024 – May 2024",
+      description: [
+        <ul>
+          <li>
+            Studied options theory and fundamental analysis to develop stock
+            pitches for long-term volatility, short-term volatility, and
+            research-based trades using an in-house suite of trading tools
+          </li>
+          <li>
+          Analyzed open interest's impact on implied volatility using Python data libraries
+          and internal tools to analyze term structures and implied vs. realized volatilities
+          </li>
+        </ul>,
+      ],
+    },
+
     {
       company: "Brown University",
       location: "Providence, RI",
