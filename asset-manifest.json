@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.f326e30e.css",
-    "main.js": "/static/js/main.a2e9a794.js",
+    "main.js": "/static/js/main.04194d0f.js",
     "static/js/787.6971d1b3.chunk.js": "/static/js/787.6971d1b3.chunk.js",
     "static/media/headshot.jpg": "/static/media/headshot.012aab49da0efbb80128.jpg",
-    "static/media/resume.pdf": "/static/media/resume.cea1fe0f158edef9d505.pdf",
+    "static/media/resume.pdf": "/static/media/resume.7097b9335a8493d631e9.pdf",
     "static/media/logo_python.png": "/static/media/logo_python.3b33e236a97b9048b336.png",
     "static/media/logo_wordpress.png": "/static/media/logo_wordpress.558ce8b2efb7b495b402.png",
     "static/media/logo_aws.png": "/static/media/logo_aws.e1e69b2a360a00a92c41.png",
@@ -20,11 +20,11 @@
     "static/media/logo_html.png": "/static/media/logo_html.d50fc7a86b6f3764610b.png",
     "index.html": "/index.html",
     "main.f326e30e.css.map": "/static/css/main.f326e30e.css.map",
-    "main.a2e9a794.js.map": "/static/js/main.a2e9a794.js.map",
+    "main.04194d0f.js.map": "/static/js/main.04194d0f.js.map",
     "787.6971d1b3.chunk.js.map": "/static/js/787.6971d1b3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f326e30e.css",
-    "static/js/main.a2e9a794.js"
+    "static/js/main.04194d0f.js"
   ]
 }
