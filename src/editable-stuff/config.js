@@ -69,15 +69,14 @@ const about = {
           Relevant Courses
           <ul>
             <li>
-              Machine Learning, Natural Language Processing, Reinforcement
+              Computer Vision (Current), Machine Learning, Natural Language Processing, Reinforcement
               Learning, Deep Learning
             </li>
-            <li>Computer Systems, Web Development, Theory of Computation</li>
+            <li>Parallel Computing on Heterogenous (CPU + GPU) Systems (Current), Computer Systems, Web Development, Theory of Computation</li>
             <li>
-              Stochastic Calculus, Statistics, Operations Research:
-              Probabilistic Models, Numerical Methods of Differential Equations
+              Stochastic Calculus, Statistics, Deterministic Operations Research, Numerical Methods for Differential Equations
             </li>
-            <li>Abstract Algebra, Complex Analysis, Graph Theory</li>
+            <li>Real Analysis (Current), Abstract Algebra, Complex Analysis, Graph Theory</li>
           </ul>
         </li>
       </ul>
@@ -93,7 +92,7 @@ const about = {
           Relevant Courses
           <ul>
             <li>
-              Game Theory, Topology, Real Analysis, Number Theory, Calculus III,
+              Game Theory, Topology, (One Variable) Real Analysis, Number Theory, Calculus III,
               Linear Algebra, Microeconomics
             </li>
           </ul>
@@ -129,18 +128,17 @@ const experience = {
       description: [
         <ul>
           <li>
-            Analyzed Easter trends in restaurants, deriving sales pattern
-            insights from over 10,000 transactions with BigQuery
+            Analyzed Easter sales trends from over 10,000 restaurant transactions
+            using BigQuery, uncovering sales patterns
           </li>
           <li>
-            Developed and sales and tip trend analyses using GCP Dataform and
-            SQL, integrated with Looker for visualization
+            Developed sales and tip trend analyses using Google Cloud Platform
+            Dataform and SQL, with Looker for strategic planning
           </li>
           <li>
-            Led Tempo initiative to optimize table pacing, leveraging data
-            science libraries in Python, reaching over 5,000 restaurants
+            Led initiative to optimize table pacing, leveraging data science
+            libraries in Python, reaching over 5,000 restaurants
           </li>
-          <li><b>Returning Fall 2024</b></li>
         </ul>,
       ],
     },
@@ -152,15 +150,13 @@ const experience = {
       description: [
         <ul>
           <li>
-            Studied financial markets and instruments to understand trading strategies and market dynamics
+            Explored options theory, financial markets, and financial instruments to understand trading strategies and market dynamics
           </li>
           <li>
-            Participated in simulated electronic mock trading sessions to
-            develop trading skills and apply them in real-time scenarios
+            Participated in simulated electronic mock trading sessions, applying real-time trading strategies and risk management
           </li>
           <li>
-            Conducted a data-driven project with Python to analyze the attention effect on stock prices,
-            assessing trends leading up to earnings or significant events
+            Conducted a Python project to analyze the impact of attention effects on stock trends leading up to earnings and events
           </li>
         </ul>,
       ],
@@ -206,8 +202,7 @@ const experience = {
             key concepts, and tackle challenging problem sets
           </li>
           <li>
-            Supported over 300 individuals by moderating an online question
-            forum and providing guidance during office hours
+            Supported over 300 individuals by moderating a question forums and providing individualized guidance during office hours
           </li>
         </ul>,
       ],
@@ -273,9 +268,6 @@ const experience = {
           <li>
             Utilized FastAPI and SQL queries to access and post algorithm
             performances on Elasticsearch
-          </li>
-          <li>
-            Studied natural language processing to create code coverage maps
           </li>
         </ul>,
       ],
