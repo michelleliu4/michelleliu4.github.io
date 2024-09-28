@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.f326e30e.css",
-    "main.js": "/static/js/main.42a0ccf7.js",
+    "main.css": "/static/css/main.f507eb9e.css",
+    "main.js": "/static/js/main.afdc1b28.js",
     "static/js/787.6971d1b3.chunk.js": "/static/js/787.6971d1b3.chunk.js",
     "static/media/headshot.jpg": "/static/media/headshot.012aab49da0efbb80128.jpg",
-    "static/media/resume.pdf": "/static/media/resume.0e27a88bfee83ecb5fba.pdf",
+    "static/media/resume.pdf": "/static/media/resume.86aff8d1987504bdb12e.pdf",
     "static/media/logo_python.png": "/static/media/logo_python.3b33e236a97b9048b336.png",
     "static/media/logo_wordpress.png": "/static/media/logo_wordpress.558ce8b2efb7b495b402.png",
     "static/media/logo_aws.png": "/static/media/logo_aws.e1e69b2a360a00a92c41.png",
@@ -19,12 +19,12 @@
     "static/media/awards_nsb.png": "/static/media/awards_nsb.8871babdbb2d1eeaabdd.png",
     "static/media/logo_html.png": "/static/media/logo_html.d50fc7a86b6f3764610b.png",
     "index.html": "/index.html",
-    "main.f326e30e.css.map": "/static/css/main.f326e30e.css.map",
-    "main.42a0ccf7.js.map": "/static/js/main.42a0ccf7.js.map",
+    "main.f507eb9e.css.map": "/static/css/main.f507eb9e.css.map",
+    "main.afdc1b28.js.map": "/static/js/main.afdc1b28.js.map",
     "787.6971d1b3.chunk.js.map": "/static/js/787.6971d1b3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f326e30e.css",
-    "static/js/main.42a0ccf7.js"
+    "static/css/main.f507eb9e.css",
+    "static/js/main.afdc1b28.js"
   ]
 }
