@@ -72,7 +72,7 @@ const about = {
               Computer Vision (Current), Machine Learning, Natural Language Processing, Reinforcement
               Learning, Deep Learning
             </li>
-            <li>Parallel Computing on Heterogenous (CPU + GPU) Systems (Current), Computer Systems, Web Development, Theory of Computation</li>
+            <li>Parallel Computing on Heterogenous Systems (Current), Computer Systems, Web Development, Theory of Computation</li>
             <li>
               Stochastic Calculus, Statistics, Deterministic Operations Research, Numerical Methods for Differential Equations
             </li>
@@ -127,18 +127,10 @@ const experience = {
       date: "Jan 2024 – Current",
       description: [
         <ul>
-          <li>
-            Analyzed Easter sales trends from over 10,000 restaurant transactions
-            using BigQuery, uncovering sales patterns
-          </li>
-          <li>
-            Developed sales and tip trend analyses using Google Cloud Platform
-            Dataform and SQL, with Looker for strategic planning
-          </li>
-          <li>
-            Led initiative to optimize table pacing, leveraging data science
-            libraries in Python, reaching over 5,000 restaurants
-          </li>
+          <li>Developing an item price recommendation algorithm using clustering techniques on guest profiles to optimize menu pricing and drive revenue growth (ongoing project)</li>
+          <li>Analyzed over 10,000 transactions using BigQuery to uncover sales patterns during holidays, informing restaurant strategy</li>
+          <li>Developed sales and tip trend analyses using Google Cloud Platform Dataform and SQL, with Looker for strategic planning</li>
+          <li>Led initiative to optimize table pacing, leveraging statistical models (scikit-learn, pandas) for over 5,000 restaurants</li>
         </ul>,
       ],
     },
@@ -149,15 +141,9 @@ const experience = {
       date: "Jun 2024 – Aug 2024",
       description: [
         <ul>
-          <li>
-            Explored options theory, financial markets, and financial instruments to understand trading strategies and market dynamics
-          </li>
-          <li>
-            Participated in simulated electronic mock trading sessions, applying real-time trading strategies and risk management
-          </li>
-          <li>
-            Conducted a Python project to analyze the impact of attention effects on stock trends leading up to earnings and events
-          </li>
+          <li>Modeled the impact of attention effects on stock price volatility leading up to earnings reports and events using Python, applying time series analysis and statistical testin</li>
+          <li>Executed real-time trading strategies and risk management in simulated electronic mock trading sessions</li>
+          <li>Explored options theory, financial markets, and financial instruments to understand trading strategies and market dynamics</li>
         </ul>,
       ],
     },
@@ -168,15 +154,8 @@ const experience = {
       date: "May 2024 – May 2024",
       description: [
         <ul>
-          <li>
-            Studied options theory and fundamental analysis to develop stock
-            pitches for long-term volatility, short-term volatility, and
-            research-based trades using an in-house suite of trading tools
-          </li>
-          <li>
-          Analyzed open interest's impact on implied volatility using Python data libraries
-          and internal tools to analyze term structures and implied vs. realized volatilities
-          </li>
+          <li>Developed stock pitches by analyzing options theory and macroeconomic trends for long-term and short-term volatility trades, combining fundamental analysis with quantitative strategies</li>
+          <li>Analyzed open interest's impact on implied volatility using Python data libraries and an in-house suite of tools to analyze term structures and implied vs. realized volatilities</li>
         </ul>,
       ],
     },
@@ -193,17 +172,9 @@ const experience = {
             Inference (Spring 2023), Machine Learning (Spring 2023), Functional
             Programming (Fall 2022)
           </li>
-          <li>
-            Designed projects, homework, and exams as well as assisted with
-            grading of assignments
-          </li>
-          <li>
-            Facilitated interactive workshops to foster collaboration, reinforce
-            key concepts, and tackle challenging problem sets
-          </li>
-          <li>
-            Supported over 300 individuals by moderating a question forums and providing individualized guidance during office hours
-          </li>
+          <li>Designed over 10 assignments and projects for natural language processing, machine learning, statistics, and functional programming courses</li>
+          <li>Facilitated interactive workshops to foster collaboration, reinforce key concepts, and tackle challenging problem sets</li>
+          <li>Supported over 300 individuals by moderating a question forums and providing individualized guidance during office hours</li>
         </ul>,
       ],
     },
@@ -214,20 +185,9 @@ const experience = {
       date: "Jun 2023 – Aug 2023",
       description: [
         <ul>
-          <li>
-            Leveraged Splunk queries and AWS to construct a robust data pipeline
-            for extracting and preprocessing call center log data
-          </li>
-          <li>
-            Developed and implemented outlier detection and classification
-            models, achieving over 90% accuracy identifying irregular and bad
-            calls
-          </li>
-          <li>
-            Created time series models to find general trends in problematic
-            calls across various regions, supporting a user base of over 50,000
-            call specialists
-          </li>
+          <li>Built a data pipeline using Splunk and AWS to extract and preprocess call center log data, improving data accessibility and analytics efficiency for over 50,000 users</li>
+          <li>Implemented outlier detection and classification models, achieving over 90% accuracy in identifying irregular calls</li>
+          <li>Created time series models to find trends in problematic calls across various regions, supporting over 10,000 call specialists</li>
         </ul>,
       ],
     },
@@ -238,15 +198,7 @@ const experience = {
       date: "Sep 2022 – Dec 2022",
       description: [
         <ul>
-          <li>
-            Conducted research and implemented Python computer vision frameworks
-            to aid visually impaired individuals in navigation
-          </li>
-          <li>
-            Developed visual prosthesis devices by leveraging YoloV5 for object
-            localization, Text2Voice for intuitive grasping, and OCR for
-            character recognition
-          </li>
+          <li>Researched and implemented Python-based computer vision frameworks (OpenCV, YOLOv5, Text2Voice) to assist visually impaired individuals in real-time object detection and navigation</li>
         </ul>,
       ],
     },
@@ -262,8 +214,8 @@ const experience = {
             learning, increasing cycle efficiency by 50%
           </li>
           <li>
-            Created regression, random forest, and neural network models to
-            predict failures with 95% accuracy
+          Constructed and fine-tuned regression, random forest, XGBoost, and neural network models
+          for test failure prediction, achieving 95% accuracy through cross-validation and hyperparameter tuning
           </li>
           <li>
             Utilized FastAPI and SQL queries to access and post algorithm
@@ -317,7 +269,7 @@ const leadership = {
       description: (
         <ul>
           <li>
-            Lead a club of over 400 students, collaborating with board members
+            Lead a club of over 500 students, collaborating with board members
             to plan events such as industry panels, course advising, and social
             mixers
           </li>
@@ -372,16 +324,16 @@ const leadership = {
         </ul>
       ),
     },
-    // {
-    //   company: 'Machine Intelligence Community',
-    //   role: 'Executive Board',
-    //   date: 'Oct 2022 – May 2023',
-    //   description:
-    //     <ul>
-    //       <li>Constructed educational machine learning workshops in song generation with GPT-2 and neuro style transfer</li>
-    //       <li>Lead conceptual sessions for over 70 individuals, assisting them in understanding and coding machine learning projects</li>
-    //     </ul>
-    // },
+    {
+      company: 'Machine Intelligence Community',
+      role: 'Executive Board',
+      date: 'Oct 2022 – May 2023',
+      description:
+        <ul>
+          <li>Constructed educational machine learning workshops in song generation with GPT-2 and neuro style transfer</li>
+          <li>Lead conceptual sessions for over 70 individuals, assisting them in understanding and coding machine learning projects</li>
+        </ul>
+    },
     {
       company: "Harvard WECode",
       role: "Tech Fellow",
@@ -490,7 +442,7 @@ const skills = {
     { name: "Python", value: require("../assets/img/logo_python.png") },
     { name: "JavaScript", value: require("../assets/img/logo_javascript.png") },
     { name: "HTML/CSS", value: require("../assets/img/logo_html.png") },
-    { name: "ReasonML", value: require("../assets/img/logo_reasonml.png") },
+    // { name: "ReasonML", value: require("../assets/img/logo_reasonml.png") },
     { name: "C/C++", value: require("../assets/img/logo_c.png") },
   ],
   librariesFrameworks: [
