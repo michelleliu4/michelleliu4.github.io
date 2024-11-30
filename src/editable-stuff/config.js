@@ -359,9 +359,16 @@ const leadership = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "michelleliu4",
-  reposLength: 4,
-  specificRepos: ["Jreamboard", "goodbot-slack"],
+  // gitHubUsername: "michelleliu4",
+  // reposLength: 4,
+  specificRepos: [
+    { username: "michelleliu4", repoName: "michelleliu4.github.io" },
+    { username: "pmcurtin", repoName: "intelligin" },
+    { username: "michelleliu4", repoName: "DnD-Character-Creator" },
+    { username: "michelleliu4", repoName: "NASA-Image-Generator" },
+    { username: "michelleliu4", repoName: "Jreamboard" },
+    { username: "michelleliu4", repoName: "goodbot-slack" },
+  ],  
 };
 
 // AWARDS SECTION

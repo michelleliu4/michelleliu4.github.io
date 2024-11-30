@@ -14,41 +14,26 @@ const dummyProject = {
   pushed_at: null,
 };
 const API = "https://api.github.com";
-// const gitHubQuery = "/repos?sort=updated&direction=desc";
-// const specficQuerry = "https://api.github.com/repos/hashirshoaeb/";
 
-const Project = ({ heading, username, length, specfic }) => {
-  const allReposAPI = `${API}/users/${username}/repos?sort=updated&direction=desc`;
-  const specficReposAPI = `${API}/repos/${username}`;
-  const dummyProjectsArr = new Array(length + specfic.length).fill(
-    dummyProject
-  );
-
+const Project = ({ heading, specificRepos }) => {
   const [projectsArray, setProjectsArray] = useState([]);
-
   const fetchRepos = useCallback(async () => {
     let repoList = [];
     try {
-      // getting all repos
-      const response = await axios.get(allReposAPI);
-      // slicing to the length
-      repoList = [...response.data.slice(0, length)];
-      // adding specified repos
-      try {
-        for (let repoName of specfic) {
-          const response = await axios.get(`${specficReposAPI}/${repoName}`);
+      // Fetch each specific repository
+      for (let { username, repoName } of specificRepos) {
+        try {
+          const response = await axios.get(`${API}/repos/${username}/${repoName}`);
           repoList.push(response.data);
+        } catch (error) {
+          console.error(`Error fetching ${repoName} from ${username}: ${error.message}`);
         }
-      } catch (error) {
-        console.error(error.message);
       }
-      // setting projectArray
-      // TODO: remove the duplication.
       setProjectsArray(repoList);
     } catch (error) {
-      console.error(error.message);
+      console.error(`Error fetching repositories: ${error.message}`);
     }
-  }, [allReposAPI, length, specfic, specficReposAPI]);
+  }, [specificRepos]);
 
   useEffect(() => {
     fetchRepos();
@@ -56,10 +41,10 @@ const Project = ({ heading, username, length, specfic }) => {
 
   return (
     <Jumbotron fluid id="projects" className="bg-light m-0">
-      <Container className="">
+      <Container>
         <h2 className="display-4 pb-5 text-center">{heading}</h2>
         <Row>
-          {projectsArray.length
+          {projectsArray.length > 0
             ? projectsArray.map((project, index) => (
                 <ProjectCard
                   key={`project-card-${index}`}
@@ -67,11 +52,11 @@ const Project = ({ heading, username, length, specfic }) => {
                   value={project}
                 />
               ))
-            : dummyProjectsArr.map((project, index) => (
+            : specificRepos.map((_, index) => (
                 <ProjectCard
                   key={`dummy-${index}`}
                   id={`dummy-${index}`}
-                  value={project}
+                  value={dummyProject}
                 />
               ))}
         </Row>
