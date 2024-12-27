@@ -20,10 +20,10 @@ const mainBody = {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/michelleliu-4",
     },
-    {
-      image: "fa-discord",
-      url: "https://discordapp.com/users/384794549412954113",
-    },
+    // {
+    //   image: "fa-discord",
+    //   url: "https://discordapp.com/users/384794549412954113",
+    // },
     {
       image: "fa-facebook",
       url: "https://www.facebook.com/michelle.liu.4",
