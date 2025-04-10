@@ -475,7 +475,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message: "Always open to opportunities! Please reach out to me at",
-  email: "michelle_h_liu@brown.edu",
+  email: "michellemq6@gmail.com",
 };
 
 // BLOG SECTION
