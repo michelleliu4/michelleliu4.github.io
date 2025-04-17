@@ -1,14 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.f507eb9e.css",
-    "main.js": "/static/js/main.c490d7e4.js",
+    "main.js": "/static/js/main.c4a12614.js",
     "static/js/787.6971d1b3.chunk.js": "/static/js/787.6971d1b3.chunk.js",
     "static/media/headshot.jpg": "/static/media/headshot.012aab49da0efbb80128.jpg",
-    "static/media/resume.pdf": "/static/media/resume.6b97d4dbc2c05abeb034.pdf",
+    "static/media/resume.pdf": "/static/media/resume.fa0f7c87ec597e2142b6.pdf",
     "static/media/logo_python.png": "/static/media/logo_python.3b33e236a97b9048b336.png",
+    "static/media/logo_brown.png": "/static/media/logo_brown.1241749c7c08b735003a.png",
     "static/media/logo_wordpress.png": "/static/media/logo_wordpress.558ce8b2efb7b495b402.png",
     "static/media/logo_aws.png": "/static/media/logo_aws.e1e69b2a360a00a92c41.png",
     "static/media/logo_react.png": "/static/media/logo_react.73dbb5bcec516da82694.png",
+    "static/media/logo_lightspeed.png": "/static/media/logo_lightspeed.226534688ff13ca902f7.png",
     "static/media/logo_c.png": "/static/media/logo_c.837a49116fe3c020f47d.png",
     "static/media/logo_postgresql.png": "/static/media/logo_postgresql.ca08c7623b70f444f06d.png",
     "static/media/logo_tensorflow.png": "/static/media/logo_tensorflow.42ff285e754b23972de0.png",
@@ -17,14 +19,15 @@
     "static/media/logo_figma.png": "/static/media/logo_figma.3a82106b9f5a6c7efaee.png",
     "static/media/logo_docker.png": "/static/media/logo_docker.caee549965be1f20e2cd.png",
     "static/media/awards_nsb.png": "/static/media/awards_nsb.8871babdbb2d1eeaabdd.png",
+    "static/media/logo_wd.png": "/static/media/logo_wd.87b3ac34c1ff3e3160af.png",
     "static/media/logo_html.png": "/static/media/logo_html.d50fc7a86b6f3764610b.png",
     "index.html": "/index.html",
     "main.f507eb9e.css.map": "/static/css/main.f507eb9e.css.map",
-    "main.c490d7e4.js.map": "/static/js/main.c490d7e4.js.map",
+    "main.c4a12614.js.map": "/static/js/main.c4a12614.js.map",
     "787.6971d1b3.chunk.js.map": "/static/js/787.6971d1b3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f507eb9e.css",
-    "static/js/main.c490d7e4.js"
+    "static/js/main.c4a12614.js"
   ]
 }
