@@ -24,10 +24,10 @@ const mainBody = {
     //   image: "fa-discord",
     //   url: "https://discordapp.com/users/384794549412954113",
     // },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/michelle.liu.4",
-    },
+    // {
+    //   image: "fa-facebook",
+    //   url: "https://www.facebook.com/michelle.liu.4",
+    // },
     {
       image: "fa-instagram",
       url: "https://www.instagram.com/michelle.liu.4",
@@ -121,13 +121,26 @@ const experience = {
   heading: "Experience",
   data: [
     {
+      company: "Figma",
+      location: "San Francisco, CA",
+      role: "Software Engineer Intern",
+      date: "Jun 2025 – Aug 2025",
+      logo: require("../assets/img/logo_figma.png"),
+      description: [
+        <ul>
+          <li>Incoming Summer 2025</li>
+        </ul>,
+      ],
+    },
+    {
       company: "Lightspeed",
       location: "Providence, RI",
       role: "Data Science Intern",
       date: "Jan 2024 – Current",
+      logo: require("../assets/img/logo_lightspeed.png"),
       description: [
         <ul>
-          <li>Developing an item price recommendation algorithm using clustering techniques on guest profiles to optimize menu pricing and drive revenue growth (ongoing project)</li>
+          <li>Developed a restaurant cohorting algorithm using LDAs to optimize menu pricing and drive revenue growth</li>
           <li>Analyzed over 10,000 transactions using BigQuery to uncover sales patterns during holidays, informing restaurant strategy</li>
           <li>Developed sales and tip trend analyses using Google Cloud Platform Dataform and SQL, with Looker for strategic planning</li>
           <li>Led initiative to optimize table pacing, leveraging statistical models (scikit-learn, pandas) for over 5,000 restaurants</li>
@@ -139,6 +152,7 @@ const experience = {
       location: "New York, NY",
       role: "Quantitative Trading Intern",
       date: "Jun 2024 – Aug 2024",
+      logo: require("../assets/img/logo_sig.jpg"),
       description: [
         <ul>
           <li>Modeled the impact of attention effects on stock price volatility leading up to earnings reports and events using Python, applying time series analysis and statistical testin</li>
@@ -152,6 +166,7 @@ const experience = {
       location: "Chicago, Illinois",
       role: "Trading Micro-Intern",
       date: "May 2024 – May 2024",
+      logo: require("../assets/img/logo_peak6.jpg"),
       description: [
         <ul>
           <li>Developed stock pitches by analyzing options theory and macroeconomic trends for long-term and short-term volatility trades, combining fundamental analysis with quantitative strategies</li>
@@ -165,6 +180,7 @@ const experience = {
       location: "Providence, RI",
       role: "Undergraduate Teaching Assistant",
       date: "Aug 2022 – Dec 2023",
+      logo: require("../assets/img/logo_brown.png"),
       description: [
         <ul>
           <li>
@@ -183,6 +199,7 @@ const experience = {
       location: "Jersey City, NJ",
       role: "Software Engineer Intern",
       date: "Jun 2023 – Aug 2023",
+      logo: require("../assets/img/logo_jpmc.jpg"),
       description: [
         <ul>
           <li>Built a data pipeline using Splunk and AWS to extract and preprocess call center log data, improving data accessibility and analytics efficiency for over 50,000 users</li>
@@ -191,22 +208,23 @@ const experience = {
         </ul>,
       ],
     },
-    {
-      company: "Visual Prosthesis Lab",
-      location: "Providence, RI",
-      role: "Research Assistant",
-      date: "Sep 2022 – Dec 2022",
-      description: [
-        <ul>
-          <li>Researched and implemented Python-based computer vision frameworks (OpenCV, YOLOv5, Text2Voice) to assist visually impaired individuals in real-time object detection and navigation</li>
-        </ul>,
-      ],
-    },
+    // {
+    //   company: "Visual Prosthesis Lab",
+    //   location: "Providence, RI",
+    //   role: "Research Assistant",
+    //   date: "Sep 2022 – Dec 2022",
+    //   description: [
+    //     <ul>
+    //       <li>Researched and implemented Python-based computer vision frameworks (OpenCV, YOLOv5, Text2Voice) to assist visually impaired individuals in real-time object detection and navigation</li>
+    //     </ul>,
+    //   ],
+    // },
     {
       company: "Western Digital",
       location: "Milpitas, CA",
       role: "Software Development Engineer Intern",
       date: "May 2022 – Aug 2022",
+      logo: require("../assets/img/logo_wd.png"),
       description: [
         <ul>
           <li>
@@ -251,8 +269,7 @@ const leadership = {
       description: (
         <ul>
           <li>
-            Founded club and recruited over 70 members to arrange and perform
-            anime and video game music in biannual concerts
+            Founded club and recruited over 100 members to arrange and perform anime and video game music in biannual concerts
           </li>
           <li>
             Orchestrated club operations, including weekly rehearsals and a{" "}
@@ -324,16 +341,16 @@ const leadership = {
         </ul>
       ),
     },
-    {
-      company: 'Machine Intelligence Community',
-      role: 'Executive Board',
-      date: 'Oct 2022 – May 2023',
-      description:
-        <ul>
-          <li>Constructed educational machine learning workshops in song generation with GPT-2 and neuro style transfer</li>
-          <li>Lead conceptual sessions for over 70 individuals, assisting them in understanding and coding machine learning projects</li>
-        </ul>
-    },
+    // {
+    //   company: 'Machine Intelligence Community',
+    //   role: 'Executive Board',
+    //   date: 'Oct 2022 – May 2023',
+    //   description:
+    //     <ul>
+    //       <li>Constructed educational machine learning workshops in song generation with GPT-2 and neuro style transfer</li>
+    //       <li>Lead conceptual sessions for over 70 individuals, assisting them in understanding and coding machine learning projects</li>
+    //     </ul>
+    // },
     {
       company: "Harvard WECode",
       role: "Tech Fellow",
@@ -377,50 +394,35 @@ const awards = {
   heading: "Awards",
   message: (
     <div>
-      <b>AIME Qualifier (2018, 2021)</b>
-      <ul>
-        <li>
-          Two-time AIME qualifier, scoring in the top 5% of all AMC 12 exam
-          takers worldwide, as well as a Math Prize for Girls participant
-        </li>
-      </ul>
+      <p>
+        <b>Rohn Truell Premium Prize in Applied Mathematics (2025)</b><br />
+        Awarded annually to a graduating senior in Applied Mathematics at Brown who has achieved special distinction. Established in 1968 to honor former professor and chair Rohn Truell.
+      </p>
 
-      <b>Jane Street Electronic Trading Challenge 3rd Place (2022)</b>
-      <ul>
-        <li>Selected as one of 60 students for FTTP, a competitive program to learn about trading</li>
-        <li>Programmed trading bot in Python leveraging arbitrage and bond pricing to place 3rd</li>
-      </ul>
+      <p>
+        <b>AIME Qualifier (2018, 2021)</b><br />
+        Two-time AIME qualifier, scoring in the top 5% of AMC 12 exam takers worldwide. Math Prize for Girls participant.
+      </p>
 
-      <b>Hackathon for Social Good Bronze (2022)</b>
-      <ul>
-        <li>
-          Built{" "}
-          <a href="https://github.com/michelleliu4/goodbot-slack">Goodbot</a>, a
-          Slack bot for workplace satisfaction
-        </li>
-        <li>
-          <a href="https://robinhood.engineering/robinhoods-hackathon-for-social-good-92c91a5726c3">
-            Robinhood blog post
-          </a>{" "}
-          about the hackathon
-        </li>
-      </ul>
+      <p>
+        <b>Jane Street Electronic Trading Challenge – 3rd Place (2022)</b><br />
+        Placed 3rd in a trading bot competition using Python for arbitrage and bond pricing. Selected as one of 60 students for the Jane Street FTTP program.
+      </p>
 
-      <b>National Science Bowl Top 32 (2021)</b>
-      <ul>
-        <li>
-          Member of the Nevada team at the National Science Bowl Competition,
-          sponsored by the DOE
-        </li>
-      </ul>
+      <p>
+        <b>Hackathon for Social Good – Bronze Award (2022)</b><br />
+        Developed <a href="https://github.com/michelleliu4/goodbot-slack">Goodbot</a>, a sentiment analysis Slack bot. Won Bronze at the Robinhood Hackathon for Social Good. <a href="https://robinhood.engineering/robinhoods-hackathon-for-social-good-92c91a5726c3">Blog post</a>.
+      </p>
 
-      <b>Doyle Foundation Scholarship (2021, 2022, 2023, 2024)</b>
-      <ul>
-        <li>
-          Four-time recipient of the{" "}
-          <a href="https://doylefound.org/">Doyle Foundation</a> Scholarship
-        </li>
-      </ul>
+      <p>
+        <b>National Science Bowl – Top 32 (2021)</b><br />
+        Represented Nevada at the National Science Bowl, placing in the top 32 teams nationally. Sponsored by the U.S. Department of Energy.
+      </p>
+
+      <p>
+        <b>Doyle Foundation Scholarship (2021–2024)</b><br />
+        Four-time recipient of the <a href="https://doylefound.org/">Doyle Foundation</a> Scholarship awarded for academic excellence.
+      </p>
     </div>
   ),
   images: [
@@ -436,10 +438,12 @@ const awards = {
     },
   ],
   imageSize: {
-    width: "400", //orig: 615
-    height: "400", //orig: 450
+    width: "400",
+    height: "400",
   },
 };
+
+
 
 // SKILLS SECTION
 const skills = {
@@ -450,7 +454,7 @@ const skills = {
     { name: "JavaScript", value: require("../assets/img/logo_javascript.png") },
     { name: "HTML/CSS", value: require("../assets/img/logo_html.png") },
     // { name: "ReasonML", value: require("../assets/img/logo_reasonml.png") },
-    { name: "C/C++", value: require("../assets/img/logo_c.png") },
+    { name: "C", value: require("../assets/img/logo_c.png") },
   ],
   librariesFrameworks: [
     { name: "React", value: require("../assets/img/logo_react.png") },
