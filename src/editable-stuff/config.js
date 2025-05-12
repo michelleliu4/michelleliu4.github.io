@@ -69,20 +69,15 @@ const about = {
           Relevant Courses
           <ul>
             <li>
-              Computer Vision (Current), Machine Learning, Natural Language
-              Processing, Reinforcement Learning, Deep Learning
+              Computer Vision, Machine Learning, Natural Language Processing,
+              Reinforcement Learning, Deep Learning
             </li>
             <li>
-              Parallel Computing on Heterogenous Systems (Current), Computer
-              Systems, Web Development, Theory of Computation
+              Parallel Computing (CPU+GPU), Computer Systems, Theory of
+              Computation
             </li>
             <li>
-              Stochastic Calculus, Statistics, Deterministic Operations
-              Research, Numerical Methods for Differential Equations
-            </li>
-            <li>
-              Real Analysis (Current), Abstract Algebra, Complex Analysis, Graph
-              Theory
+              Statistical Inference II, Stochastic Calculus, Real Analysis II
             </li>
           </ul>
         </li>
@@ -99,8 +94,8 @@ const about = {
           Relevant Courses
           <ul>
             <li>
-              Game Theory, Topology, (One Variable) Real Analysis, Number
-              Theory, Calculus III, Linear Algebra, Microeconomics
+              Game Theory, Topology, (Single Variable) Real Analysis, Number
+              Theory, Microeconomics
             </li>
           </ul>
         </li>
