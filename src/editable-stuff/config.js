@@ -69,14 +69,21 @@ const about = {
           Relevant Courses
           <ul>
             <li>
-              Computer Vision (Current), Machine Learning, Natural Language Processing, Reinforcement
-              Learning, Deep Learning
+              Computer Vision (Current), Machine Learning, Natural Language
+              Processing, Reinforcement Learning, Deep Learning
             </li>
-            <li>Parallel Computing on Heterogenous Systems (Current), Computer Systems, Web Development, Theory of Computation</li>
             <li>
-              Stochastic Calculus, Statistics, Deterministic Operations Research, Numerical Methods for Differential Equations
+              Parallel Computing on Heterogenous Systems (Current), Computer
+              Systems, Web Development, Theory of Computation
             </li>
-            <li>Real Analysis (Current), Abstract Algebra, Complex Analysis, Graph Theory</li>
+            <li>
+              Stochastic Calculus, Statistics, Deterministic Operations
+              Research, Numerical Methods for Differential Equations
+            </li>
+            <li>
+              Real Analysis (Current), Abstract Algebra, Complex Analysis, Graph
+              Theory
+            </li>
           </ul>
         </li>
       </ul>
@@ -92,8 +99,8 @@ const about = {
           Relevant Courses
           <ul>
             <li>
-              Game Theory, Topology, (One Variable) Real Analysis, Number Theory, Calculus III,
-              Linear Algebra, Microeconomics
+              Game Theory, Topology, (One Variable) Real Analysis, Number
+              Theory, Calculus III, Linear Algebra, Microeconomics
             </li>
           </ul>
         </li>
@@ -133,17 +140,41 @@ const experience = {
       ],
     },
     {
+      company: "Kleiner Perkins",
+      location: "San Francisco, CA",
+      role: "Kleiner Perkins Engineering Fellow",
+      date: "Jun 2025 – Aug 2025",
+      logo: require("../assets/img/logo_kp.jpeg"),
+      description: [
+        <ul>
+          <li>Incoming Summer 2025</li>
+        </ul>,
+      ],
+    },
+    {
       company: "Lightspeed",
       location: "Providence, RI",
       role: "Data Science Intern",
-      date: "Jan 2024 – Current",
+      date: "Jan 2024 – May 2025",
       logo: require("../assets/img/logo_lightspeed.png"),
       description: [
         <ul>
-          <li>Developed a restaurant cohorting algorithm using LDAs to optimize menu pricing and drive revenue growth</li>
-          <li>Analyzed over 10,000 transactions using BigQuery to uncover sales patterns during holidays, informing restaurant strategy</li>
-          <li>Developed sales and tip trend analyses using Google Cloud Platform Dataform and SQL, with Looker for strategic planning</li>
-          <li>Led initiative to optimize table pacing, leveraging statistical models (scikit-learn, pandas) for over 5,000 restaurants</li>
+          <li>
+            Developed a restaurant cohorting algorithm using LDAs to optimize
+            menu pricing and drive revenue growth
+          </li>
+          <li>
+            Analyzed over 10,000 transactions using BigQuery to uncover sales
+            patterns during holidays, informing restaurant strategy
+          </li>
+          <li>
+            Developed sales and tip trend analyses using Google Cloud Platform
+            Dataform and SQL, with Looker for strategic planning
+          </li>
+          <li>
+            Led initiative to optimize table pacing, leveraging statistical
+            models (scikit-learn, pandas) for over 5,000 restaurants
+          </li>
         </ul>,
       ],
     },
@@ -155,22 +186,19 @@ const experience = {
       logo: require("../assets/img/logo_sig.jpg"),
       description: [
         <ul>
-          <li>Modeled the impact of attention effects on stock price volatility leading up to earnings reports and events using Python, applying time series analysis and statistical testin</li>
-          <li>Executed real-time trading strategies and risk management in simulated electronic mock trading sessions</li>
-          <li>Explored options theory, financial markets, and financial instruments to understand trading strategies and market dynamics</li>
-        </ul>,
-      ],
-    },
-    {
-      company: "PEAK6",
-      location: "Chicago, Illinois",
-      role: "Trading Micro-Intern",
-      date: "May 2024 – May 2024",
-      logo: require("../assets/img/logo_peak6.jpg"),
-      description: [
-        <ul>
-          <li>Developed stock pitches by analyzing options theory and macroeconomic trends for long-term and short-term volatility trades, combining fundamental analysis with quantitative strategies</li>
-          <li>Analyzed open interest's impact on implied volatility using Python data libraries and an in-house suite of tools to analyze term structures and implied vs. realized volatilities</li>
+          <li>
+            Modeled the impact of attention effects on stock price volatility
+            leading up to earnings reports and events using Python, applying
+            time series analysis and statistical testin
+          </li>
+          <li>
+            Executed real-time trading strategies and risk management in
+            simulated electronic mock trading sessions
+          </li>
+          <li>
+            Explored options theory, financial markets, and financial
+            instruments to understand trading strategies and market dynamics
+          </li>
         </ul>,
       ],
     },
@@ -188,9 +216,18 @@ const experience = {
             Inference (Spring 2023), Machine Learning (Spring 2023), Functional
             Programming (Fall 2022)
           </li>
-          <li>Designed over 10 assignments and projects for natural language processing, machine learning, statistics, and functional programming courses</li>
-          <li>Facilitated interactive workshops to foster collaboration, reinforce key concepts, and tackle challenging problem sets</li>
-          <li>Supported over 300 individuals by moderating a question forums and providing individualized guidance during office hours</li>
+          <li>
+            Courses: Computational Linguistics, Machine Learning, Statistical
+            Inference, Functional Programming
+          </li>
+          <li>
+            Designed over 10 assignments and projects and supported over 300
+            students through office hours
+          </li>
+          <li>
+            Facilitated interactive workshops to foster collaboration, reinforce
+            key concepts, and tackle challenging problem sets
+          </li>
         </ul>,
       ],
     },
@@ -202,23 +239,22 @@ const experience = {
       logo: require("../assets/img/logo_jpmc.jpg"),
       description: [
         <ul>
-          <li>Built a data pipeline using Splunk and AWS to extract and preprocess call center log data, improving data accessibility and analytics efficiency for over 50,000 users</li>
-          <li>Implemented outlier detection and classification models, achieving over 90% accuracy in identifying irregular calls</li>
-          <li>Created time series models to find trends in problematic calls across various regions, supporting over 10,000 call specialists</li>
+          <li>
+            Built a data pipeline using Splunk and AWS to extract and preprocess
+            call center log data, improving data accessibility and analytics
+            efficiency for over 50,000 users
+          </li>
+          <li>
+            Implemented outlier detection and classification models, achieving
+            over 90% accuracy in identifying irregular calls
+          </li>
+          <li>
+            Created time series models to find trends in problematic calls
+            across various regions, supporting over 10,000 call specialists
+          </li>
         </ul>,
       ],
     },
-    // {
-    //   company: "Visual Prosthesis Lab",
-    //   location: "Providence, RI",
-    //   role: "Research Assistant",
-    //   date: "Sep 2022 – Dec 2022",
-    //   description: [
-    //     <ul>
-    //       <li>Researched and implemented Python-based computer vision frameworks (OpenCV, YOLOv5, Text2Voice) to assist visually impaired individuals in real-time object detection and navigation</li>
-    //     </ul>,
-    //   ],
-    // },
     {
       company: "Western Digital",
       location: "Milpitas, CA",
@@ -232,8 +268,9 @@ const experience = {
             learning, increasing cycle efficiency by 50%
           </li>
           <li>
-          Constructed and fine-tuned regression, random forest, XGBoost, and neural network models
-          for test failure prediction, achieving 95% accuracy through cross-validation and hyperparameter tuning
+            Constructed and fine-tuned regression, random forest, XGBoost, and
+            neural network models for test failure prediction, achieving 95%
+            accuracy through cross-validation and hyperparameter tuning
           </li>
           <li>
             Utilized FastAPI and SQL queries to access and post algorithm
@@ -242,18 +279,6 @@ const experience = {
         </ul>,
       ],
     },
-    // {
-    //   company: 'Jadepoint',
-    //   location: "Remote",
-    //   role: 'Consulting Intern',
-    //   date: 'Jan 2022',
-    //   description: [
-    //     <ul>
-    //       <li>Collaborated with the consulting team to design PowerPoint presentations and training tasks for clients in Aruba, effectively conveying performance psychology concepts</li>
-    //       <li>Conducted market research on the luxury hotel industry, providing valuable insights and recommendations to support strategic decision-making for the consulting projects</li>
-    //     </ul>,
-    //   ],
-    // },
   ],
 };
 
@@ -269,7 +294,8 @@ const leadership = {
       description: (
         <ul>
           <li>
-            Founded club and recruited over 100 members to arrange and perform anime and video game music in biannual concerts
+            Founded club and recruited over 100 members to arrange and perform
+            anime and video game music in biannual concerts
           </li>
           <li>
             Orchestrated club operations, including weekly rehearsals and a{" "}
@@ -351,20 +377,20 @@ const leadership = {
     //       <li>Lead conceptual sessions for over 70 individuals, assisting them in understanding and coding machine learning projects</li>
     //     </ul>
     // },
-    {
-      company: "Harvard WECode",
-      role: "Tech Fellow",
-      date: "Nov 2022 – Feb 2023",
-      description: (
-        <ul>
-          <li>
-            Performed club outreach and hosted events to promote Harvard's
-            WECode conference, the largest student-run women in tech conference
-            in the world
-          </li>
-        </ul>
-      ),
-    },
+    // {
+    //   company: "Harvard WECode",
+    //   role: "Tech Fellow",
+    //   date: "Nov 2022 – Feb 2023",
+    //   description: (
+    //     <ul>
+    //       <li>
+    //         Performed club outreach and hosted events to promote Harvard's
+    //         WECode conference, the largest student-run women in tech conference
+    //         in the world
+    //       </li>
+    //     </ul>
+    //   ),
+    // },
   ],
 };
 
@@ -380,12 +406,13 @@ const repos = {
   // reposLength: 4,
   specificRepos: [
     { username: "michelleliu4", repoName: "michelleliu4.github.io" },
+    { username: "michelleliu4", repoName: "north-burial-ground" },
     { username: "pmcurtin", repoName: "intelligin" },
     { username: "michelleliu4", repoName: "DnD-Character-Creator" },
     { username: "michelleliu4", repoName: "NASA-Image-Generator" },
     { username: "michelleliu4", repoName: "Jreamboard" },
-    { username: "michelleliu4", repoName: "goodbot-slack" },
-  ],  
+    // { username: "michelleliu4", repoName: "goodbot-slack" },
+  ],
 };
 
 // AWARDS SECTION
@@ -395,34 +422,64 @@ const awards = {
   message: (
     <div>
       <p>
-        <b>Rohn Truell Premium Prize in Applied Mathematics (2025)</b><br />
-        Awarded annually to a graduating senior in Applied Mathematics at Brown who has achieved special distinction. Established in 1968 to honor former professor and chair Rohn Truell.
+        <b>Rohn Truell Premium Prize in Applied Mathematics (2025)</b>
+        <br />
+        Awarded annually to a graduating senior in Applied Mathematics at Brown
+        who has achieved special distinction.
       </p>
 
       <p>
-        <b>AIME Qualifier (2018, 2021)</b><br />
-        Two-time AIME qualifier, scoring in the top 5% of AMC 12 exam takers worldwide. Math Prize for Girls participant.
+        <b>PEAK6 Trading Micro-Internship (2024)</b>
+        <br />
+        Selected for a one-week program on volatility strategy. Delivered
+        options-based trade pitches using Python and macroeconomic research.
       </p>
 
       <p>
-        <b>Jane Street Electronic Trading Challenge – 3rd Place (2022)</b><br />
-        Placed 3rd in a trading bot competition using Python for arbitrage and bond pricing. Selected as one of 60 students for the Jane Street FTTP program.
+        <b>Jane Street Electronic Trading Challenge – 3rd Place (2022)</b>
+        <br />
+        Placed 3rd in a trading bot competition using Python for arbitrage and
+        bond pricing. Selected for Jane Street’s FTTP program.
       </p>
 
       <p>
-        <b>Hackathon for Social Good – Bronze Award (2022)</b><br />
-        Developed <a href="https://github.com/michelleliu4/goodbot-slack">Goodbot</a>, a sentiment analysis Slack bot. Won Bronze at the Robinhood Hackathon for Social Good. <a href="https://robinhood.engineering/robinhoods-hackathon-for-social-good-92c91a5726c3">Blog post</a>.
+        <b>Hackathon for Social Good – Bronze Award (2022)</b>
+        <br />
+        Built a Slack-integrated sentiment analysis bot,{" "}
+        <a href="https://github.com/michelleliu4/goodbot-slack">Goodbot</a>, to
+        boost workplace morale. Awarded Bronze at Robinhood's{" "}
+        <a href="https://robinhood.engineering/robinhoods-hackathon-for-social-good-92c91a5726c3">
+          Hackathon for Social Good
+        </a>
+        .
       </p>
 
       <p>
-        <b>National Science Bowl – Top 32 (2021)</b><br />
-        Represented Nevada at the National Science Bowl, placing in the top 32 teams nationally. Sponsored by the U.S. Department of Energy.
+        <b>AIME Qualifier (2018, 2021)</b>
+        <br />
+        Two-time AIME qualifier and Math Prize for Girls participant.
       </p>
 
-      <p>
-        <b>Doyle Foundation Scholarship (2021–2024)</b><br />
-        Four-time recipient of the <a href="https://doylefound.org/">Doyle Foundation</a> Scholarship awarded for academic excellence.
-      </p>
+      {/* <p>
+        <b>National Merit Scholar (2021)</b>
+        <br />
+        Selected as a recipient of the National Merit $2500 Scholarship out of
+        1.5 million students.
+      </p> */}
+
+      {/* <p>
+        <b>National Science Bowl – Top 32 (2021)</b>
+        <br />
+        Represented Nevada at the National Science Bowl, placing in the top 32
+        teams nationally. Sponsored by the U.S. Department of Energy.
+      </p> */}
+      {/* <p>
+        <b>Doyle Foundation Scholarship (2021–2024)</b>
+        <br />
+        Four-time recipient of the{" "}
+        <a href="https://doylefound.org/">Doyle Foundation</a> Scholarship
+        awarded for academic excellence.
+      </p> */}
     </div>
   ),
   images: [
@@ -442,8 +499,6 @@ const awards = {
     height: "400",
   },
 };
-
-
 
 // SKILLS SECTION
 const skills = {
@@ -465,7 +520,10 @@ const skills = {
     { name: "PostgreSQL", value: require("../assets/img/logo_postgresql.png") },
   ],
   otherSkills: [
-    { name: "Amazon Web Services", value: require("../assets/img/logo_aws.png") },
+    {
+      name: "Amazon Web Services",
+      value: require("../assets/img/logo_aws.png"),
+    },
     { name: "Google Cloud", value: require("../assets/img/logo_gcp.png") },
     { name: "Git", value: require("../assets/img/logo_git.png") },
     { name: "Docker", value: require("../assets/img/logo_docker.png") },
