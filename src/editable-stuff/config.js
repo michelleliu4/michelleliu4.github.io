@@ -297,6 +297,10 @@ const leadership = {
             <a href="https://www.youtube.com/@brownavge">Youtube channel</a>{" "}
             with over 100k views
           </li>
+          <li>
+            Club website available{" "}
+            <a href="https://brownavge.vercel.app">here</a>
+          </li>
         </ul>
       ),
     },
