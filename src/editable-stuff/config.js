@@ -10,7 +10,8 @@ const mainBody = {
   firstName: "Michelle",
   middleName: "",
   lastName: "Liu",
-  message: "Applied math and computer science student at Brown University",
+  message:
+    "SWE Intern @ Figma · Kleiner Perkins Fellow · Applied Math–CS @ Brown",
   icons: [
     {
       image: "fa-github",
@@ -53,8 +54,23 @@ const about = {
   heading: "About Me",
   imageLink: require("../editable-stuff/headshot.jpg"),
   imageSize: 375,
-  message:
-    "Hi! I am a senior at Brown University studying Applied Mathematics and Computer Science. I am passionate about using tech to improve the world and an avid learner with many interests, especially in machine learning and entrepreneurship.",
+  message: (
+    <>
+      <p>
+        Hi! I’m Michelle, a recent Brown graduate in Applied Math–CS and a
+        Kleiner Perkins Engineering Fellow. I’ve worked across quant trading,
+        software engineering, and data science at SIG, JPMorgan, Lightspeed, and
+        Western Digital, and I’m currently a software engineering intern at
+        Figma.
+      </p>
+      <p>
+        I care deeply about machine learning, creative tools, and
+        startups. I also co-founded Brown’s Anime Video Game Ensemble—check out
+        our performances at <a href="https://brownavge.vercel.app">brownavge.vercel.app</a>! Outside of work, I enjoy
+        playing piano, climbing, and finding ways to build things that matter.
+      </p>
+    </>
+  ),
   resume: require("../editable-stuff/resume.pdf"),
   education: (
     <div>
