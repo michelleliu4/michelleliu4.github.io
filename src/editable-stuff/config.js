@@ -21,10 +21,10 @@ const mainBody = {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/michelleliu-4",
     },
-    // {
-    //   image: "fa-discord",
-    //   url: "https://discordapp.com/users/384794549412954113",
-    // },
+    {
+      image: "fa-discord",
+      url: "https://discordapp.com/users/384794549412954113",
+    },
     // {
     //   image: "fa-facebook",
     //   url: "https://www.facebook.com/michelle.liu.4",
@@ -64,10 +64,11 @@ const about = {
         Figma.
       </p>
       <p>
-        I care deeply about machine learning, creative tools, and
-        startups. I also co-founded Brown’s Anime Video Game Ensemble—check out
-        our performances at <a href="https://brownavge.vercel.app">brownavge.vercel.app</a>! Outside of work, I enjoy
-        playing piano, climbing, and finding ways to build things that matter.
+        I care deeply about machine learning, creative tools, and startups. I
+        also co-founded Brown’s Anime Video Game Ensemble—check out our
+        performances at <a href="https://brownavge.org">brownavge.org</a>!
+        Outside of work, I enjoy playing piano, climbing, and finding ways to
+        build things that matter.
       </p>
     </>
   ),
@@ -146,7 +147,10 @@ const experience = {
       logo: require("../assets/img/logo_figma.png"),
       description: [
         <ul>
-          <li>Incoming Summer 2025</li>
+          <li>
+            • Building stroke rendering features (e.g. endcap sizing) in Core
+            Experience group using React, TypeScript, and C++
+          </li>
         </ul>,
       ],
     },
@@ -158,7 +162,11 @@ const experience = {
       logo: require("../assets/img/logo_kp.jpeg"),
       description: [
         <ul>
-          <li>Incoming Summer 2025</li>
+          <li>
+            Selected as a 2025 Kleiner Perkins Engineering Fellow, joining a
+            cohort of top technical students for a mentorship program with
+            access to KP portfolio companies and industry leaders
+          </li>
         </ul>,
       ],
     },
@@ -301,7 +309,7 @@ const leadership = {
     {
       company: "Anime Video Game Ensemble",
       role: "Co-Founder",
-      date: "Sep 2021 – Present",
+      date: "Sep 2021 – May 2025",
       description: (
         <ul>
           <li>
@@ -314,8 +322,7 @@ const leadership = {
             with over 100k views
           </li>
           <li>
-            Club website available{" "}
-            <a href="https://brownavge.vercel.app">here</a>
+            Club website available <a href="https://brownavge.org">here</a>
           </li>
         </ul>
       ),
@@ -323,7 +330,7 @@ const leadership = {
     {
       company: "Applied Math DUG",
       role: "President Emeritus, Executive Board",
-      date: "Mar 2022 – Present",
+      date: "Mar 2022 – May 2025",
       description: (
         <ul>
           <li>
@@ -347,7 +354,7 @@ const leadership = {
     {
       company: "Cambridge Math Circle",
       role: "Mathematics Instructor",
-      date: "Apr 2020 – Present",
+      date: "Apr 2020 – May 2025",
       description: (
         <ul>
           <li>
@@ -364,7 +371,7 @@ const leadership = {
     {
       company: "Ensemble Theatre",
       role: "Executive Board",
-      date: "Feb 2022 – Present",
+      date: "Feb 2022 – May 2025",
       description: (
         <ul>
           <li>
@@ -522,9 +529,10 @@ const skills = {
   languages: [
     { name: "Python", value: require("../assets/img/logo_python.png") },
     { name: "JavaScript", value: require("../assets/img/logo_javascript.png") },
+    { name: "TypeScript", value: require("../assets/img/logo_typescript.png") },
     { name: "HTML/CSS", value: require("../assets/img/logo_html.png") },
-    // { name: "ReasonML", value: require("../assets/img/logo_reasonml.png") },
     { name: "C", value: require("../assets/img/logo_c.png") },
+    { name: "C++", value: require("../assets/img/logo_cpp.png") },
   ],
   librariesFrameworks: [
     { name: "React", value: require("../assets/img/logo_react.png") },
@@ -543,7 +551,6 @@ const skills = {
     { name: "Git", value: require("../assets/img/logo_git.png") },
     { name: "Docker", value: require("../assets/img/logo_docker.png") },
     { name: "Figma", value: require("../assets/img/logo_figma.png") },
-    { name: "WordPress", value: require("../assets/img/logo_wordpress.png") },
   ],
 };
 
