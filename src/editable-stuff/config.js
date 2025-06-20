@@ -148,7 +148,7 @@ const experience = {
       description: [
         <ul>
           <li>
-            • Building stroke rendering features (e.g. endcap sizing) in Core
+            Building stroke rendering features (e.g. endcap sizing) in Core
             Experience group using React, TypeScript, and C++
           </li>
         </ul>,
