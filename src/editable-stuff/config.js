@@ -148,8 +148,16 @@ const experience = {
       description: [
         <ul>
           <li>
-            Building stroke rendering features (e.g. endcap sizing) in Core
-            Experience group using React, TypeScript, and C++
+            Developed custom stroke endcap sizing feature within Figma’s Core
+            Experience team, with C++, React, and TypeScript
+          </li>
+          <li>
+            Engineered geometry and SceneGraph logic to enable precise,
+            user-controlled cap sizes through vector math
+          </li>
+          <li>
+            Collaborated with designers to iterate the stroke settings panel
+            design, shaping the endcap controls and overall UI/UX
           </li>
         </ul>,
       ],
