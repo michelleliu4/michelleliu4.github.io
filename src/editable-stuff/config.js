@@ -10,27 +10,26 @@ const mainBody = {
   firstName: "Michelle",
   middleName: "",
   lastName: "Liu",
-  message:
-    "SWE Intern @ Figma · Kleiner Perkins Fellow · Applied Math–CS @ Brown",
+  message: "SWE @ Databricks · Kleiner Perkins Fellow · Brown University",
   icons: [
     {
-      image: "fa-github",
-      url: "https://github.com/michelleliu4",
-    },
-    {
-      image: "fa-linkedin",
+      image: "linkedin",
       url: "https://www.linkedin.com/in/michelleliu-4",
     },
     {
-      image: "fa-discord",
+      image: "github",
+      url: "https://github.com/michelleliu4",
+    },
+    {
+      image: "x-twitter",
+      url: "https://x.com/michelleliu_4",
+    },
+    {
+      image: "discord",
       url: "https://discordapp.com/users/384794549412954113",
     },
-    // {
-    //   image: "fa-facebook",
-    //   url: "https://www.facebook.com/michelle.liu.4",
-    // },
     {
-      image: "fa-instagram",
+      image: "instagram",
       url: "https://www.instagram.com/michelle.liu.4",
     },
   ],
@@ -57,18 +56,17 @@ const about = {
   message: (
     <>
       <p>
-        Hi! I’m Michelle, a recent Brown graduate in Applied Math–CS and a
-        Kleiner Perkins Engineering Fellow. I’ve worked across quant trading,
-        software engineering, and data science at SIG, JPMorgan, Lightspeed, and
-        Western Digital, and I’m currently a software engineering intern at
-        Figma.
+        Hi! I’m Michelle, a software engineer at Databricks and recent Brown
+        graduate in Applied Math–CS. I'm also a Kleiner Perkins Engineering
+        Fellow. I’ve explored quant trading, software engineering, and data
+        science through internships at Figma, SIG, JPMorgan, and more.
       </p>
       <p>
-        I care deeply about machine learning, creative tools, and startups. I
-        also co-founded Brown’s Anime Video Game Ensemble—check out our
-        performances at <a href="https://brownavge.org">brownavge.org</a>!
-        Outside of work, I enjoy playing piano, climbing, and finding ways to
-        build things that matter.
+        I'm especially excited about machine learning, creative tools, and
+        startups. At Brown, I co-founded the Anime Video Game Ensemble—check out
+        our performances at <a href="https://brownavge.org">brownavge.org</a>!
+        Outside of work, you’ll usually find me at the piano, climbing, or
+        building projects that bring ideas to life.
       </p>
     </>
   ),
@@ -139,6 +137,14 @@ const experience = {
   show: true,
   heading: "Experience",
   data: [
+    {
+      company: "Databricks",
+      location: "Mountain View, CA",
+      role: "Software Engineer",
+      date: "Oct 2025 – Present",
+      logo: require("../assets/img/logo_databricks.png"),
+      description: [],
+    },
     {
       company: "Figma",
       location: "San Francisco, CA",
@@ -567,7 +573,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message: "Always open to opportunities! Please reach out to me at",
-  email: "michellemq6@gmail.com",
+  email: "michellemq6 [at] gmail [dot] com",
 };
 
 // BLOG SECTION
