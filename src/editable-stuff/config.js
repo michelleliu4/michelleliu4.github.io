@@ -143,7 +143,11 @@ const experience = {
       role: "Software Engineer",
       date: "Oct 2025 – Present",
       logo: require("../assets/img/logo_databricks.png"),
-      description: [],
+      description: [
+        <ul>
+          <li>Editor / Assistant – Agent Mode</li>
+        </ul>,
+      ],
     },
     {
       company: "Figma",
