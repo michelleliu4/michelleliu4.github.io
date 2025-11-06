@@ -145,7 +145,7 @@ const experience = {
       logo: require("../assets/img/logo_databricks.png"),
       description: [
         <ul>
-          <li>Editor / Assistant – Agent Mode</li>
+          <li>Workspace – Assistant (Agent)</li>
         </ul>,
       ],
     },
