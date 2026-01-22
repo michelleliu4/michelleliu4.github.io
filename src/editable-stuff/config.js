@@ -62,11 +62,11 @@ const about = {
         science through internships at Figma, SIG, JPMorgan, and more.
       </p>
       <p>
-        I'm especially excited about machine learning, creative tools, and
-        startups. At Brown, I co-founded the Anime Video Game Ensemble—check out
-        our performances at <a href="https://brownavge.org">brownavge.org</a>!
-        Outside of work, you’ll usually find me at the piano, climbing, or
-        building projects that bring ideas to life.
+        I'm especially excited about product, UI, and startups. At Brown, I
+        co-founded the Anime Video Game Ensemble—check out our performances at{" "}
+        <a href="https://brownavge.org">brownavge.org</a>! Outside of work,
+        you’ll usually find me at the piano, climbing, or building projects that
+        bring ideas to life.
       </p>
     </>
   ),
@@ -145,7 +145,15 @@ const experience = {
       logo: require("../assets/img/logo_databricks.png"),
       description: [
         <ul>
-          <li>Workspace – Assistant (Agent)</li>
+          <li>
+            Refactored tool-call UI for Databricks Assistant, redesigning
+            agent–tool interaction surfaces and implementing changes in React
+            and TypeScript{" "}
+          </li>
+          <li>
+            Improved frontend reliability and maintainability via architectural
+            refactors, Playwright test suites, and probes
+          </li>
         </ul>,
       ],
     },
@@ -197,12 +205,12 @@ const experience = {
       description: [
         <ul>
           <li>
-            Developed a restaurant cohorting algorithm using LDAs to optimize
-            menu pricing and drive revenue growth
+            Developed an LDA-based restaurant cohorting model optimize menu
+            pricing and drive revenue growth
           </li>
           <li>
-            Analyzed over 10,000 transactions using BigQuery to uncover sales
-            patterns during holidays, informing restaurant strategy
+            Analyzed transactions using BigQuery to uncover sales patterns
+            during holidays, informing restaurant strategy
           </li>
           <li>
             Developed sales and tip trend analyses using Google Cloud Platform
@@ -277,9 +285,8 @@ const experience = {
       description: [
         <ul>
           <li>
-            Built a data pipeline using Splunk and AWS to extract and preprocess
-            call center log data, improving data accessibility and analytics
-            efficiency for over 50,000 users
+            Analyzed transactions using BigQuery to uncover sales patterns
+            during holidays, informing restaurant strategy
           </li>
           <li>
             Implemented outlier detection and classification models, achieving
