@@ -3,7 +3,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
-import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import { TabContainer } from "react-bootstrap";
 import { Jumbotron } from "./migration";
@@ -19,12 +18,7 @@ function TabPanel(props) {
       aria-labelledby={`vertical-tab-${index}`}
       {...other}
     >
-      {value === index && (
-        <Box sx={{ p: 4 }}>
-          {children}
-          {/* <Typography>{children}</Typography> */}
-        </Box>
-      )}
+      {value === index && <Box sx={{ p: 4 }}>{children}</Box>}
     </div>
   );
 }
