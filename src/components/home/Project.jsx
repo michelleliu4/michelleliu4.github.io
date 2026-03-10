@@ -18,17 +18,25 @@ const API = "https://api.github.com";
 const Project = ({ heading, specificRepos }) => {
   const [projectsArray, setProjectsArray] = useState([]);
   const fetchRepos = useCallback(async () => {
-    let repoList = [];
     try {
-      // Fetch each specific repository
-      for (let { username, repoName } of specificRepos) {
+      // Fetch all specific repositories in parallel
+      const repoPromises = specificRepos.map(async ({ username, repoName }) => {
         try {
-          const response = await axios.get(`${API}/repos/${username}/${repoName}`);
-          repoList.push(response.data);
+          const response = await axios.get(
+            `${API}/repos/${username}/${repoName}`,
+          );
+          return response.data;
         } catch (error) {
-          console.error(`Error fetching ${repoName} from ${username}: ${error.message}`);
+          console.error(
+            `Error fetching ${repoName} from ${username}: ${error.message}`,
+          );
+          // Return a dummy object if one specific fetch fails to not break the whole list.
+          // This covers unauthenticated rate limits neatly.
+          return { ...dummyProject, name: repoName || "Rate Limited" };
         }
-      }
+      });
+
+      const repoList = await Promise.all(repoPromises);
       setProjectsArray(repoList);
     } catch (error) {
       console.error(`Error fetching repositories: ${error.message}`);

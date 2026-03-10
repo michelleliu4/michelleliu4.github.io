@@ -56,17 +56,17 @@ const about = {
   message: (
     <>
       <p>
-        Hi! I’m Michelle, a software engineer at Databricks and recent Brown
-        graduate in Applied Math–CS. I'm also a Kleiner Perkins Engineering
-        Fellow. I’ve explored quant trading, software engineering, and data
-        science through internships at Figma, SIG, JPMorgan, and more.
+        I’m a software engineer at Databricks, where I build agentic interfaces.
+        I'm also a 2025 Kleiner Perkins Engineering Fellow. Previously, I've
+        done software, quant trading, and data science at places like Figma,
+        SIG, and JPMorgan.
       </p>
       <p>
-        I'm especially excited about product, UI, and startups. At Brown, I
-        co-founded the Anime Video Game Ensemble—check out our performances at{" "}
-        <a href="https://brownavge.org">brownavge.org</a>! Outside of work,
-        you’ll usually find me at the piano, climbing, or building projects that
-        bring ideas to life.
+        I'm interested in the intersection of product design and agentic AI. At
+        Brown, I co-founded the Anime Video Game Ensemble (
+        <a href="https://brownavge.org">brownavge.org</a>). When I'm not at my
+        desk, I'm usually at a piano, climbing, or playing social deduction
+        games.
       </p>
     </>
   ),
@@ -146,13 +146,16 @@ const experience = {
       description: [
         <ul>
           <li>
-            Refactored tool-call UI for Databricks Assistant, redesigning
-            agent–tool interaction surfaces and implementing changes in React
-            and TypeScript{" "}
+            Architected and led a frontend refactor for Databricks Assistant’s
+            tool-calling system, migrating 60+ agentic tools to a new
+            React/TypeScript framework and redesigning interaction surfaces for
+            data workflows
           </li>
           <li>
-            Improved frontend reliability and maintainability via architectural
-            refactors, Playwright test suites, and probes
+            Optimized agent performance and reliability by implementing a
+            TTL-based state management system, enhancing notebook
+            context-passing logic, and maintaining a suite of Playwright tests
+            and Grafana probes to monitor UI health
           </li>
         </ul>,
       ],
@@ -205,8 +208,8 @@ const experience = {
       description: [
         <ul>
           <li>
-            Developed an LDA-based restaurant cohorting model optimize menu
-            pricing and drive revenue growth
+            Architected an LDA-based restaurant cohorting model to segment
+            5,000+ businesses, optimizing menu pricing elasticity
           </li>
           <li>
             Analyzed transactions using BigQuery to uncover sales patterns
@@ -218,7 +221,7 @@ const experience = {
           </li>
           <li>
             Led initiative to optimize table pacing, leveraging statistical
-            models (scikit-learn, pandas) for over 5,000 restaurants
+            models to support just-in-time alerts (scikit-learn, pandas)
           </li>
         </ul>,
       ],
@@ -232,17 +235,13 @@ const experience = {
       description: [
         <ul>
           <li>
-            Modeled the impact of attention effects on stock price volatility
-            leading up to earnings reports and events using Python, applying
-            time series analysis and statistical testin
+            Quantified the correlation between market attention and stock
+            volatility using time-series analysis and hypothesis testing with
+            Python and riptable
           </li>
           <li>
             Executed real-time trading strategies and risk management in
             simulated electronic mock trading sessions
-          </li>
-          <li>
-            Explored options theory, financial markets, and financial
-            instruments to understand trading strategies and market dynamics
           </li>
         </ul>,
       ],
@@ -260,10 +259,6 @@ const experience = {
             Courses: Computational Linguistics (Fall 2023), Statistical
             Inference (Spring 2023), Machine Learning (Spring 2023), Functional
             Programming (Fall 2022)
-          </li>
-          <li>
-            Courses: Computational Linguistics, Machine Learning, Statistical
-            Inference, Functional Programming
           </li>
           <li>
             Designed over 10 assignments and projects and supported over 300
@@ -285,16 +280,12 @@ const experience = {
       description: [
         <ul>
           <li>
-            Analyzed transactions using BigQuery to uncover sales patterns
-            during holidays, informing restaurant strategy
+            Engineered Splunk/AWS pipelines to preprocess call center logs for
+            anomaly detection and regional trend analysis
           </li>
           <li>
-            Implemented outlier detection and classification models, achieving
-            over 90% accuracy in identifying irregular calls
-          </li>
-          <li>
-            Created time series models to find trends in problematic calls
-            across various regions, supporting over 10,000 call specialists
+            Built outlier and time-series models (90%+ accuracy) to identify
+            irregular call patterns for 10,000+ specialists
           </li>
         </ul>,
       ],
@@ -315,10 +306,6 @@ const experience = {
             Constructed and fine-tuned regression, random forest, XGBoost, and
             neural network models for test failure prediction, achieving 95%
             accuracy through cross-validation and hyperparameter tuning
-          </li>
-          <li>
-            Utilized FastAPI and SQL queries to access and post algorithm
-            performances on Elasticsearch
           </li>
         </ul>,
       ],
@@ -343,7 +330,7 @@ const leadership = {
           </li>
           <li>
             Orchestrated club operations, including weekly rehearsals and a{" "}
-            <a href="https://www.youtube.com/@brownavge">Youtube channel</a>{" "}
+            <a href="https://www.youtube.com/@brownavge">YouTube channel</a>{" "}
             with over 100k views
           </li>
           <li>
@@ -354,6 +341,7 @@ const leadership = {
     },
     {
       company: "Applied Math DUG",
+      company_full: "Applied Math Departmental Undergraduate Group",
       role: "President Emeritus, Executive Board",
       date: "Mar 2022 – May 2025",
       description: (
@@ -364,7 +352,7 @@ const leadership = {
             mixers
           </li>
           <li>
-            Managed over $1800 budget, allocating reosurces for social outreach
+            Managed over $1,800 budget, allocating resources for social outreach
             initiatives and overseeing the{" "}
             <a href="https://brownamdug.wordpress.com/">website</a>
           </li>
@@ -401,7 +389,7 @@ const leadership = {
         <ul>
           <li>
             Coordinated the production team and acted as a liaison between the
-            board and and the show as an executive producer
+            board and the show as an executive producer
           </li>
           <li>
             Managed social media accounts and designed graphics for posts
@@ -415,14 +403,21 @@ const leadership = {
       ),
     },
     // {
-    //   company: 'Machine Intelligence Community',
-    //   role: 'Executive Board',
-    //   date: 'Oct 2022 – May 2023',
-    //   description:
+    //   company: "Machine Intelligence Community",
+    //   role: "Executive Board",
+    //   date: "Oct 2022 – May 2023",
+    //   description: (
     //     <ul>
-    //       <li>Constructed educational machine learning workshops in song generation with GPT-2 and neuro style transfer</li>
-    //       <li>Lead conceptual sessions for over 70 individuals, assisting them in understanding and coding machine learning projects</li>
+    //       <li>
+    //         Constructed educational machine learning workshops in song
+    //         generation with GPT-2 and neuro style transfer
+    //       </li>
+    //       <li>
+    //         Lead conceptual sessions for over 70 individuals, assisting them in
+    //         understanding and coding machine learning projects
+    //       </li>
     //     </ul>
+    //   ),
     // },
     // {
     //   company: "Harvard WECode",
@@ -514,12 +509,13 @@ const awards = {
         1.5 million students.
       </p> */}
 
-      {/* <p>
+      <p>
         <b>National Science Bowl – Top 32 (2021)</b>
         <br />
         Represented Nevada at the National Science Bowl, placing in the top 32
         teams nationally. Sponsored by the U.S. Department of Energy.
-      </p> */}
+      </p>
+
       {/* <p>
         <b>Doyle Foundation Scholarship (2021–2024)</b>
         <br />
@@ -568,14 +564,12 @@ const skills = {
     { name: "PostgreSQL", value: require("../assets/img/logo_postgresql.png") },
   ],
   otherSkills: [
+    { name: "Figma", value: require("../assets/img/logo_figma.png") },
     {
       name: "Amazon Web Services",
       value: require("../assets/img/logo_aws.png"),
     },
     { name: "Google Cloud", value: require("../assets/img/logo_gcp.png") },
-    { name: "Git", value: require("../assets/img/logo_git.png") },
-    { name: "Docker", value: require("../assets/img/logo_docker.png") },
-    { name: "Figma", value: require("../assets/img/logo_figma.png") },
   ],
 };
 

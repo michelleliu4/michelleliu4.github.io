@@ -1,60 +1,28 @@
 import React from "react";
-import axios from "axios";
 import { Jumbotron } from "./migration";
 
-const pictureLinkRegex = new RegExp(
-  /[(http(s)?):(www.)?a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_+.~#?&//=]*)/
-);
-
 const AboutMe = ({ heading, message, link, imgSize, resume, education }) => {
-  const [profilePicUrl, setProfilePicUrl] = React.useState("");
-  const [showPic, setShowPic] = React.useState(Boolean(link));
-  // https://stackoverflow.com/questions/55840294/how-to-fix-missing-dependency-warning-when-using-useeffect-react-hook
-  React.useEffect(() => {
-    const handleRequest = async () => {
-      const instaLink = "https://www.instagram.com/";
-      const instaQuery = "/?__a=1";
-      try {
-        const response = await axios.get(instaLink + link + instaQuery);
-        setProfilePicUrl(response.data.graphql.user.profile_pic_url_hd);
-      } catch (error) {
-        setShowPic(false);
-        console.error(error.message);
-      }
-    };
+  const [showEducation, setShowEducation] = React.useState(false);
 
-    if (link && !pictureLinkRegex.test(link)) {
-      handleRequest();
-    } else {
-      setProfilePicUrl(link);
-    }
-  }, [link]);
-
-  function showEducation() {
-    // Toggles Education block
-    var x = document.getElementById("education-box");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
+  const toggleEducation = () => {
+    setShowEducation(!showEducation);
+  };
 
   return (
     <Jumbotron id="aboutme" className="m-0">
       <div className="container row">
         <div className="col-5 d-none d-lg-block align-self-center">
-          {showPic && (
+          {link && (
             <img
               className="border border-secondary rounded-circle"
-              src={profilePicUrl}
+              src={link}
               alt="profilepicture"
               width={imgSize}
               height={imgSize}
             />
           )}
         </div>
-        <div className={`col-lg-${showPic ? "7" : "12"}`}>
+        <div className={`col-lg-${link ? "7" : "12"}`}>
           <h2 className="display-4 mb-5 text-center">{heading}</h2>
           <p className="lead text-center">{message}</p>
           {resume && (
@@ -74,15 +42,17 @@ const AboutMe = ({ heading, message, link, imgSize, resume, education }) => {
                 className="btn btn-outline-dark btn-lg"
                 aria-label="Education"
                 style={{ width: 120, marginLeft: 10, marginRight: 10 }}
-                onClick={showEducation}
+                onClick={toggleEducation}
               >
                 Education
               </button>
             </p>
           )}
-          <div id="education-box" style={{ display: "none" }}>
-            <p className="lead text-left">{education}</p>
-          </div>
+          {showEducation && (
+            <div id="education-box">
+              <p className="lead text-left">{education}</p>
+            </div>
+          )}
         </div>
       </div>
     </Jumbotron>

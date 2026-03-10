@@ -2,12 +2,13 @@ import React from "react";
 import Col from "react-bootstrap/Col";
 
 const LeadershipCard = ({ value }) => {
-  const { company, role, date, description } = value;
+  const { company, company_full, role, date, description } = value;
   return (
     <Col md="12">
       <div className="p-3 mb-0">
         <h5>
-          {company} - <span className="text-muted text-secondary"></span>{" "}
+          {company_full || company} -{" "}
+          <span className="text-muted text-secondary"></span>{" "}
         </h5>
 
         <div className="card-text">

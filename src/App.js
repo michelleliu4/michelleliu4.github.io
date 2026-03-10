@@ -1,6 +1,16 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { navBar, mainBody, about, experience, leadership, repos, awards, skills, getInTouch,} from "./editable-stuff/config.js";
+import {
+  navBar,
+  mainBody,
+  about,
+  experience,
+  leadership,
+  repos,
+  awards,
+  skills,
+  getInTouch,
+} from "./editable-stuff/config.js";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
 import Project from "./components/home/Project";
@@ -79,7 +89,18 @@ const App = () => {
 
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
-      {navBar.show && <Navbar ref={titleRef} />}
+      {navBar.show && (
+        <Navbar
+          ref={titleRef}
+          firstName={mainBody.firstName}
+          about={about}
+          experience={experience}
+          leadership={leadership}
+          repos={repos}
+          skills={skills}
+          awards={awards}
+        />
+      )}
       <Routes>
         <Route path="/" exact element={<Home ref={titleRef} />} />
       </Routes>

@@ -4,6 +4,8 @@ import PropTypes from "prop-types";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
+import { useTheme } from "@mui/material/styles";
+import useMediaQuery from "@mui/material/useMediaQuery";
 import { TabContainer } from "react-bootstrap";
 import { Jumbotron } from "./migration";
 
@@ -38,6 +40,8 @@ function a11yProps(index) {
 
 export default function Leadership({ heading, leadershipList }) {
   const [value, setValue] = React.useState(0);
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("md"));
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -49,43 +53,61 @@ export default function Leadership({ heading, leadershipList }) {
       <TabContainer>
         <Box
           sx={{
-            width: "80%",
-            height: "200%",
-            alignItems: "center",
-            justifyContent: "center",
+            width: { xs: "100%", md: "80%" }, // Wider on mobile
+            height: "100%", // Fit content better
+            alignItems: "flex-start", // align top instead of center
+            justifyContent: "flex-start",
             margin: "auto",
             flexGrow: 1,
             bgcolor: "background.paper",
             display: "flex",
-            flexDirection: "row",
-          }} //orig height: 224
+            flexDirection: isMobile ? "column" : "row",
+          }}
         >
           <Tabs
-            orientation="vertical"
+            orientation={isMobile ? "horizontal" : "vertical"}
             variant="scrollable"
             scrollbuttons="auto"
             value={value}
             onChange={handleChange}
-            aria-label="Vertical tabs"
-            sx={{ borderRight: 1, borderColor: "divider" }}
+            aria-label={isMobile ? "Horizontal tabs" : "Vertical tabs"}
+            sx={
+              isMobile
+                ? { borderBottom: 1, borderColor: "divider", mb: 3 }
+                : { borderRight: 1, borderColor: "divider", minWidth: 200 }
+            }
           >
             {leadershipList.map((data, index) => {
-              return <Tab label={data.company} {...a11yProps(index)} />;
+              return (
+                <Tab
+                  key={`tab-${index}`}
+                  label={data.company}
+                  {...a11yProps(index)}
+                  sx={
+                    isMobile
+                      ? { whiteSpace: "normal", wordWrap: "break-word" }
+                      : { alignItems: "flex-start", textAlign: "left" }
+                  }
+                />
+              );
             })}
           </Tabs>
-          {leadershipList.map((data, index) => {
-            return (
-              <TabPanel value={value} index={index}>
-                <div style={{ fontSize: "20px", marginBottom: "2px" }}>
-                  <strong>{data.company}</strong> - {data.role}
-                </div>
-                <div style={{ fontSize: "14px", marginBottom: "13px" }}>
-                  {data.date}
-                </div>
-                <div style={{}}>{data.description}</div>
-              </TabPanel>
-            );
-          })}
+          <Box sx={{ width: "100%" }}>
+            {leadershipList.map((data, index) => {
+              return (
+                <TabPanel key={`panel-${index}`} value={value} index={index}>
+                  <div style={{ fontSize: "20px", marginBottom: "2px" }}>
+                    <strong>{data.company_full || data.company}</strong> -{" "}
+                    {data.role}
+                  </div>
+                  <div style={{ fontSize: "14px", marginBottom: "13px" }}>
+                    {data.date}
+                  </div>
+                  <div>{data.description}</div>
+                </TabPanel>
+              );
+            })}
+          </Box>
         </Box>
       </TabContainer>
     </Jumbotron>
