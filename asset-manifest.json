@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.d6891a1d.css",
-    "main.js": "/static/js/main.46618811.js",
+    "main.js": "/static/js/main.8712877c.js",
     "static/js/453.7b614438.chunk.js": "/static/js/453.7b614438.chunk.js",
-    "static/media/resume.pdf": "/static/media/resume.e15ec928d7ea7c210f5b.pdf",
+    "static/media/resume.pdf": "/static/media/resume.574cc518e10c8a4186d2.pdf",
     "static/media/headshot.jpg": "/static/media/headshot.bbd76a6ef46d576de36c.jpg",
     "static/media/logo_python.png": "/static/media/logo_python.3b33e236a97b9048b336.png",
     "static/media/logo_brown.png": "/static/media/logo_brown.1241749c7c08b735003a.png",
@@ -18,18 +18,17 @@
     "static/media/logo_pytorch.png": "/static/media/logo_pytorch.ced41d5ddd2fd1e5fa1a.png",
     "static/media/awards_robinhood.png": "/static/media/awards_robinhood.3e4f8098b7ccbbfeb93e.png",
     "static/media/logo_figma.png": "/static/media/logo_figma.3a82106b9f5a6c7efaee.png",
-    "static/media/logo_docker.png": "/static/media/logo_docker.caee549965be1f20e2cd.png",
     "static/media/awards_nsb.png": "/static/media/awards_nsb.8871babdbb2d1eeaabdd.png",
     "static/media/logo_wd.png": "/static/media/logo_wd.87b3ac34c1ff3e3160af.png",
     "static/media/logo_html.png": "/static/media/logo_html.d50fc7a86b6f3764610b.png",
     "static/media/logo_typescript.png": "/static/media/logo_typescript.6a3e28f1509422ae5ea4.png",
     "index.html": "/index.html",
     "main.d6891a1d.css.map": "/static/css/main.d6891a1d.css.map",
-    "main.46618811.js.map": "/static/js/main.46618811.js.map",
+    "main.8712877c.js.map": "/static/js/main.8712877c.js.map",
     "453.7b614438.chunk.js.map": "/static/js/453.7b614438.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d6891a1d.css",
-    "static/js/main.46618811.js"
+    "static/js/main.8712877c.js"
   ]
 }
