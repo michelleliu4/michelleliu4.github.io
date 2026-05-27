@@ -146,10 +146,10 @@ const experience = {
       description: [
         <ul>
           <li>
-            Architected and led a frontend refactor for Databricks Assistant’s
-            tool-calling system, migrating 60+ agentic tools to a new
-            React/TypeScript framework and redesigning interaction surfaces for
-            data workflows
+            Architected and led the design-to-code frontend refactor for
+            Databricks Assistant’s tool-calling system, migrating 60+ agentic
+            tools to a new React/TypeScript framework and redesigning
+            interaction surfaces for data workflows in Figma
           </li>
           <li>
             Optimized agent performance and reliability by implementing a
@@ -177,7 +177,7 @@ const experience = {
             user-controlled cap sizes through vector math
           </li>
           <li>
-            Collaborated with designers to iterate the stroke settings panel
+            Partnered with designers to iterate the stroke settings panel
             design, shaping the endcap controls and overall UI/UX
           </li>
         </ul>,
@@ -466,16 +466,16 @@ const awards = {
       <p>
         <b>Rohn Truell Premium Prize in Applied Mathematics (2025)</b>
         <br />
-        Awarded annually to a graduating senior in Applied Mathematics at Brown
-        who has achieved special distinction.
+        Awarded annually to a select few graduating seniors who achieved special
+        distinction in Applied Mathematics.
       </p>
 
-      <p>
+      {/* <p>
         <b>PEAK6 Trading Micro-Internship (2024)</b>
         <br />
         Selected for a one-week program on volatility strategy. Delivered
         options-based trade pitches using Python and macroeconomic research.
-      </p>
+      </p> */}
 
       <p>
         <b>Jane Street Electronic Trading Challenge – 3rd Place (2022)</b>
@@ -499,7 +499,9 @@ const awards = {
       <p>
         <b>AIME Qualifier (2018, 2021)</b>
         <br />
-        Two-time AIME qualifier and Math Prize for Girls participant.
+        Two time AIME Qualifier, placing in the top 2.5% of national scorers on
+        the American Mathematics Competitions. Comeptitor in Math Prize for
+        Girls.
       </p>
 
       {/* <p>
