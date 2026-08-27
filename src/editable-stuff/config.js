@@ -56,10 +56,10 @@ const about = {
   message: (
     <>
       <p>
-        I’m a software engineer at Databricks, where I build agentic interfaces.
-        I'm also a 2025 Kleiner Perkins Engineering Fellow. Previously, I've
-        done software, quant trading, and data science at places like Figma,
-        SIG, and JPMorgan.
+        I’m a software engineer at Databricks, where I build agents on Genie
+        Code. I'm also a 2025 Kleiner Perkins Engineering Fellow. Previously,
+        I've done software, quant trading, and data science at places like
+        Figma, SIG, and JPMorgan.
       </p>
       <p>
         I'm interested in the intersection of product design and agentic AI. At
